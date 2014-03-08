@@ -23,16 +23,16 @@
             </li>
             
              <li>
-              <a href="#NONE">Membres</a>
+              <a href="membres.php">Membres</a>
             </li>
-            <li><a href="#NONE">Media</a></li>
+            <li><a href="https://plus.google.com/photos/+Heuz%C3%A9Florent/albums/5919043632414199089?authkey=CJOh4YWuw6_rVA">Media</a></li>
             <li>
-              <a href="#NONE">Carte</a>
+              <a href="carte.php">Carte</a>
             </li>
-            <li> <a href="#NONE">Forum</a></li>
-            <li><a href="#NONE">Nous rejoindre</a></li>
-            <li><a href="#NONE">Partenaire</a></li>
-            <li><a href="/bronycub/v2/agenda/agenda.php">Agenda</a></li>
+            <li> <a href="https://groups.google.com/forum/?fromgroups#!forum/bronycub">Forum</a></li>
+            <li><a href="join.php">Nous rejoindre</a></li>
+            <li><a href="partenaire.php">Partenaire</a></li>
+            <li><a href="agenda.php">Agenda</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
