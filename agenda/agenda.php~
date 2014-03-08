@@ -33,7 +33,7 @@
 			$cal = new Calendar(array(
 			'url' 			=> "https://www.google.com/calendar/ical/bronycub%40gmail.com/public/basic.ics" ,
 			'scale'       		 => 'year' ,
-			'date_day_addition' => false ,
+			'date_day_addition' 	=> false ,
 			));
 
 			 $cal->output(); 
