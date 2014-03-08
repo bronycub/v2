@@ -1,0 +1,224 @@
+/* Map containers settings */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#responsive_map {
+    background-color: #000000;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+/* Marker settings */
+div#responsive_map div {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.gm-style-iw {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    line-height: normal !important;
+    padding: 5px !important;
+}
+.gm-style a:link, 
+.gm-style a:visited, 
+.gm-style a:hover, 
+.gm-style a:active {
+    text-decoration: underline !important;
+    color: #000000 !important;
+}
+.gm-style img {
+    border: 0;
+    max-width: none !important;
+}
+
+/* Text settings */
+body, select, input[type=text], input[type=textarea] {
+    font-size: 13px;
+}
+pre {
+    font-size: 12px;
+}
+/* Settings for the form that generates the map */
+#generatorForm {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    z-index: 999;
+    background-color: #ffffff;
+    overflow-y: auto;
+    overflow-x:	 hidden;
+    height: 92%;
+    width: 258px;
+    padding: 15px 10px 5px 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow:0px 0px 10px 3px #777777;
+    -webkit-box-shadow:0px 0px 10px 3px #777777;
+    box-shadow:0px 0px 10px 3px #777777;
+}
+.header {
+    vertical-align: top;
+}
+#locationInput {
+    width: 400px;
+    height: 20px;
+    margin: 15px;
+    border: 1px solid #A9BBDF;
+   -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow:0px 0px 10px 3px #777777;
+    -webkit-box-shadow:0px 0px 10px 3px #777777;
+    box-shadow:0px 0px 10px 3px #777777;
+    padding-left: 5px;
+}
+#color {
+    background-color: #123456;
+    border: 0;
+    text-align: center !important;
+}
+.color-selected {
+    position:absolute;
+    margin: 77px 0px 0px 63px;
+    z-index:5001;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+textarea {
+    width: 120px;
+    height: 150px;
+}
+input {
+    width: 120px;
+}
+select {
+    width: 125px;
+}
+div.form-item {
+    display: table;
+    width: 430px;
+    table-layout: fixed;
+    margin-bottom: 5px;
+}
+div.form-item > div.label {
+    display: table-cell;
+    padding: 4px 6px;
+    width: 95px;
+    margin-bottom: 0;
+}
+/* Button */
+.button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#2bb49f;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding: 4px 17px;
+    margin: 15px 6px 7px 6px;
+    text-decoration:none;
+}
+.button:hover {
+    background-color:#77b0a8;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+/* Icon selector settings */
+.jqis {
+    position: relative;
+}
+.jqis_header {
+    background-image: url(../img/dropdown_arrow.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-right: 0;
+    border: 2px inset #555555 !important;
+    width: 120px !important;
+}
+.jqis_header img {
+    cursor: pointer;
+}
+.jqis_dropdown {
+    padding: 5px;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 112px !important;
+}
+.jqis_dropdown img {
+    cursor: pointer;
+    text-align: left;
+    width: 32px !important;
+    height: 37px !important;
+}
+/* Settings for the lightbox that shows the map code */
+#mapCode {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    top: 10%;
+    width: 700px;
+    height: 340px;
+    z-index:5000;
+    padding: 15px;
+    background: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+#innerMap {
+    background-color: #efefef;
+    overflow-y: scroll;
+    margin-top: 20px;
+    height: 150px;
+}
+#innerMap pre {
+    height: 100%;
+    margin-top: 0;
+}
+pre {
+    background-color: #efefef;
+    margin-top: 20px;
+    padding: 10px !important;
+}
+#closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* Settings for each line in the lightbox window */
+.line {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.line .button {
+    margin: 0 auto 20px 0;
+}
+
+/* Settings for smaller screens */
+@media screen and (max-height: 768px){
+    .jqis_dropdown{
+        height: 75px !important;
+    }
+}

@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Responsive Styled Google Maps Generator</title>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="Responsive Styled Google Maps Generator">
+    <meta name="author" content="greenline">
+    <!-- Javascript-->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&v=3.exp&libraries=places"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.gmap.min.js"></script>
+    <script src="farbtastic/farbtastic.js" type="text/javascript" ></script>
+    <script src="js/generator.js" type="text/javascript"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="farbtastic/farbtastic.css" type="text/css" />
+    <link rel="stylesheet" href="css/generator.css" type="text/css" media="all" />
+</head>
+<body>
+    <!-- Map (background map) -->
+    <div id="responsive_map"></div>
+    <!-- End map -->
+    
+    <!-- Form generator -->
+    <form action="#" id="generatorForm" name="generatorForm">
+        <!-- Color choosen -->
+        <div class="color-selected">
+            <div class="label"><label for="color">SELECT COLOR</label></div>
+            <div class="item"><input type="text" id="color" name="color" value="#2bb4a0" onBlur="updateMap()"/></div>
+        </div>
+        <!-- Color picker -->
+        <div class="form-item">
+            <div class="label header"></div>
+            <div class="item"><div id="picker"></div></div>
+        </div>
+        <!-- Latitude -->
+        <div class="form-item">
+            <div class="label"><label for="latitude">Latitude:</label></div>
+            <div class="item"><input type="text" id="latitude" name="latitude" value="-37.801578" onChange="updateMap()"/></div>
+        </div>
+        <!-- Longitude -->
+        <div class="form-item">
+            <div class="label"><label for="longitude">Longitude:</label></div>
+            <div class="item"><input type="text" id="longitude" name="longitude" value="145.060508" onChange="updateMap()"/></div>
+        </div>
+        <!-- Html for the marker tooltip window -->
+        <div class="form-item">
+            <div class="label"><label for="html">Html:</label></div>
+            <div class="item"><textarea rows="5" cols="20" id="html" name="html" onChange="updateMap()"><img src='http://yava.ro/images/logo.png' width='147' height='29'><br/>Your address or description here.<br><strong>Drag the marker anywhere!</strong></textarea></div>
+        </div>
+        <!-- Icon picker -->
+        <div class="form-item">
+            <div class="label"><label for="icon">Icon:</label></div>
+            <div class="item">
+                <select name="icon" id="icon">
+                    <option value="icons/carwash.png">icons/carwash.png</option>
+                    <option value="icons/accident.png">icons/accident.png</option>
+                    <option value="icons/administration.png">icons/administration.png</option>
+                    <option value="icons/aestheticscenter.png">icons/aestheticscenter.png</option>
+                    <option value="icons/agriculture.png">icons/agriculture.png</option>
+                    <option value="icons/agriculture2.png">icons/agriculture2.png</option>
+                    <option value="icons/agriculture3.png">icons/agriculture3.png</option>
+                    <option value="icons/agriculture4.png">icons/agriculture4.png</option>
+                    <option value="icons/aircraft-small.png">icons/aircraft-small.png</option>
+                    <option value="icons/airplane-sport.png">icons/airplane-sport.png</option>
+                    <option value="icons/airplane-tourism.png">icons/airplane-tourism.png</option>
+                    <option value="icons/airport.png">icons/airport.png</option>
+                    <option value="icons/airport-apron.png">icons/airport-apron.png</option>
+                    <option value="icons/airport-runway.png">icons/airport-runway.png</option>
+                    <option value="icons/airport-terminal.png">icons/airport-terminal.png</option>
+                    <option value="icons/amphitheater.png">icons/amphitheater.png</option>
+                    <option value="icons/amphitheater-tourism.png">icons/amphitheater-tourism.png</option>
+                    <option value="icons/ancientmonument.png">icons/ancientmonument.png</option>
+                    <option value="icons/ancienttemple.png">icons/ancienttemple.png</option>
+                    <option value="icons/ancienttempleruin.png">icons/ancienttempleruin.png</option>
+                    <option value="icons/animals.png">icons/animals.png</option>
+                    <option value="icons/anniversary.png">icons/anniversary.png</option>
+                    <option value="icons/apartment.png">icons/apartment.png</option>
+                    <option value="icons/aquarium.png">icons/aquarium.png</option>
+                    <option value="icons/arch.png">icons/arch.png</option>
+                    <option value="icons/archery.png">icons/archery.png</option>
+                    <option value="icons/artgallery.png">icons/artgallery.png</option>
+                    <option value="icons/atm.png">icons/atm.png</option>
+                    <option value="icons/atv.png">icons/atv.png</option>
+                    <option value="icons/audio.png">icons/audio.png</option>
+                    <option value="icons/bomb.png">icons/bomb.png</option>
+                    <option value="icons/bookstore.png">icons/bookstore.png</option>
+                    <option value="icons/bowling.png">icons/bowling.png</option>
+                    <option value="icons/boxing.png">icons/boxing.png</option>
+                    <option value="icons/bread.png">icons/bread.png</option>
+                    <option value="icons/bridge.png">icons/bridge.png</option>
+                    <option value="icons/bridgemodern.png">icons/bridgemodern.png</option>
+                    <option value="icons/bullfight.png">icons/bullfight.png</option>
+                    <option value="icons/bungalow.png">icons/bungalow.png</option>
+                    <option value="icons/bus.png">icons/bus.png</option>
+                    <option value="icons/butcher.png">icons/butcher.png</option>
+                    <option value="icons/cabin.png">icons/cabin.png</option>
+                    <option value="icons/cablecar.png">icons/cablecar.png</option>
+                    <option value="icons/camping.png">icons/camping.png</option>
+                    <option value="icons/campingsite.png">icons/campingsite.png</option>
+                    <option value="icons/canoe.png">icons/canoe.png</option>
+                    <option value="icons/car.png">icons/car.png</option>
+                    <option value="icons/carrental.png">icons/carrental.png</option>
+                    <option value="icons/carrepair.png">icons/carrepair.png</option>
+                    <option value="icons/carwash.png">icons/carwash.png</option>
+                    <option value="icons/casino.png">icons/casino.png</option>
+                    <option value="icons/castle.png">icons/castle.png</option>
+                    <option value="icons/cathedral.png">icons/cathedral.png</option>
+                    <option value="icons/cathedral2.png">icons/cathedral2.png</option>
+                    <option value="icons/cave.png">icons/cave.png</option>
+                    <option value="icons/cemetary.png">icons/cemetary.png</option>
+                    <option value="icons/chapel.png">icons/chapel.png</option>
+                    <option value="icons/church.png">icons/church.png</option>
+                    <option value="icons/church2.png">icons/church2.png</option>
+                    <option value="icons/cinema.png">icons/cinema.png</option>
+                    <option value="icons/circus.png">icons/circus.png</option>
+                    <option value="icons/citysquare.png">icons/citysquare.png</option>
+                    <option value="icons/climbing.png">icons/climbing.png</option>
+                    <option value="icons/clothes.png">icons/clothes.png</option>
+                    <option value="icons/clothes-female.png">icons/clothes-female.png</option>
+                    <option value="icons/clothes-male.png">icons/clothes-male.png</option>
+                    <option value="icons/clouds.png">icons/clouds.png</option>
+                    <option value="icons/cloudsun.png">icons/cloudsun.png</option>
+                    <option value="icons/club.png">icons/club.png</option>
+                    <option value="icons/cluster.png">icons/cluster.png</option>
+                    <option value="icons/cluster2.png">icons/cluster2.png</option>
+                    <option value="icons/cluster3.png">icons/cluster3.png</option>
+                    <option value="icons/cluster4.png">icons/cluster4.png</option>
+                    <option value="icons/cluster5.png">icons/cluster5.png</option>
+                    <option value="icons/cocktail.png">icons/cocktail.png</option>
+                    <option value="icons/coffee.png">icons/coffee.png</option>
+                    <option value="icons/communitycentre.png">icons/communitycentre.png</option>
+                    <option value="icons/company.png">icons/company.png</option>
+                    <option value="icons/computer.png">icons/computer.png</option>
+                    <option value="icons/concessionaire.png">icons/concessionaire.png</option>
+                    <option value="icons/conference.png">icons/conference.png</option>
+                    <option value="icons/construction.png">icons/construction.png</option>
+                    <option value="icons/convenience.png">icons/convenience.png</option>
+                    <option value="icons/convent.png">icons/convent.png</option>
+                    <option value="icons/corral.png">icons/corral.png</option>
+                    <option value="icons/country.png">icons/country.png</option>
+                    <option value="icons/court.png">icons/court.png</option>
+                    <option value="icons/cricket.png">icons/cricket.png</option>
+                    <option value="icons/cross.png">icons/cross.png</option>
+                    <option value="icons/crossingguard.png">icons/crossingguard.png</option>
+                    <option value="icons/cruise.png">icons/cruise.png</option>
+                    <option value="icons/currencyexchange.png">icons/currencyexchange.png</option>
+                    <option value="icons/customs.png">icons/customs.png</option>
+                    <option value="icons/cycling.png">icons/cycling.png</option>
+                    <option value="icons/cyclingfeedarea.png">icons/cyclingfeedarea.png</option>
+                    <option value="icons/cyclingmountain1.png">icons/cyclingmountain1.png</option>
+                    <option value="icons/cyclingmountain2.png">icons/cyclingmountain2.png</option>
+                    <option value="icons/cyclingmountain3.png">icons/cyclingmountain3.png</option>
+                    <option value="icons/cyclingmountain4.png">icons/cyclingmountain4.png</option>
+                    <option value="icons/cyclingmountainnotrated.png">icons/cyclingmountainnotrated.png</option>
+                    <option value="icons/cyclingsport.png">icons/cyclingsport.png</option>
+                    <option value="icons/cyclingsprint.png">icons/cyclingsprint.png</option>
+                    <option value="icons/cyclinguncategorized.png">icons/cyclinguncategorized.png</option>
+                    <option value="icons/dam.png">icons/dam.png</option>
+                    <option value="icons/dancinghall.png">icons/dancinghall.png</option>
+                    <option value="icons/dates.png">icons/dates.png</option>
+                    <option value="icons/daycare.png">icons/daycare.png</option>
+                    <option value="icons/days-dim.png">icons/days-dim.png</option>
+                    <option value="icons/days-dom.png">icons/days-dom.png</option>
+                    <option value="icons/days-jeu.png">icons/days-jeu.png</option>
+                    <option value="icons/days-jue.png">icons/days-jue.png</option>
+                    <option value="icons/days-lun.png">icons/days-lun.png</option>
+                    <option value="icons/days-mar.png">icons/days-mar.png</option>
+                    <option value="icons/days-mer.png">icons/days-mer.png</option>
+                    <option value="icons/days-mie.png">icons/days-mie.png</option>
+                    <option value="icons/days-qua.png">icons/days-qua.png</option>
+                    <option value="icons/days-qui.png">icons/days-qui.png</option>
+                    <option value="icons/days-sab.png">icons/days-sab.png</option>
+                    <option value="icons/days-sam.png">icons/days-sam.png</option>
+                    <option value="icons/days-seg.png">icons/days-seg.png</option>
+                    <option value="icons/days-sex.png">icons/days-sex.png</option>
+                    <option value="icons/days-ter.png">icons/days-ter.png</option>
+                    <option value="icons/days-ven.png">icons/days-ven.png</option>
+                    <option value="icons/days-vie.png">icons/days-vie.png</option>
+                    <option value="icons/dentist.png">icons/dentist.png</option>
+                    <option value="icons/deptstore.png">icons/deptstore.png</option>
+                    <option value="icons/disability.png">icons/disability.png</option>
+                    <option value="icons/disabledparking.png">icons/disabledparking.png</option>
+                    <option value="icons/diving.png">icons/diving.png</option>
+                    <option value="icons/doctor.png">icons/doctor.png</option>
+                    <option value="icons/dog-leash.png">icons/dog-leash.png</option>
+                    <option value="icons/dog-offleash.png">icons/dog-offleash.png</option>
+                    <option value="icons/door.png">icons/door.png</option>
+                    <option value="icons/down.png">icons/down.png</option>
+                    <option value="icons/downleft.png">icons/downleft.png</option>
+                    <option value="icons/downright.png">icons/downright.png</option>
+                    <option value="icons/downthenleft.png">icons/downthenleft.png</option>
+                    <option value="icons/downthenright.png">icons/downthenright.png</option>
+                    <option value="icons/drinkingfountain.png">icons/drinkingfountain.png</option>
+                    <option value="icons/drinkingwater.png">icons/drinkingwater.png</option>
+                    <option value="icons/drugs.png">icons/drugs.png</option>
+                    <option value="icons/elevator.png">icons/elevator.png</option>
+                    <option value="icons/embassy.png">icons/embassy.png</option>
+                    <option value="icons/entrance.png">icons/entrance.png</option>
+                    <option value="icons/escalator-down.png">icons/escalator-down.png</option>
+                    <option value="icons/escalator-up.png">icons/escalator-up.png</option>
+                    <option value="icons/exit.png">icons/exit.png</option>
+                    <option value="icons/expert.png">icons/expert.png</option>
+                    <option value="icons/explosion.png">icons/explosion.png</option>
+                    <option value="icons/factory.png">icons/factory.png</option>
+                    <option value="icons/fallingrocks.png">icons/fallingrocks.png</option>
+                    <option value="icons/family.png">icons/family.png</option>
+                    <option value="icons/farm.png">icons/farm.png</option>
+                    <option value="icons/fastfood.png">icons/fastfood.png</option>
+                    <option value="icons/festival.png">icons/festival.png</option>
+                    <option value="icons/findajob.png">icons/findajob.png</option>
+                    <option value="icons/findjob.png">icons/findjob.png</option>
+                    <option value="icons/fire.png">icons/fire.png</option>
+                    <option value="icons/fire-extinguisher.png">icons/fire-extinguisher.png</option>
+                    <option value="icons/firemen.png">icons/firemen.png</option>
+                    <option value="icons/fireworks.png">icons/fireworks.png</option>
+                    <option value="icons/firstaid.png">icons/firstaid.png</option>
+                    <option value="icons/fishing.png">icons/fishing.png</option>
+                    <option value="icons/fishingshop.png">icons/fishingshop.png</option>
+                    <option value="icons/fitnesscenter.png">icons/fitnesscenter.png</option>
+                    <option value="icons/fjord.png">icons/fjord.png</option>
+                    <option value="icons/flood.png">icons/flood.png</option>
+                    <option value="icons/flowers.png">icons/flowers.png</option>
+                    <option value="icons/followpath.png">icons/followpath.png</option>
+                    <option value="icons/foodtruck.png">icons/foodtruck.png</option>
+                    <option value="icons/forest.png">icons/forest.png</option>
+                    <option value="icons/fortress.png">icons/fortress.png</option>
+                    <option value="icons/fossils.png">icons/fossils.png</option>
+                    <option value="icons/fountain.png">icons/fountain.png</option>
+                    <option value="icons/friday.png">icons/friday.png</option>
+                    <option value="icons/friends.png">icons/friends.png</option>
+                    <option value="icons/garden.png">icons/garden.png</option>
+                    <option value="icons/gateswalls.png">icons/gateswalls.png</option>
+                    <option value="icons/gazstation.png">icons/gazstation.png</option>
+                    <option value="icons/geyser.png">icons/geyser.png</option>
+                    <option value="icons/gifts.png">icons/gifts.png</option>
+                    <option value="icons/girlfriend.png">icons/girlfriend.png</option>
+                    <option value="icons/glacier.png">icons/glacier.png</option>
+                    <option value="icons/golf.png">icons/golf.png</option>
+                    <option value="icons/gondola.png">icons/gondola.png</option>
+                    <option value="icons/gourmet.png">icons/gourmet.png</option>
+                    <option value="icons/grocery.png">icons/grocery.png</option>
+                    <option value="icons/gun.png">icons/gun.png</option>
+                    <option value="icons/gym.png">icons/gym.png</option>
+                    <option value="icons/hairsalon.png">icons/hairsalon.png</option>
+                    <option value="icons/handball.png">icons/handball.png</option>
+                    <option value="icons/hanggliding.png">icons/hanggliding.png</option>
+                    <option value="icons/hats.png">icons/hats.png</option>
+                    <option value="icons/headstone.png">icons/headstone.png</option>
+                    <option value="icons/headstonejewish.png">icons/headstonejewish.png</option>
+                    <option value="icons/helicopter.png">icons/helicopter.png</option>
+                    <option value="icons/highway.png">icons/highway.png</option>
+                    <option value="icons/hiking.png">icons/hiking.png</option>
+                    <option value="icons/hiking-tourism.png">icons/hiking-tourism.png</option>
+                    <option value="icons/historicalquarter.png">icons/historicalquarter.png</option>
+                    <option value="icons/home.png">icons/home.png</option>
+                    <option value="icons/horseriding.png">icons/horseriding.png</option>
+                    <option value="icons/hospital.png">icons/hospital.png</option>
+                    <option value="icons/hostel.png">icons/hostel.png</option>
+                    <option value="icons/hotairballoon.png">icons/hotairballoon.png</option>
+                    <option value="icons/hotel.png">icons/hotel.png</option>
+                    <option value="icons/hotel1star.png">icons/hotel1star.png</option>
+                    <option value="icons/hotel2stars.png">icons/hotel2stars.png</option>
+                    <option value="icons/hotel3stars.png">icons/hotel3stars.png</option>
+                    <option value="icons/hotel4stars.png">icons/hotel4stars.png</option>
+                    <option value="icons/hotel5stars.png">icons/hotel5stars.png</option>
+                    <option value="icons/hunting.png">icons/hunting.png</option>
+                    <option value="icons/icecream.png">icons/icecream.png</option>
+                    <option value="icons/icehockey.png">icons/icehockey.png</option>
+                    <option value="icons/iceskating.png">icons/iceskating.png</option>
+                    <option value="icons/info.png">icons/info.png</option>
+                    <option value="icons/jewelry.png">icons/jewelry.png</option>
+                    <option value="icons/jewishquarter.png">icons/jewishquarter.png</option>
+                    <option value="icons/jogging.png">icons/jogging.png</option>
+                    <option value="icons/judo.png">icons/judo.png</option>
+                    <option value="icons/justice.png">icons/justice.png</option>
+                    <option value="icons/karate.png">icons/karate.png</option>
+                    <option value="icons/karting.png">icons/karting.png</option>
+                    <option value="icons/kayak.png">icons/kayak.png</option>
+                    <option value="icons/laboratory.png">icons/laboratory.png</option>
+                    <option value="icons/lake.png">icons/lake.png</option>
+                    <option value="icons/laundromat.png">icons/laundromat.png</option>
+                    <option value="icons/left.png">icons/left.png</option>
+                    <option value="icons/leftthendown.png">icons/leftthendown.png</option>
+                    <option value="icons/leftthenup.png">icons/leftthenup.png</option>
+                    <option value="icons/library.png">icons/library.png</option>
+                    <option value="icons/lighthouse.png">icons/lighthouse.png</option>
+                    <option value="icons/liquor.png">icons/liquor.png</option>
+                    <option value="icons/lock.png">icons/lock.png</option>
+                    <option value="icons/lockerrental.png">icons/lockerrental.png</option>
+                    <option value="icons/magicshow.png">icons/magicshow.png</option>
+                    <option value="icons/mainroad.png">icons/mainroad.png</option>
+                    <option value="icons/massage.png">icons/massage.png</option>
+                    <option value="icons/military.png">icons/military.png</option>
+                    <option value="icons/mine.png">icons/mine.png</option>
+                    <option value="icons/mobilephonetower.png">icons/mobilephonetower.png</option>
+                    <option value="icons/modernmonument.png">icons/modernmonument.png</option>
+                    <option value="icons/moderntower.png">icons/moderntower.png</option>
+                    <option value="icons/monastery.png">icons/monastery.png</option>
+                    <option value="icons/monday.png">icons/monday.png</option>
+                    <option value="icons/monument.png">icons/monument.png</option>
+                    <option value="icons/mosque.png">icons/mosque.png</option>
+                    <option value="icons/motorbike.png">icons/motorbike.png</option>
+                    <option value="icons/motorcycle.png">icons/motorcycle.png</option>
+                    <option value="icons/movierental.png">icons/movierental.png</option>
+                    <option value="icons/museum.png">icons/museum.png</option>
+                    <option value="icons/museum-archeological.png">icons/museum-archeological.png</option>
+                    <option value="icons/museum-art.png">icons/museum-art.png</option>
+                    <option value="icons/museum-crafts.png">icons/museum-crafts.png</option>
+                    <option value="icons/museum-historical.png">icons/museum-historical.png</option>
+                    <option value="icons/museum-naval.png">icons/museum-naval.png</option>
+                    <option value="icons/museum-science.png">icons/museum-science.png</option>
+                    <option value="icons/museum-war.png">icons/museum-war.png</option>
+                    <option value="icons/music.png">icons/music.png</option>
+                    <option value="icons/music-classical.png">icons/music-classical.png</option>
+                    <option value="icons/music-hiphop.png">icons/music-hiphop.png</option>
+                    <option value="icons/music-live.png">icons/music-live.png</option>
+                    <option value="icons/music-rock.png">icons/music-rock.png</option>
+                    <option value="icons/nanny.png">icons/nanny.png</option>
+                    <option value="icons/newsagent.png">icons/newsagent.png</option>
+                    <option value="icons/nordicski.png">icons/nordicski.png</option>
+                    <option value="icons/nursery.png">icons/nursery.png</option>
+                    <option value="icons/observatory.png">icons/observatory.png</option>
+                    <option value="icons/oilpumpjack.png">icons/oilpumpjack.png</option>
+                    <option value="icons/olympicsite.png">icons/olympicsite.png</option>
+                    <option value="icons/ophthalmologist.png">icons/ophthalmologist.png</option>
+                    <option value="icons/pagoda.png">icons/pagoda.png</option>
+                    <option value="icons/paint.png">icons/paint.png</option>
+                    <option value="icons/palace.png">icons/palace.png</option>
+                    <option value="icons/panoramic.png">icons/panoramic.png</option>
+                    <option value="icons/panoramic180.png">icons/panoramic180.png</option>
+                    <option value="icons/park.png">icons/park.png</option>
+                    <option value="icons/parkandride.png">icons/parkandride.png</option>
+                    <option value="icons/parking.png">icons/parking.png</option>
+                    <option value="icons/park-urban.png">icons/park-urban.png</option>
+                    <option value="icons/party.png">icons/party.png</option>
+                    <option value="icons/patisserie.png">icons/patisserie.png</option>
+                    <option value="icons/pedestriancrossing.png">icons/pedestriancrossing.png</option>
+                    <option value="icons/pens.png">icons/pens.png</option>
+                    <option value="icons/perfumery.png">icons/perfumery.png</option>
+                    <option value="icons/personalwatercraft.png">icons/personalwatercraft.png</option>
+                    <option value="icons/petroglyphs.png">icons/petroglyphs.png</option>
+                    <option value="icons/pets.png">icons/pets.png</option>
+                    <option value="icons/phones.png">icons/phones.png</option>
+                    <option value="icons/photo.png">icons/photo.png</option>
+                    <option value="icons/photodown.png">icons/photodown.png</option>
+                    <option value="icons/photodownleft.png">icons/photodownleft.png</option>
+                    <option value="icons/photodownright.png">icons/photodownright.png</option>
+                    <option value="icons/photography.png">icons/photography.png</option>
+                    <option value="icons/photoleft.png">icons/photoleft.png</option>
+                    <option value="icons/photoright.png">icons/photoright.png</option>
+                    <option value="icons/photoup.png">icons/photoup.png</option>
+                    <option value="icons/photoupleft.png">icons/photoupleft.png</option>
+                    <option value="icons/photoupright.png">icons/photoupright.png</option>
+                    <option value="icons/picnic.png">icons/picnic.png</option>
+                    <option value="icons/pizza.png">icons/pizza.png</option>
+                    <option value="icons/places-unvisited.png">icons/places-unvisited.png</option>
+                    <option value="icons/places-visited.png">icons/places-visited.png</option>
+                    <option value="icons/planecrash.png">icons/planecrash.png</option>
+                    <option value="icons/playground.png">icons/playground.png</option>
+                    <option value="icons/poker.png">icons/poker.png</option>
+                    <option value="icons/police.png">icons/police.png</option>
+                    <option value="icons/police2.png">icons/police2.png</option>
+                    <option value="icons/pool.png">icons/pool.png</option>
+                    <option value="icons/pool-indoor.png">icons/pool-indoor.png</option>
+                    <option value="icons/port.png">icons/port.png</option>
+                    <option value="icons/postal.png">icons/postal.png</option>
+                    <option value="icons/powerlinepole.png">icons/powerlinepole.png</option>
+                    <option value="icons/powerplant.png">icons/powerplant.png</option>
+                    <option value="icons/prison.png">icons/prison.png</option>
+                    <option value="icons/powersubstation.png">icons/powersubstation.png</option>
+                    <option value="icons/publicart.png">icons/publicart.png</option>
+                    <option value="icons/racing.png">icons/racing.png</option>
+                    <option value="icons/radiation.png">icons/radiation.png</option>
+                    <option value="icons/rain.png">icons/rain.png</option>
+                    <option value="icons/rattlesnake.png">icons/rattlesnake.png</option>
+                    <option value="icons/realestate.png">icons/realestate.png</option>
+                    <option value="icons/recycle.png">icons/recycle.png</option>
+                    <option value="icons/regroup.png">icons/regroup.png</option>
+                    <option value="icons/resort.png">icons/resort.png</option>
+                    <option value="icons/restaurant.png">icons/restaurant.png</option>
+                    <option value="icons/restaurantafrican.png">icons/restaurantafrican.png</option>
+                    <option value="icons/restaurant-barbecue.png">icons/restaurant-barbecue.png</option>
+                    <option value="icons/restaurant-buffet.png">icons/restaurant-buffet.png</option>
+                    <option value="icons/restaurantchinese.png">icons/restaurantchinese.png</option>
+                    <option value="icons/restaurant-fish.png">icons/restaurant-fish.png</option>
+                    <option value="icons/restaurantfishchips.png">icons/restaurantfishchips.png</option>
+                    <option value="icons/restaurantgourmet.png">icons/restaurantgourmet.png</option>
+                    <option value="icons/restaurantgreek.png">icons/restaurantgreek.png</option>
+                    <option value="icons/restaurantindian.png">icons/restaurantindian.png</option>
+                    <option value="icons/restaurantitalian.png">icons/restaurantitalian.png</option>
+                    <option value="icons/restaurantjapanese.png">icons/restaurantjapanese.png</option>
+                    <option value="icons/restaurantkebab.png">icons/restaurantkebab.png</option>
+                    <option value="icons/restaurantkorean.png">icons/restaurantkorean.png</option>
+                    <option value="icons/restaurantmediterranean.png">icons/restaurantmediterranean.png</option>
+                    <option value="icons/restaurantmexican.png">icons/restaurantmexican.png</option>
+                    <option value="icons/restaurant-romantic.png">icons/restaurant-romantic.png</option>
+                    <option value="icons/restaurantthai.png">icons/restaurantthai.png</option>
+                    <option value="icons/restaurantturkish.png">icons/restaurantturkish.png</option>
+                    <option value="icons/revolution.png">icons/revolution.png</option>
+                    <option value="icons/right.png">icons/right.png</option>
+                    <option value="icons/rightthendown.png">icons/rightthendown.png</option>
+                    <option value="icons/rightthenup.png">icons/rightthenup.png</option>
+                    <option value="icons/riparian.png">icons/riparian.png</option>
+                    <option value="icons/ropescourse.png">icons/ropescourse.png</option>
+                    <option value="icons/rowboat.png">icons/rowboat.png</option>
+                    <option value="icons/rugby.png">icons/rugby.png</option>
+                    <option value="icons/ruins.png">icons/ruins.png</option>
+                    <option value="icons/sailboat.png">icons/sailboat.png</option>
+                    <option value="icons/sailboat-sport.png">icons/sailboat-sport.png</option>
+                    <option value="icons/sailboat-tourism.png">icons/sailboat-tourism.png</option>
+                    <option value="icons/satursday.png">icons/satursday.png</option>
+                    <option value="icons/sauna.png">icons/sauna.png</option>
+                    <option value="icons/school.png">icons/school.png</option>
+                    <option value="icons/schrink.png">icons/schrink.png</option>
+                    <option value="icons/sciencecenter.png">icons/sciencecenter.png</option>
+                    <option value="icons/seals.png">icons/seals.png</option>
+                    <option value="icons/seniorsite.png">icons/seniorsite.png</option>
+                    <option value="icons/shelter-picnic.png">icons/shelter-picnic.png</option>
+                    <option value="icons/shelter-sleeping.png">icons/shelter-sleeping.png</option>
+                    <option value="icons/shoes.png">icons/shoes.png</option>
+                    <option value="icons/shoppingmall.png">icons/shoppingmall.png</option>
+                    <option value="icons/shore.png">icons/shore.png</option>
+                    <option value="icons/shower.png">icons/shower.png</option>
+                    <option value="icons/sight.png">icons/sight.png</option>
+                    <option value="icons/skateboarding.png">icons/skateboarding.png</option>
+                    <option value="icons/skiing.png">icons/skiing.png</option>
+                    <option value="icons/skijump.png">icons/skijump.png</option>
+                    <option value="icons/skilift.png">icons/skilift.png</option>
+                    <option value="icons/smallcity.png">icons/smallcity.png</option>
+                    <option value="icons/smokingarea.png">icons/smokingarea.png</option>
+                    <option value="icons/sneakers.png">icons/sneakers.png</option>
+                    <option value="icons/snow.png">icons/snow.png</option>
+                    <option value="icons/snowboarding.png">icons/snowboarding.png</option>
+                    <option value="icons/snowmobiling.png">icons/snowmobiling.png</option>
+                    <option value="icons/snowshoeing.png">icons/snowshoeing.png</option>
+                    <option value="icons/soccer.png">icons/soccer.png</option>
+                    <option value="icons/soccer2.png">icons/soccer2.png</option>
+                    <option value="icons/spaceport.png">icons/spaceport.png</option>
+                    <option value="icons/speed100.png">icons/speed100.png</option>
+                    <option value="icons/speed110.png">icons/speed110.png</option>
+                    <option value="icons/speed120.png">icons/speed120.png</option>
+                    <option value="icons/speed130.png">icons/speed130.png</option>
+                    <option value="icons/speed20.png">icons/speed20.png</option>
+                    <option value="icons/speed30.png">icons/speed30.png</option>
+                    <option value="icons/speed40.png">icons/speed40.png</option>
+                    <option value="icons/speed50.png">icons/speed50.png</option>
+                    <option value="icons/speed60.png">icons/speed60.png</option>
+                    <option value="icons/speed70.png">icons/speed70.png</option>
+                    <option value="icons/speed80.png">icons/speed80.png</option>
+                    <option value="icons/speed90.png">icons/speed90.png</option>
+                    <option value="icons/speedhump.png">icons/speedhump.png</option>
+                    <option value="icons/spelunking.png">icons/spelunking.png</option>
+                    <option value="icons/stadium.png">icons/stadium.png</option>
+                    <option value="icons/statue.png">icons/statue.png</option>
+                    <option value="icons/steamtrain.png">icons/steamtrain.png</option>
+                    <option value="icons/stop.png">icons/stop.png</option>
+                    <option value="icons/stoplight.png">icons/stoplight.png</option>
+                    <option value="icons/strike.png">icons/strike.png</option>
+                    <option value="icons/strike1.png">icons/strike1.png</option>
+                    <option value="icons/subway.png">icons/subway.png</option>
+                    <option value="icons/sun.png">icons/sun.png</option>
+                    <option value="icons/sunday.png">icons/sunday.png</option>
+                    <option value="icons/supermarket.png">icons/supermarket.png</option>
+                    <option value="icons/surfing.png">icons/surfing.png</option>
+                    <option value="icons/suv.png">icons/suv.png</option>
+                    <option value="icons/synagogue.png">icons/synagogue.png</option>
+                    <option value="icons/tailor.png">icons/tailor.png</option>
+                    <option value="icons/tapas.png">icons/tapas.png</option>
+                    <option value="icons/taxi.png">icons/taxi.png</option>
+                    <option value="icons/taxiway.png">icons/taxiway.png</option>
+                    <option value="icons/teahouse.png">icons/teahouse.png</option>
+                    <option value="icons/telephone.png">icons/telephone.png</option>
+                    <option value="icons/templehindu.png">icons/templehindu.png</option>
+                    <option value="icons/tennis.png">icons/tennis.png</option>
+                    <option value="icons/tennis2.png">icons/tennis2.png</option>
+                    <option value="icons/tent.png">icons/tent.png</option>
+                    <option value="icons/terrace.png">icons/terrace.png</option>
+                    <option value="icons/text.png">icons/text.png</option>
+                    <option value="icons/textiles.png">icons/textiles.png</option>
+                    <option value="icons/theater.png">icons/theater.png</option>
+                    <option value="icons/themepark.png">icons/themepark.png</option>
+                    <option value="icons/thunder.png">icons/thunder.png</option>
+                    <option value="icons/thursday.png">icons/thursday.png</option>
+                    <option value="icons/toilets.png">icons/toilets.png</option>
+                    <option value="icons/tollstation.png">icons/tollstation.png</option>
+                    <option value="icons/tools.png">icons/tools.png</option>
+                    <option value="icons/tower.png">icons/tower.png</option>
+                    <option value="icons/toys.png">icons/toys.png</option>
+                    <option value="icons/trafficenforcementcamera.png">icons/trafficenforcementcamera.png</option>
+                    <option value="icons/train.png">icons/train.png</option>
+                    <option value="icons/tram.png">icons/tram.png</option>
+                    <option value="icons/trash.png">icons/trash.png</option>
+                    <option value="icons/truck.png">icons/truck.png</option>
+                    <option value="icons/tuesday.png">icons/tuesday.png</option>
+                    <option value="icons/tunnel.png">icons/tunnel.png</option>
+                    <option value="icons/turnleft.png">icons/turnleft.png</option>
+                    <option value="icons/turnright.png">icons/turnright.png</option>
+                    <option value="icons/university.png">icons/university.png</option>
+                    <option value="icons/up.png">icons/up.png</option>
+                    <option value="icons/upleft.png">icons/upleft.png</option>
+                    <option value="icons/upright.png">icons/upright.png</option>
+                    <option value="icons/upthenleft.png">icons/upthenleft.png</option>
+                    <option value="icons/upthenright.png">icons/upthenright.png</option>
+                    <option value="icons/usfootball.png">icons/usfootball.png</option>
+                    <option value="icons/vespa.png">icons/vespa.png</option>
+                    <option value="icons/vet.png">icons/vet.png</option>
+                    <option value="icons/video.png">icons/video.png</option>
+                    <option value="icons/videogames.png">icons/videogames.png</option>
+                    <option value="icons/villa.png">icons/villa.png</option>
+                    <option value="icons/villa-tourism.png">icons/villa-tourism.png</option>
+                    <option value="icons/waitingroom.png">icons/waitingroom.png</option>
+                    <option value="icons/water.png">icons/water.png</option>
+                    <option value="icons/waterfall.png">icons/waterfall.png</option>
+                    <option value="icons/watermill.png">icons/watermill.png</option>
+                    <option value="icons/waterpark.png">icons/waterpark.png</option>
+                    <option value="icons/waterskiing.png">icons/waterskiing.png</option>
+                    <option value="icons/watertower.png">icons/watertower.png</option>
+                    <option value="icons/waterwell.png">icons/waterwell.png</option>
+                    <option value="icons/waterwellpump.png">icons/waterwellpump.png</option>
+                    <option value="icons/wedding.png">icons/wedding.png</option>
+                    <option value="icons/wednesday.png">icons/wednesday.png</option>
+                    <option value="icons/wetland.png">icons/wetland.png</option>
+                    <option value="icons/white1.png">icons/white1.png</option>
+                    <option value="icons/white20.png">icons/white20.png</option>
+                    <option value="icons/wifi.png">icons/wifi.png</option>
+                    <option value="icons/windmill.png">icons/windmill.png</option>
+                    <option value="icons/windsurfing.png">icons/windsurfing.png</option>
+                    <option value="icons/windturbine.png">icons/windturbine.png</option>
+                    <option value="icons/winery.png">icons/winery.png</option>
+                    <option value="icons/wineyard.png">icons/wineyard.png</option>
+                    <option value="icons/workoffice.png">icons/workoffice.png</option>
+                    <option value="icons/world.png">icons/world.png</option>
+                    <option value="icons/worldheritagesite.png">icons/worldheritagesite.png</option>
+                    <option value="icons/yoga.png">icons/yoga.png</option>
+                    <option value="icons/youthhostel.png">icons/youthhostel.png</option>
+                    <option value="icons/zipline.png">icons/zipline.png</option>
+                    <option value="icons/zoo.png">icons/zoo.png</option>
+                </select>
+            <input type="hidden" id="iconUrl" name="iconUrl" value="icons/administration.png">
+        </div>
+        </div>
+        <div class="form-item">
+            <div class="label"><label for="popup">Popup:</label></div>
+            <div class="item">
+                <select name="popup" id="popup" onChange="updateMap()">
+                    <option value="true" selected>true</option>
+                    <option value="">false</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-item">
+            <div class="label"><label for="mapType">Map Type:</label></div>
+            <div class="item">
+                <select name="mapType" id="mapType" onChange="updateMap()">
+                    <option value="google.maps.MapTypeId.ROADMAP" selected>roadmap</option>
+                    <option value="google.maps.MapTypeId.SATELLITE">satellite</option>
+                    <option value="google.maps.MapTypeId.TERRAIN">terrain</option>
+                    <option value="google.maps.MapTypeId.HYBRID">hybrid</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-item">
+            <div class="label"><label for="zoom">Zoom:</label></div>
+            <div class="item">
+                <select name="zoom" id="zoom" onChange="updateMap()">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14" selected>14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                </select>
+            </div>
+        </div>
+        <!-- Pan control -->
+        <div class="form-item">
+            <div class="label"><label for="panControl">Pan Control:</label></div>
+            <div class="item">
+                <select name="panControl" id="panControl" onChange="updateMap()">
+                    <option value="true">true</option>
+                    <option value="" selected>false</option>
+                </select>
+            </div>
+        </div>
+        <!-- Zoom control -->
+            <div class="form-item">
+            <div class="label"><label for="zoomControl">Zoom Control:</label></div>
+            <div class="item">
+                <select name="zoomControl" id="zoomControl" onChange="updateMap()">
+                    <option value="true" selected>true</option>
+                    <option value="">false</option>
+                </select>
+            </div>
+        </div>
+        <!-- Map type control -->
+            <div class="form-item">
+            <div class="label"><label for="mapTypeControl">Type Conrtol:</label></div>
+            <div class="item">
+                <select name="mapTypeControl" id="mapTypeControl" onChange="updateMap()">
+                    <option value="true">true</option>
+                    <option value="" selected>false</option>
+                </select>
+            </div>
+        </div>
+        <!-- Scale control -->
+            <div class="form-item">
+            <div class="label"><label for="scaleControl">Scale Control:</label></div>
+            <div class="item">
+                <select name="scaleControl" id="scaleControl" onChange="updateMap()">
+                    <option value="true">true</option>
+                    <option value="" selected>false</option>
+                </select>
+            </div>
+        </div>
+        <!-- Street view control -->
+            <div class="form-item">
+            <div class="label"><label for="streetViewControl">Street View:</label></div>
+            <div class="item">
+                <select name="streetViewControl" id="streetViewControl" onChange="updateMap()">
+                    <option value="true" selected>true</option>
+                    <option value="">false</option>
+                </select>
+            </div>
+        </div>
+        <!-- Scroll wheel -->
+        <div class="form-item">
+            <div class="label"><label for="scrollWheel">Scroll Wheel:</label></div>
+            <div class="item">
+                <select name="scrollWheel" id="scrollWheel" onChange="updateMap()">
+                    <option value="true">true</option>
+                    <option value="" selected>false</option>
+                </select>
+            </div>
+        </div>
+        <!-- Buttons -->
+            <div class="form-item">
+            <div class="item">
+                <a href="javascript: reset();" class="button">RESET</a>
+                <a href="javascript: getCode();" class="button">GET MAP</a>
+            </div>
+        </div>
+    </form>
+    <!-- End form generator -->
+    <!-- Lightbox to display the generated map code -->
+    <div id="mapCode">
+        <!-- Close button -->
+        <div id="closeButton"><a href="javascript: closeWindow();"><img src="img/closeButton.png" height="16" width="16" alt="close"></a></div>
+        <!-- Lightbox window title -->
+        <div id="title">HOW TO PUT THE MAP IN YOUR PAGE</div>
+        <!-- Step 1	 -->
+        <div class="line">1) Copy the folders "icons" and "js" in the same folder with your page that will contain the map.</div>
+        <!-- Step 2 -->
+        <div class="line">2) Copy this map code inside the body tag of your html/php page, in the place where you wish to display the map:</div>
+        <div id="innerMap" onClick="selectText('innerMap')"></div>
+        <!-- Close lightbox window button -->
+        <div class="line"><a href="javascript: closeWindow();" class="button">CLOSE</a></div>
+    </div>
+    <!-- End lightbox to display map code -->
+</body>
+</html>
