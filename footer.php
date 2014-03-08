@@ -1,4 +1,5 @@
-</br>
+
+<br />
 <footer>
           <div class="container-fluid">
 
@@ -24,6 +25,8 @@
                     </li>
                 </ul>
                 </div>  
+                </div>
+                
       </footer>
 </body>
 </html>

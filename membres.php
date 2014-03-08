@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-	<div class="row">
+	<div class="contenaire">
 		<h1>Les membres du collectif</h1>
 		
 	</div>

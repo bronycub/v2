@@ -1,5 +1,5 @@
 	<?php include 'header.php'; ?>
-	<div class="row">
+	<div class="contenaire">
   <div class="col-md-6">
   <div class="container">
   <span> <img src="ressources/logo/logo_bronycub_hd.png" alt="" height="200" width="600"></span>
