@@ -32,7 +32,7 @@
             <li> <a href="#NONE">Forum</a></li>
             <li><a href="#NONE">Nous rejoindre</a></li>
             <li><a href="#NONE">Partenaire</a></li>
-            <li><a href="/bronycub/v2/agenda/agenda.php">Agenda</a></li>
+            <li><a href="agenda/agenda.php">Agenda</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
