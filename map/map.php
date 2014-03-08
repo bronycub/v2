@@ -3,17 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>BronyCUB</title>
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="BootStrap/css/bootstrap.css"> 
-  <link rel="stylesheet" type="text/css" href="BootStrap/css/footer.css">
+	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../BootStrap/css/bootstrap.css"> 
+  <link rel="stylesheet" type="text/css" href="../BootStrap/css/footer.css">
 </head>
 <body>
 
-	<?php include 'menu.php'; ?>
+	<?php include '../menu.php'; ?>
 <div class="container">
 <p align="left">
   
-  <img src="ressources/logo/logo_bronycub_hd.png" alt="" width="800" height="200">
+  <img src="../ressources/logo/logo_bronycub_hd.png" alt="" width="800" height="200">
 </p>
   </div> 
 <hr>
@@ -67,6 +67,6 @@ jQuery(document).ready(function($) {
 .gm-style-iw {max-width: none !important; min-width: none !important; max-height: none !important; min-height: none !important; overflow-y: hidden !important; overflow-x: hidden !important; line-height: normal !important; padding: 5px !important; }
 </style>
 
-	<?php include 'footer.php'; ?>
+	<?php include '../footer.php'; ?>
 </body>
 </html>

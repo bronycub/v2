@@ -17,17 +17,13 @@
   </div>
   </div>
   <div class="col-md-4">
-  	<div class="well well-sm" > <h4>Random Quote:</h4>
-<?php $fichier = file('quote.txt'); // Nom du fichier qui contient les citations
-
+  	<blockquote>
+<?php $fichier = file('quotes.txt'); // Nom du fichier qui contient les citations
 $total = count($fichier); // Total du nombre de lignes du fichier
-
 $i = mt_rand(0, $total-1); // Nombre au hasard entre 0 et le total du nombre de lignes
-
 echo $fichier[$i]; // On affiche une citation au hasard
-
  ?>
- </div>
+ </blockquote>
 
   </div>
 </div> 
