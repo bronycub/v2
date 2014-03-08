@@ -5,7 +5,7 @@
 
 
                 <div class="col-xs-6 col-md-4">
-<p>#NONE</p>
+<p>Bronycub.org pour toute envoye de mail passez par <a href="mailto:bronycub@gmail.com">bronycub@gmail.com</a></p>
                 </div>
                 <div class="col-xs-6 col-md-4">
                 <button type="button" class="btn btn-primary btn-sm">Contact</button> 
