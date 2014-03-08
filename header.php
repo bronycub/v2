@@ -6,7 +6,8 @@
               <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
               <link rel="stylesheet" type="text/css" href="BootStrap/css/bootstrap.css"> 
               <link rel="stylesheet" type="text/css" href="BootStrap/css/footer.css">
-              </head>
+			  
+			   </head>
               <body>
               <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
