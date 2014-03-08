@@ -2,14 +2,25 @@
 <footer>
           <div class="container-fluid">
 
-            <ul class="breadcrumb">
-              <li class="#NONE"><a href="#top">#NONE</a></li>
-              <li><a href="#NONE">#NONE</a></li>
-              <li><a href="#NONE">#NONE</a></li>
-              <li><a href="#NONE">#NONE</a></li>
-              <li><a href="#NONE">#NONE</a></li>
-            </ul>
-            <p>#NONE</p>
-          </div>
 
+
+                <div class="col-xs-6 col-md-4">
+<p>#NONE</p>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                <button type="button" class="btn btn-primary btn-sm">Contact</button> 
+<button type="button" class="btn btn-primary btn-sm">Nos amis</button>
+                </div>
+                <div class="col-xs-6 col-md-4" align="right">
+                 <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+                </div>  
       </footer>
