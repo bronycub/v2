@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>WIP</title>
+	<title>BronyCUB</title>
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="BootStrap/css/bootstrap.css"> 
   <link rel="stylesheet" type="text/css" href="BootStrap/css/footer.css">
@@ -18,9 +18,6 @@
   </div> 
 <hr>
 	<a href="#TEST"><h1 align="center">WIP</h1></a>
-
-
-
 
 	<?php include 'footer.php'; ?>
 </body>
