@@ -36,5 +36,3 @@ Ce collectif a pour ambition de réunir les fans pour organiser divers Meet-up</
 </div>
 	</div>
 	<?php include 'footer.php'; ?>
-</body>
-</html>

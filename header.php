@@ -41,7 +41,7 @@
             </li>
             <li> <a href="https://groups.google.com/forum/?fromgroups#!forum/bronycub">Forum</a></li>
             <li><a href="join.php">Nous rejoindre</a></li>
-            <li><a href="partenaire.php">Partenaire</a></li>
+            <li><a href="friends.php">Partenaire</a></li>
             <li><a href="agenda.php">Agenda</a></li>
           </ul>
 
