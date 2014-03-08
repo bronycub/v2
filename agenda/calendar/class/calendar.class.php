@@ -291,7 +291,7 @@ class Calendar {
 		}
 
 		if($this->settings['date_change'] && $this->settings['date_picker']) {
-			$html .= '<a href="#" class="cal_select_month"></a><div class="cal_select_month_calendar" data-url="'.$url.'" data-scale="'.(($this->settings['date_picker_keep_scale']) ? $scale : 'day').'" data-day="'.$day.'" data-month="'.$month.'" data-year="'.$year.'"></div>';
+			$html .= '<a href="https://www.google.com/calendar/embed?src=bronycub%40gmail.com" class="cal_select_month" target="_blank"></a><div class="cal_select_month_calendar" data-url="'.$url.'" data-scale="'.(($this->settings['date_picker_keep_scale']) ? $scale : 'day').'" data-day="'.$day.'" data-month="'.$month.'" data-year="'.$year.'"></div>';
 		}
 		
 		if($this->settings['scale_change']) {
