@@ -1,15 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>BronyCUB</title>
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="BootStrap/css/bootstrap.css"> 
-  <link rel="stylesheet" type="text/css" href="BootStrap/css/footer.css">
-</head>
-<body>
-
-	<?php include 'menu.php'; ?>
+	<?php include 'header.php'; ?>
 	<div class="row">
   <div class="col-md-6">
   <div class="container">
@@ -42,16 +31,10 @@ Ce collectif a pour ambition de réunir les fans pour organiser divers Meet-up</
 		<div class="col-md-6">
 		<a class="twitter-timeline"  href="https://twitter.com/Bronycub"  data-widget-id="442332182942449664">Tweets de @Bronycub</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-
 			</div>
-
 		</div>
-
 </div>
 	</div>
-
 	<?php include 'footer.php'; ?>
 </body>
 </html>
