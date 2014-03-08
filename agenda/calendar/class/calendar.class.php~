@@ -297,7 +297,7 @@ class Calendar {
 		if($this->settings['scale_change']) {
 
 			$html .= '<div class="cal_scale_selector">';
-			if($this->settings['search_form']) { $html .= '<div class="cal_search_form"><input type="text"  name="q" placeholder="Recherche..." value="'.((isset($_GET['cal_search'])) ? str_replace('"', '&quot;', $this->_prep_search_out($this->_strip_quotes($_GET['cal_search']))) : '').'" /><a href="'.$url.'cal_day='.$day.'&cal_month='.$month.'&cal_year='.($year).'&cal_scale='.$scale.'&" id="cal_search_button">Recherche</a></div>'; }
+			if($this->settings['search_form']) { $html .= '<div class="cal_search_form"><input type="text" class="cal_search_box" name="q" placeholder="Recherche..." value="'.((isset($_GET['cal_search'])) ? str_replace('"', '&quot;', $this->_prep_search_out($this->_strip_quotes($_GET['cal_search']))) : '').'" /><a href="'.$url.'cal_day='.$day.'&cal_month='.$month.'&cal_year='.($year).'&cal_scale='.$scale.'&" id="cal_search_button">Recherche</a></div>'; }
 			$html .= '<a href="'.$url.'cal_day='.$day.'&cal_month='.$month.'&cal_year='.$year.'&cal_scale=day" class="cal_scale_option cal_scale_option_first'.(($scale === 'day') ? ' cal_scale_option_selected' : '').'">'.$this->labels['day'].'</a>';
 			$html .= '<a href="'.$url.'cal_day='.$day.'&cal_month='.$month.'&cal_year='.$year.'&cal_scale=month" class="cal_scale_option'.(($scale === 'month') ? ' cal_scale_option_selected' : '').'">'.$this->labels['month'].'</a>';
 			$html .= '<a href="'.$url.'cal_day='.$day.'&cal_month='.$month.'&cal_year='.$year.'&cal_scale=year" class="cal_scale_option cal_scale_option_last'.(($scale === 'year') ? ' cal_scale_option_selected' : '').'">'.$this->labels['year'].'</a>';
