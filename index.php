@@ -10,11 +10,11 @@
 <body>
 
 	<?php include 'menu.php'; ?>
-<div class="container">
-<p align="left">
+<div class="container-fluid">
+<span align="left">
   
   <img src="ressources/logo/logo_bronycub_hd.png" alt="" width="800" height="200">
-</p>
+</span>
   </div> 
 <hr>
 	<div class="row">
