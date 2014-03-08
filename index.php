@@ -1,10 +1,10 @@
 	<?php include 'header.php'; ?>
-	<div class="row">
-  <div class="col-md-6">
-  <div class="container">
+	<div class="contenair">
+
+  <div class="col-md-8">
+  
   <span> <img src="ressources/logo/logo_bronycub_hd.png" alt="" height="200" width="600"></span>
-  </div>
-  </div>
+    </div>
   <div class="col-md-4">
   	<blockquote>
 <?php $fichier = file('quotes.txt'); // Nom du fichier qui contient les citations
@@ -17,7 +17,7 @@ echo $fichier[$i]; // On affiche une citation au hasard
   </div>
 </div> 
 <hr>
-	<div class="row">
+	
 	<div class="container">
 	<div class="col-md-6">
 	<h2>BronyCUB, Qu'est-ce que c'est ?</h2>

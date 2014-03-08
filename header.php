@@ -14,8 +14,7 @@
               <script src="BootStrap/js/bootstrap.min.js"></script>
               <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
               
-              
-              <div class="row"> 
+             
               <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
               <div class="container-fluid">
               <div class="navbar-header">
