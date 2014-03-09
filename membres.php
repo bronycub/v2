@@ -1,6 +1,9 @@
 <?php include 'header.php'; ?>
 	<div class="contenair">
-		<h1>Les membres du collectif</h1>
-		
+	<div class="row">
+		<h1 align="center">Les membres du collectif</h1>
+		</div>
+
+
 	</div>
 	<?php include 'footer.php'; ?>
