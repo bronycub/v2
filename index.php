@@ -33,7 +33,7 @@ echo $fichier[$i]; // On affiche une citation au hasard
 		<article>BronyCUB est un collectif de Bronies de la Communauté Urbaine de Bordeaux en Gironde.
 Ce collectif a pour ambition de réunir les fans pour organiser divers Meet-up</article>
 </br>
-	<button type="button" class="btn btn-info btn-lg">Nous contactez</button>
+	<button type="button" class="btn btn-info btn-lg">Nous contacter</button>
 	</div>
 	</div>
 		<div class="col-md-6">
