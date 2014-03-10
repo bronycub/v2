@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-BronyCUB c’est pas que des poneys ! (C’est des gens qu’aiment les poneys aussi)
-=======
 Il n'y a pas que des poneys ! (C’est des gens qui aiment les poneys aussi)
->>>>>>> 15d2fac049cec9a2895964287fecab822a091891
 Il y a des métaleux et des vocaloïds
 Il y a des illettrés et des grammars nazi
 Il y a des fans de soft yaois et des tarés de r34
@@ -14,7 +10,7 @@ Il y a des accrocs de Twitter et d’autres sans connexion internet
 Il y a des prépas et des descolarisés
 Il y a du 20% cooler à 200%
 Il y a des codeurs en BBCode et des programmeurs en brainfuck
-Il y a des raviolis humanoïdes et des robots en dysfonction 
+Il y a des raviolis humanoïdes et des robots en dysfonction
 Il y a des mecs qui vendraient leur vie pour une dédiboobs et d’autres pour un diner avec Rainbow Dash
 Il y a de fabuleuses rencontres sous le logo range®
 Il y a des graphistes et paint.netteurs
@@ -23,10 +19,6 @@ Il y a du cosplay et des bronies qui passent leur vie en pyjama
 Il y a des otakus et des kikoo-japs
 Il y a des gamers Mac et des rétrogamers
 Il y a des artistes maudits et des incompris
-<<<<<<< HEAD
-Il y a des buveurs de Coca et Cacolac
-Ta visite remboursée si tu ne trouves pas ta place ici
-=======
 Il y a des buveurs de Coca et de Cacolac
 Il y a un remboursement de ta visite si tu ne trouves pas ta place ici
 The game.
@@ -40,4 +32,4 @@ Toute l'année de gentils bronies t'accueillent dans une ambiance chaleureuse, f
 Membres de BronyCUB, rencontrez les tous !
 Il y a des membres follows par KowDady d'autres par ILikeGirlsDaily
 Il y a des compositeurs sur TI et d'autres qui peine à calculer 14-6
->>>>>>> 15d2fac049cec9a2895964287fecab822a091891
+Des mises à jours Reikurantes !
