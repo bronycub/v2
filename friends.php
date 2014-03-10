@@ -3,7 +3,7 @@
 		
 		<!-- Projet crée/codé -->
 		<div class="row">
-			<h3>Ci dessous vous retrouverais les projet ou j'ai participé/ que j'ai crée :</h3>	
+			<h3>Partenaire brony cub :</h3>	
 
 
 		</div>
@@ -11,43 +11,24 @@
 
 		<div class="row">
 			<div class="col-md-4">
-				<h1>CV Web</h1>
-				<a href="http://cv.remy-mazabraud.eu/" target="New"><img src="Image/Miniature/CV.jpg" alt=""></a>
-				<article>Un CV crée et designé de tout piece grâce au language du web (HTML5 & CSS3)</article>
-
-			</div>
-  			<div class="col-md-4">
-  				<h1>Site Pro</h1>
-				<a href="http://cv.remy-mazabraud.eu/" target="New"><img src="Image/Miniature/pro.jpg" alt=""></a>
-				<article>Un site pro ou on peux retrouver different moyen de me joindre, rien de bien spécial</article>
-  			</div>
-  			<div class="col-md-4">
-				<h1>LifeBoard</h1>
-				<article>Se projet n'est qu'une ébauche encore mais paré très promettre le but étemps de faire vivre toute
-				les donné collecté sur moi même pour avoir une meilleur igiene de vie !
-				</article>
-  			</div>	
-		</div>
-<!-- Projet supporté -->
-		<div class="row">
-			<h3>Ci dessous vous retrouverais les projet que je soutien :</h3>	
-		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<h1>DreamVids</h1>
-				<a href="http://dreamvids.fr" target="New"><img src="Image/Miniature/DreamVids.jpg" alt="" width="340" height="240"></a>
-				<article>DreamVids est une platoforme open source de partage de vidéo !</article>
-
-			</div>
-  			
-
-			<div class="col-md-4">
-				<h1>MLP Fictions</h1>
-				<a href="http://www.mlpfictions.com/" target="New"><img src="Image/Miniature/MLPF.png" alt="" width="340" height="240"></a>
+				<h1>MLP fiction:</h1>
+				<a href="http://mlpfiction.com/" target="New"><img src="http://www.radiobrony.fr/wp-content/uploads/2012/08/mlpficpartlogo.png" alt="" ></a>
 				<article>MLP Fictions est le 1er site francophone dédié à la lecture de fictions autours de l'univers de My Little Pony!</article>
 
 			</div>
+  			<div class="col-md-4">
+  				<h1>Le Poney Blanc</h1>
+				<a href="http://cv.remy-mazabraud.eu/" target="New"><img src="http://www.radiobrony.fr/wp-content/uploads/2012/08/poneyblancpartlogo.png" alt=""></a>
+				<article>Site d'échange et d'information sur My Little Pony : Friendship is Magic pour les bronies francophones.</article>
+  			</div>
+  			<div class="col-md-4">
+				<h1>En attente</h1>
+				<a href="#none"> <img src="http://placehold.it/300x200" alt=""></a>
+				<article>Lol nope.
+				</article>
   			</div>	
+		</div>
+
 
 		</div>
 	</div>

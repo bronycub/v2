@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 BronyCUB c’est pas que des poneys ! (C’est des gens qu’aiment les poneys aussi)
+=======
+Il n'y a pas que des poneys ! (C’est des gens qui aiment les poneys aussi)
+>>>>>>> 15d2fac049cec9a2895964287fecab822a091891
 Il y a des métaleux et des vocaloïds
 Il y a des illettrés et des grammars nazi
 Il y a des fans de soft yaois et des tarés de r34
@@ -19,5 +23,21 @@ Il y a du cosplay et des bronies qui passent leur vie en pyjama
 Il y a des otakus et des kikoo-japs
 Il y a des gamers Mac et des rétrogamers
 Il y a des artistes maudits et des incompris
+<<<<<<< HEAD
 Il y a des buveurs de Coca et Cacolac
 Ta visite remboursée si tu ne trouves pas ta place ici
+=======
+Il y a des buveurs de Coca et de Cacolac
+Il y a un remboursement de ta visite si tu ne trouves pas ta place ici
+The game.
+Le gâteau est un mensonge
+Everyday I'm clopping
+Il y a des cloppeurs (et ils ne fument pas)
+Il y a des architectes Minecraft et des eternels perdants sur Super Meat Boy
+Il y a des hackers et d'autres avec un portefeuil mieux rempli
+Viens, on est biens~~~
+Toute l'année de gentils bronies t'accueillent dans une ambiance chaleureuse, familiale et sympathique
+Membres de BronyCUB, rencontrez les tous !
+Il y a des membres follows par KowDady d'autres par ILikeGirlsDaily
+Il y a des compositeurs sur TI et d'autres qui peine à calculer 14-6
+>>>>>>> 15d2fac049cec9a2895964287fecab822a091891
