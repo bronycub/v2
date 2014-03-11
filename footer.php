@@ -6,7 +6,7 @@
 
 
                 <div class="col-xs-6 col-md-4">
-<p>Bronycub.org pour toute envoye de mail passez par <a href="mailto:bronycub@gmail.com">bronycub@gmail.com</a></p>
+<p><a href="mailto:bronycub@gmail.com">bronycub@gmail.com</a></p>
                 </div>
                 <div class="col-xs-6 col-md-4">
                 <div align="center">
@@ -16,12 +16,14 @@
                 </div>
                 <div class="col-xs-6 col-md-4" align="right">
                  <ul class="list-unstyled list-inline list-social-icons">
-                    <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    <li class="tooltip-social google-plus-link">
+                      <a href="https://plus.google.com/u/0/104553540007842899140" data-toggle="tooltip" data-placement="top" title="Google+" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
                     </li>
-                  
-                    <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    <li class="tooltip-social twitter-link">
+                      <a href="https://twitter.com/bronycub" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
                     </li>
-                    <li class="tooltip-social google-plus-link"><a href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    <li class="tooltip-social facebook-link">
+                      <a href="https://www.facebook.com/Bronycub" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
                     </li>
                 </ul>
                 </div>  
