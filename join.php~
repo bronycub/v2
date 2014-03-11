@@ -123,12 +123,8 @@ if(isset($_POST['submit'])) {
 ?>
 
 <?php include 'header.php'; ?>
-	<div class="container-fluid">
-		<div class="row">
-		 <div class="col-md-2">
-		</div>
-
-		 <div class="col-md-8">
+<div class="contenair">
+	<div class="row">
 		<h1 align="center">Rejoindre le collectif</h1>
 
 <form role="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contactform" class="form-horizontal well" enctype="multipart/form-data">
@@ -206,14 +202,9 @@ if(isset($_POST['submit'])) {
 </div>
 </form>
 
-		</div>
-
-		 <div class="col-md-2">
-		</div>
-		</div>
 	</div>
-
-	<?php include 'footer.php'; ?>
+</div>
+<?php include 'footer.php'; ?>
 
 
 
