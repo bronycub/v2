@@ -46,7 +46,7 @@
               </ul>
               
               <ul class="nav navbar-nav navbar-right">
-              <li><a href="#NONE">#NONE</a></li>
+              <li><a href="http://appear.in/bronycub">Visio</a></li>
               </ul>
               </div>
               </div>
