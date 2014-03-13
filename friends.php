@@ -110,17 +110,6 @@
 				</div>
 			</div>
 
-			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
-				  <div class="panel-heading">Canterlot Corner</div>
-				  <div class="panel-body">
-				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/">
-				    </a>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum pulvinar orci laoreet hendrerit.<br /><br /></p>
-				  </div>
-				</div>
-			</div>
 
 			<div class="col-md-4" align="center">
 				<div class="panel panel-default">
