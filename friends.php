@@ -16,7 +16,7 @@
 
 			<div class="col-md-4" align="center">
 				<div class="panel panel-default">
-				  <div class="panel-heading">New Lunar Républic</div>
+				  <div class="panel-heading">New Lunar Republic</div>
 				  <div class="panel-body">
 				    <a href="http://newlunarrepublic.fr" target="_blank">
 					<img class="thumbnail" src="./img/new_lunar_republic.png">
@@ -28,7 +28,7 @@
 
 			<div class="col-md-4" align="center">
 				<div class="panel panel-default">
-				  <div class="panel-heading">MLP Fiction</div>
+				  <div class="panel-heading">MLP Fictions</div>
 				  <div class="panel-body">
 				    <a href="http://mlpfictions.com" target="_blank">
 				    <img class="thumbnail" src="./img/mlp_fiction.png">
