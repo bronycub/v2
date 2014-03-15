@@ -39,7 +39,7 @@
 			</div>
 
 			<div class="col-md-4" align="center">
-				<div class="panel panel-success">
+				<div class="panel panel-info">
 				  <div class="panel-heading">Radio Brony</div>
 				  <div class="panel-body">
 				    <a href="http://radiobrony.fr" target="_blank">
@@ -49,6 +49,9 @@
 				  </div>
 				</div>
 			</div>
+<!-- Partenaire Non validé
+
+
 
 			<div class="col-md-4" align="center">
 				<div class="panel panel-default">
@@ -135,7 +138,7 @@
 				</div>
 			</div>
 
-
+-->
 		</div>
 	</div>
 <?php include 'footer.php'; ?>
