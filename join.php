@@ -75,7 +75,7 @@ if(isset($_POST['submit'])) {
 	if(!isset($hasError)) {
 		$emailTo = 'jakmaster.heuzef@gmail.com'; // Put your own email address here
 		$body = "
-		Nom : $name $prenom (<a href='http//fr.gravatar.com/".$pseudo."'>$pseudo</a>) \n\n
+		Nom : $name $prenom ($pseudo) \n\n
 		Email : $email \n\n
 		Tel : $phone \n\n
 		Date de naissance : $naissance \n\n
