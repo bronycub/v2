@@ -1,31 +1,4 @@
 <?php
-//Check that we have a file
-if((!empty($_FILES["uploaded_file"])) && ($_FILES['uploaded_file']['error'] == 0)) {
-  //Check if the file is JPEG image and it's size is less than 10 Mo
-  $filename = basename($_FILES['uploaded_file']['name']);
-  $ext = substr($filename, strrpos($filename, '.') + 1);
-  if (($ext == "jpg") && ($_FILES["uploaded_file"]["type"] == "image/jpeg") && 
-	($_FILES["uploaded_file"]["size"] < 10000000)) {
-    //Determine the path to which we want to save this file
-      $newname = dirname(__FILE__).'/photos/'.$filename;
-      //Check if the file with the same name is already exists on the server
-      if (!file_exists($newname)) {
-        //Attempt to move the uploaded file to it's new place
-        if ((move_uploaded_file($_FILES['uploaded_file']['tmp_name'],$newname))) {
-           //echo "It's done! The file has been saved as: ".$newname;
-        } else {
-           //echo "Erreur: A problem occurred during file upload!";
-        }
-      } else {
-         //echo "Error: File ".$_FILES["uploaded_file"]["name"]." already exists";
-      }
-  } else {
-     //echo "Error: Only .jpg images under 10 Mo are accepted for upload";
-  }
-} else {
- //echo "Error: No file uploaded";
-}
-
 if(isset($_POST['submit'])) {
 
 	if(trim($_POST['contactname']) == '') {
@@ -82,12 +55,6 @@ if(isset($_POST['submit'])) {
 		$ville = trim($_POST['ville']);
 	}
 
-	if(trim($_POST['tags']) == '') {
-		$hasError = true;
-	} else {
-		$tags = trim($_POST['tags']);
-	}
-
 	if(trim($_POST['bio']) == '') {
 		$hasError = true;
 	} else {
@@ -107,11 +74,11 @@ if(isset($_POST['submit'])) {
 		Photo : $filename \n\n
 		Nom : $name $prenom ($pseudo) \n\n
 		Email : $email \n\n
-		Téléphone : $phone \n\n
+		T&eacute;l&eacute;phone : $phone \n\n
 		Date de naissance : $naissance \n\n
 		Adresse : $adresse $postal $ville \n\n
-		Tags : $tags \n\n
 		Bio : $bio \n\n
+		URL : $url \n\n
 		Pony : $pony \n\n
 		";
 		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
@@ -129,83 +96,71 @@ if(isset($_POST['submit'])) {
 		</div>
 
 		 <div class="col-md-8">
-		<h1 align="center">Rejoindre le collectif</h1>
+			<img src="./img/title_join.png" alt="logo_bronycub" class="img-responsive"><br />
+			<form role="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contactform" class="form-horizontal well" enctype="multipart/form-data">
+				<?php if(isset($hasError)) { ?>
+				<div class="alert alert-dismissable alert-danger"><button type="button" class="close" data-dismiss="alert">×</button>Certains champs ne sont pas remplis avec des informations valides.</div>
+				<?php echo $erreur; ?></p>
+				<?php } ?>
 
-<form role="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contactform" class="form-horizontal well" enctype="multipart/form-data">
-<?php if(isset($hasError)) { //If errors are found ?>
-<p class="alert-error">S'il vous plaît, vérifier que tous les champs sont remplis avec des informations valides et réessayez.<br />
-<?php echo $erreur; ?></p>
-<?php } ?>
+				<?php if(isset($emailSent) && $emailSent == true) { ?>
+				<div class="alert alert-dismissable alert-success"><button type="button" class="close" data-dismiss="alert">×</button>
+					<h3>Message bien reçu !</h3>
+					<iframe width="853" height="480" src="//www.youtube.com/embed/KgOAo_u187A?autoplay=1" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<br />
+				<br />
+				<?php } ?>
 
-<?php if(isset($emailSent) && $emailSent == true) { //If email is sent ?>
-<div class="alert-success">
-<h3>Message bien reçu !</h3>
-<iframe width="220" height="150" src="//www.youtube.com/embed/0A89zUutc24?autoplay=1" frameborder="0" allowfullscreen></iframe>
-</div>
-<br />
-<br />
-<?php } ?>
-
-<div class="fileupload fileupload-new" data-provides="fileupload">
-<span class="btn btn-file"><span class="fileupload-new">Votre photo au format <strong>JPG</strong></span><span class="fileupload-exists">Changer</span>
-<input type="hidden" name="MAX_FILE_SIZE" value="10000000" /><input name="uploaded_file" type="file" /></span>
-<span class="fileupload-preview"></span>
-<a href="#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none">×</a>
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="contactname" id="contactname" placeholder="Nom" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="prenom" id="prenom" placeholder="Pr&#233;nom" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="pseudo" id="pseudo" placeholder="Pseudonyme" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="email" id="email" placeholder="Email" value="" class="form-control required email" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="phone" id="phone" placeholder="T&#233;l&#233;phone" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="naissance" id="naissance" placeholder="Date de naissance" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="adresse" id="adresse" placeholder="Adresse" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="ville" id="ville" placeholder="Ville" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="postal" id="postal" placeholder="Code postal" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="tags" id="tags" placeholder="Tags (Ex : Passion, site internet, ...)" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br />
-<div class="form-group">
-<textarea maxlength="500" rows="14" name="bio" id="bio" rows="6" class="form-control required" role="textbox" aria-required="true" placeholder="Ecrivez quelques lignes &#224; propos de vous (500 caract&#232;res max)"></textarea>
-</div>
-<br />
-<div class="form-group">
-<input type="text" name="pony" id="pony" placeholder="Pony pr&#233;f&#233;r&#233;" value="" class="form-control required" role="input" aria-required="true" />
-</div>
-<br /><br />
-<div class="actions">
-<input type="submit" value="Brohoof /)" name="submit" id="submitButton" class="btn btn-success btn-large" title="Envoyer le message" />
-</div>
-</form>
-
+				<div class="form-group">
+					<label for="contactname" class="col-lg-1 control-label">Nom</label>
+					<div class="col-lg-4"><input type="text" name="contactname" id="contactname" class="form-control" id="contactname" placeholder="Nom" aria-required="true" ></div>
+					<label for="prenom" class="col-lg-1 control-label">Pr&eacute;nom</label>
+					<div class="col-lg-4"><input type="text" name="prenom" id="prenom" class="form-control" id="prenom" placeholder="Pr&eacute;nom" aria-required="true" ></div>
+				</div>
+				<div class="form-group">
+					<label for="email" class="col-lg-1 control-label">Email</label>
+					<div class="col-lg-4"><input type="text" name="email" id="email" class="form-control" id="email" placeholder="Email" aria-required="true" ></div>
+					<label for="phone" class="col-lg-1 control-label">T&eacute;l&eacute;phone</label>
+					<div class="col-lg-4"><input type="text" name="phone" id="phone" class="form-control" id="phone" placeholder="T&eacute;l&eacute;phone" aria-required="true" ></div>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="pseudo" class="col-lg-1 control-label">Pseudo</label>
+					<div class="col-lg-4"><input type="text" name="pseudo" id="pseudo" class="form-control" id="pseudo" placeholder="Pseudo Gravatar" aria-required="true" ></div>
+					<div class="col-lg-5"><div class="alert alert-info"><i class="fa fa-arrow-left fa-1x"></i>&nbsp;&nbsp;&nbsp;<strong>Important : </strong>votre pseudo sera synchronis&eacute; avec votre <a href="http://fr.gravatar.com" target="_blank">Gravatar</a> !</div></div>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="naissance" class="col-lg-1 control-label">Naissance</label>
+					<div class="col-lg-4"><input type="text" name="naissance" id="naissance" class="form-control" id="naissance" placeholder="Date de naissance" aria-required="true" ></div>
+					<label for="adresse" class="col-lg-1 control-label">Adresse</label>
+					<div class="col-lg-4"><input type="text" name="adresse" id="adresse" class="form-control" id="adresse" placeholder="Adresse" aria-required="true" ></div>
+				</div>
+				<div class="form-group">
+					<label for="ville" class="col-lg-1 control-label">Ville</label>
+					<div class="col-lg-4"><input type="text" name="ville" id="ville" class="form-control" id="ville" placeholder="Ville" aria-required="true" ></div>
+					<label for="postal" class="col-lg-1 control-label">CP</label>
+					<div class="col-lg-4"><input type="text" name="postal" id="postal" class="form-control" id="postal" placeholder="Code postal" aria-required="true" ></div>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="bio" class="col-lg-1 control-label">Pr&eacute;sentation</label>
+					<div class="col-lg-9"><textarea maxlength="500" rows="5" name="bio" id="bio" rows="6" class="form-control" role="textbox" aria-required="true" placeholder="Ecrivez quelques lignes &agrave; propos de vous (500 caract&eacute;res max)"></textarea></div>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="url" class="col-lg-1 control-label">WWW <span class="label label-default">facultatif</span></label>
+					<div class="col-lg-9"><textarea rows="5" name="url" id="url" rows="6" class="form-control" role="textbox" placeholder="Listez ici vos liens vers vos r&eacute;seaux sociaux, sites internets, etc ..."></textarea></div>
+				</div>
+				<div class="form-group">
+					<label for="ville" class="col-lg-3 control-label">Who is best Pony ?</label>
+					<div class="col-lg-4"><input type="text" name="pony" id="pony" class="form-control" id="pony" placeholder="Vos poneys pr&eacute;f&eacute;r&eacute;s ?" aria-required="true" ></div>
+					<div class="col-lg-4">
+					<input type="submit" value="BROHOOF /)" name="submit" id="submitButton" class="btn btn-info btn-large" title="Envoyer !" />
+					</div>
+				</div>
+			</form>
 		</div>
 
 		 <div class="col-md-2">
