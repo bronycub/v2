@@ -61,10 +61,8 @@ if(isset($_POST['submit'])) {
 		$bio = trim($_POST['bio']);
 	}
 	
-	if(trim($_POST['url']) == '') {
-		$hasError = false;
-	} else {
-		$bio = trim($_POST['url']);
+	if(trim($_POST['url'])) {
+		$url = trim($_POST['url']);
 	}
 
 	if(trim($_POST['pony']) == '') {
