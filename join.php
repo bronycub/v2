@@ -60,6 +60,12 @@ if(isset($_POST['submit'])) {
 	} else {
 		$bio = trim($_POST['bio']);
 	}
+	
+	if(trim($_POST['url']) == '') {
+		$hasError = false;
+	} else {
+		$bio = trim($_POST['url']);
+	}
 
 	if(trim($_POST['pony']) == '') {
 		$hasError = true;
@@ -71,10 +77,9 @@ if(isset($_POST['submit'])) {
 	if(!isset($hasError)) {
 		$emailTo = 'jakmaster.heuzef@gmail.com'; // Put your own email address here
 		$body = "
-		Photo : $filename \n\n
-		Nom : $name $prenom ($pseudo) \n\n
+		Nom : $name $prenom (<a href='http//fr.gravatar.com/".$pseudo."'>$pseudo</a>) \n\n
 		Email : $email \n\n
-		T&eacute;l&eacute;phone : $phone \n\n
+		Tel : $phone \n\n
 		Date de naissance : $naissance \n\n
 		Adresse : $adresse $postal $ville \n\n
 		Bio : $bio \n\n
