@@ -15,7 +15,7 @@
 			</div>
 
 			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
+				<div class="panel panel-info">
 				  <div class="panel-heading">New Lunar Republic</div>
 				  <div class="panel-body">
 				    <a href="http://newlunarrepublic.fr" target="_blank">
@@ -45,22 +45,7 @@
 				    <a href="http://radiobrony.fr" target="_blank">
 				    <img class="thumbnail" src="./img/radio_brony.png">
 				    </a>
-				    <p>La radio des Bronies, 100% Française !<br /><br /></p>
-				  </div>
-				</div>
-			</div>
-<!-- Partenaire Non validé
-
-
-
-			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
-				  <div class="panel-heading">Pulps</div>
-				  <div class="panel-body">
-				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/">
-				    </a>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum pulvinar orci laoreet hendrerit.<br /><br /></p>
+				    <p>La radio des Bronies, 100% Française !<br /><br /><br /></p>
 				  </div>
 				</div>
 			</div>
@@ -68,6 +53,19 @@
 			<div class="col-md-4" align="center">
 				<div class="panel panel-default">
 				  <div class="panel-heading">Mandora</div>
+				  <div class="panel-body">
+				    <a href="http://www.mandora.fr" target="_blank">
+				    <img class="thumbnail" src="./img/mandora.png">
+				    </a>
+				    <p>Mandora est une association à vocation culturelle, active dans la CUB de Bordeaux, développant de nombreuses manifestations.</p>
+				  </div>
+				</div>
+			</div>
+
+<!--
+			<div class="col-md-4" align="center">
+				<div class="panel panel-default">
+				  <div class="panel-heading">Pulps</div>
 				  <div class="panel-body">
 				    <a href="#" target="_blank">
 					<img class="thumbnail" src="http://fakeimg.pl/300x200/">
@@ -137,7 +135,6 @@
 				  </div>
 				</div>
 			</div>
-
 -->
 		</div>
 	</div>
