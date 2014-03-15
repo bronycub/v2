@@ -37,3 +37,19 @@ ____________________________________________________________________▓▒▒▒
 _____________________________________________________________________▓▒▒▒▓__▓▒▒▒▒▒▓
 ______________________________________________________________________▓▓▓_____▓▓▒▒▓▓
 _________________________________________________________________________________▓▓▓
+
+_________________________TODO_________________________
+
+-> Rajouter un formulaire dans l'agenda pour la création d'events.
+
+-> Refaire l'indentation proprement du header (et inclure les dépendances de l'agenda dedans.
+
+-> Faire le footer, avec la page contact inclu dedans.
+
+-> Créer la page membres.
+
+-> Faire évoluer les partenariats.
+
+-> Trouver un outil permettant la synchronisation auto de twitter sur FB et G+.
+
+-> Créer un Back Office pour l'edition des membres.

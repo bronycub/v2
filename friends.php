@@ -54,8 +54,8 @@
 				<div class="panel panel-default">
 				  <div class="panel-heading">Mandora</div>
 				  <div class="panel-body">
-				    <a href="http://www.mandora.fr" target="_blank">
 				    <img class="thumbnail" src="./img/mandora.png">
+				    <a href="http://www.mandora.fr" target="_blank">
 				    </a>
 				    <p>Mandora est une association à vocation culturelle, active dans la CUB de Bordeaux, développant de nombreuses manifestations.</p>
 				  </div>
