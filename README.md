@@ -40,11 +40,9 @@ ________________________________________________________________________________
 
 _________________________TODO_________________________
 
--> Rajouter un formulaire dans l'agenda pour la création d'events.
-
--> Refaire l'indentation proprement du header (et inclure les dépendances de l'agenda dedans.
-
 -> Faire le footer, avec la page contact inclu dedans.
+
+-> Finir le formulaire d'event.
 
 -> Créer la page membres.
 
