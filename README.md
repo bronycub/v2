@@ -53,3 +53,9 @@ _________________________TODO_________________________
 -> Trouver un outil permettant la synchronisation auto de twitter sur FB et G+.
 
 -> Créer un Back Office pour l'edition des membres.
+
+-> Crée une template pour les mail de BC
+
+-> Crée les resource press avec Ragator
+
+-> Contactez tout les membre pour prendre leurs compte gravatar 
