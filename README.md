@@ -54,8 +54,4 @@ _________________________TODO_________________________
 
 -> Créer un Back Office pour l'edition des membres.
 
--> Crée une template pour les mail de BC
-
--> Crée les resource press avec Ragator
-
--> Contactez tout les membre pour prendre leurs compte gravatar 
+-> Récupérer les comptes Gravatar des 23 membres actuels
