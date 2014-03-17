@@ -40,22 +40,16 @@ ________________________________________________________________________________
 
 _________________________TODO_________________________
 
--> Rajouter un formulaire dans l'agenda pour la création d'events.
-
--> Refaire l'indentation proprement du header (et inclure les dépendances de l'agenda dedans.
-
 -> Faire le footer, avec la page contact inclu dedans.
+
+-> Finir le formulaire d'event.
 
 -> Créer la page membres.
 
 -> Faire évoluer les partenariats.
 
--> Trouver un outil permettant la synchronisation auto de twitter sur FB et G+.
+-> Trouver un outil permettant la synchronisation auto de Twitter sur FB et G+.
 
 -> Créer un Back Office pour l'edition des membres.
 
--> Crée une template pour les mail de BC
-
--> Crée les resource press avec Ragator
-
--> Contactez tout les membre pour prendre leurs compte gravatar 
+-> Récupérer les comptes Gravatar des 23 membres actuels.
