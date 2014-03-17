@@ -3,21 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>BronyCUB</title>
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="BootStrap/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="BootStrap/css/footer.css">
-  <link rel="stylesheet" href="BootStrap/zocial/zocial.css">
+	<link href="css_global/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css_global/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css_global/css/footer.css">
+  <link rel="stylesheet" href="css_global/zocial/zocial.css">
 	<link rel="shortcut icon" type="image/png" href="http://www.bronycub.org/ressources/logo/favicon_bronycub.png" />
 </head>
 <body>
+	<!-- All JS script -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="BootStrap/js/bootstrap.min.js"></script>
+	<script src="scirpt/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="calendar/js/jquery-ui-1.8.23.custom.min.js"></script>
-	<script type="text/javascript" src="calendar/js/calendar.min.js"></script>
-	<link rel="stylesheet" type="text/css" media="screen" href="calendar/css/smoothness/jquery-ui-1.8.23.custom.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="calendar/css/calendar.css" />
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="scirpt/calendar/js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="scirpt/calendar/js/calendar.min.js"></script>
+	<script type="text/javascript" src="script/readmemore.js"> </script>
+   
+	<link rel="stylesheet" type="text/css" media="screen" href="scirpt/calendar/css/smoothness/jquery-ui-1.8.23.custom.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="scirpt/calendar/css/calendar.css" />
+	<link href="scirpt/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container-fluid">

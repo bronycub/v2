@@ -42,7 +42,7 @@
 			<h5>30/01/1996</h5>
 	  </th>
       <th width="50%">
-      	<div class="TAGUEULE" align="right">
+      	<div class="None" align="right">
 										<a href="skype:alexouil4?call" target="_blank" class="zocial icon skype"></a>
 										<a href="http://www.youtube.com/channel/UCqX2vIbM82qFLaqyg0studw/videos?view=1&feature=guide" target="_blank" class="zocial icon youtube"></a>
 										<a href="https://plus.google.com/100034201101510718430" target="_blank" class="zocial icon googleplus"></a>
@@ -61,6 +61,7 @@
     <table class="table">
     <tr>
     <th width="100%">
+    <div class="">
     	<article>Artiste dans divers domaines ! Adorateur du Steampunk ! Développeur amateur et blogueur !<br />
 									Yaoiste et Otaku assumé :3 <br />
 									Cette bio est trop courte, comme ma planète ! <br />
