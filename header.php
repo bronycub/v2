@@ -1,21 +1,13 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<<<<<<< HEAD
-      <meta charset="UTF-8">
-      <title>BronyCUB</title>
-      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="BootStrap/css/bootstrap.css">
-      <link rel="stylesheet" type="text/css" href="BootStrap/css/footer.css"> 
-      <link rel="stylesheet" href="BootStrap/zocial/zocial.css">
-=======
 	<meta charset="UTF-8">
 	<title>BronyCUB</title>
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="BootStrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="BootStrap/css/footer.css">
+  <link rel="stylesheet" href="BootStrap/zocial/zocial.css">
 	<link rel="shortcut icon" type="image/png" href="http://www.bronycub.org/ressources/logo/favicon_bronycub.png" />
->>>>>>> a84aca99094fa9bf3ec7abcc8265d8a88289b519
 </head>
 <body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
