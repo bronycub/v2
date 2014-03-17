@@ -16,7 +16,8 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="scirpt/calendar/js/jquery-ui-1.8.23.custom.min.js"></script>
 	<script type="text/javascript" src="scirpt/calendar/js/calendar.min.js"></script>
-	<script type="text/javascript" src="script/readmemore.js"> </script>
+	<script type="text/javascript" src="script/jquery.expander.js"> </script>
+	<script type="text/javascript" src="script/expender.js"></script>
    
 	<link rel="stylesheet" type="text/css" media="screen" href="scirpt/calendar/css/smoothness/jquery-ui-1.8.23.custom.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="scirpt/calendar/css/calendar.css" />
