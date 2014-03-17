@@ -6,6 +6,7 @@
       <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="BootStrap/css/bootstrap.css">
       <link rel="stylesheet" type="text/css" href="BootStrap/css/footer.css"> 
+      <link rel="stylesheet" href="BootStrap/zocial/zocial.css">
 </head>
 <body>
               <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
