@@ -9,8 +9,8 @@
 
 			 <div class="col-md-6">
 				<?php
-				require_once('calendar/class/calendar.class.php');
-				require_once('calendar/class/ical.class.php');
+				require_once('script/calendar/class/calendar.class.php');
+				require_once('script/calendar/class/ical.class.php');
 
 				$cal = new Calendar(array(
 				'url' 			=> "https://www.google.com/calendar/ical/bronycub%40gmail.com/public/basic.ics" ,

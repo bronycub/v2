@@ -19,9 +19,9 @@
 	<script type="text/javascript" src="script/jquery.expander.js"> </script>
 	<script type="text/javascript" src="script/expender.js"></script>
    
-	<link rel="stylesheet" type="text/css" media="screen" href="scirpt/calendar/css/smoothness/jquery-ui-1.8.23.custom.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="scirpt/calendar/css/calendar.css" />
-	<link href="scirpt/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="script/calendar/css/smoothness/jquery-ui-1.8.23.custom.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="script/calendar/css/calendar.css" />
+	<link href="script/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
