@@ -5,11 +5,11 @@
 	<div class="col-lg-5">
 		
 <div class="list-group-item">
-   <table class="table">
+   <table class="table table-striped table-hover">
  
     <tr>
       <td width="20%">
-      <p align="left"><img src="http://fr.gravatar.com/avatar/c0f08ae603e364cb554fe71c9fc94ffd?s=125" alt="" class="thumbnail img-responsive"></p>
+      <p align="left"><img src="http://fr.gravatar.com/avatar/c0f08ae603e364cb554fe71c9fc94ffd?s=100" alt="" class=" img-responsive"></p>
       </td>
       <td width="30%">
       <h2 align="left">Heuzef</h2>
@@ -33,7 +33,7 @@
       </td>
     </tr>
     </table>
-    <table class="table">
+    <table class="table table-striped table-hover">
     <tr>
     <td width="100%">
     <div class="expandable">
@@ -53,11 +53,11 @@
 	<div class="col-lg-5">
 		
 <div class="list-group-item">
-   <table class="table">
+   <table class="table table-striped table-hover">
  
     <tr>
       <td width="20%">
-      <p align="left"><img src="http://fr.gravatar.com/avatar/73e4bdc45fa3c3c053a3e837d2fef772?s=125" alt="" class="thumbnail img-responsive"></p>
+      <p align="left"><img src="http://fr.gravatar.com/avatar/73e4bdc45fa3c3c053a3e837d2fef772?s=100" alt="" class="thumbnail img-responsive"></p>
       </td>
       <td width="30%">
       <h2 align="left">Lezarius</h2>
@@ -81,7 +81,7 @@
       </td>
     </tr>
     </table>
-    <table class="table">
+    <table class="table table-striped table-hover">
     <tr>
     <td width="100%">
     <div class="expandable">
