@@ -9,9 +9,9 @@ $(document).ready(function() {
   $('div.expandable p').expander({
     slicePoint:       50,  // default is 100
     expandPrefix:     ' ', // default is '... '
-    expandText:       '[...]', // default is 'read more'
+    expandText:       '<br /> <br /> <div align="center"><button type="button" class="btn btn-success">Plus</button></div>', // default is 'read more'
     collapseTimer:    0, // re-collapses after 5 seconds; default is 0, so no re-collapsing
-    userCollapseText: '[^]'  // default is 'read less'
+    userCollapseText: ' <br /> <br /> <div align="center"><button type="button" class="btn btn-danger">Moins</button></div>'  // default is 'read less'
   });
 
 });
