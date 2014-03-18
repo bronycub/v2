@@ -1,4 +1,18 @@
-		
+<?php //INFOS DU MEMBRES
+
+$pseudo="heuzef";
+$Prenom="Florent";
+$Nom="Heuzé";
+$DateDeNaissance="05/07/1990";
+//Liste longue est chiante de Résseaux Sociaux merdique.
+$twitter="heuzef ";
+$facebook="";
+$googleplus="heuzef ";
+$website="heuzef.com";
+
+?>		
+
+
 <div class="list-group-item">
    <table class="table table-striped table-hover">
  
@@ -7,9 +21,9 @@
       <p align="left"><img src="http://fr.gravatar.com/avatar/c0f08ae603e364cb554fe71c9fc94ffd?s=100" alt="" class="img-rounded img-responsive"></p>
       </td>
       <td width="30%">
-      <h2 align="left">Heuzef</h2>
-		<h5 align="left">Florent Heuzé</h5>
-			<h5>05/07/1990</h5>
+      <h2 align="left"><?php echo $pseudo; ?></h2>
+		<h5 align="left"><?php echo "$Nom $Prenom "; ?></h5>
+			<h5><?php echo $DateDeNaissance; ?></h5>
 	  </td>
       <td width="50%">
       	<div class="None" align="right">
@@ -35,9 +49,9 @@
     <p>	Fondateur du collectif BronyCUB, Florent est ce que l'on appelle un Geek. Avec le soutien de l'association <a href="http://www.mandora.fr" target="_blank">Mandora</a>, il a créé ce collectif suite aux difficultés rencontrées par les Bronies habitants la CUB à se regrouper et organiser des rencontres.
 									Florent vit à Bordeaux depuis plusieurs années, où il à commencer <a href="http://www.heuzef.com" target="_blank">sa carrière dans l'informatique</a>, il découvrit également une forte passion pour l'<a href="http://www.campus-aikido.fr" target="_blank">Aïkido</a>.
 									<br><br>
-   <em><strong> Best Pony: </strong></em><br> <br>
-    <img src="img/headPonies/12.png" class="img-circle " alt="Derpy" >
-    <img src="img/headPonies/77.png" class="img-circle " alt="Colgate">
+   
+    <img src="img/headPonies/12.png" class="img-circle " alt="Derpy" >&nbsp;&nbsp;&nbsp;<span class="label label-info">Derpy Hooves is best pony !</span>
+    &nbsp;&nbsp;<img src="img/headPonies/77.png" class="img-circle " alt="Colgate">&nbsp;&nbsp;&nbsp;<span class="label label-info">Brushie Brushie Brushie !</span>
 
 
 
@@ -50,3 +64,4 @@
   
 </table> 
  </div>
+ <br>

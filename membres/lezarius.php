@@ -35,8 +35,11 @@
     	<p>Artiste dans divers domaines ! Adorateur du Steampunk ! Développeur amateur et blogueur ! Yaoiste et Otaku assumé :3 Cette bio est trop courte, comme ma planète ! Sinon il <a href="https://twitter.com/remy_mazabraud" target="_blank">tweet</a> des trucs.
     <br><br>
    <em><strong> Best Pony: </strong></em><br> <br>
-    <img src="img/headPonies/8.png" class="img-circle " alt="">
-    <img src="img/headPonies/7.png" class="img-circle " alt="">
+    <img src="img/headPonies/8.png" class="img-circle " alt="">&nbsp;&nbsp;&nbsp;<span class="label label-info">Octavia is best 
+cellist ever !</span>
+    &nbsp;&nbsp;
+    <img src="img/headPonies/7.png" class="img-circle " alt="">&nbsp;&nbsp;&nbsp;<span class="label label-info">Vinyl is best 
+DJ !</span>
 
       </p>
     </div>
@@ -47,7 +50,4 @@
   
 </table> 
  </div>
-
-	</div>
-	<div class="col-lg-1"></div>
-</div>
+<br>
