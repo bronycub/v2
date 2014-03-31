@@ -1,23 +1,38 @@
+<?php include 'header.php'; ?>
+
 <?php
-if ($handle = opendir('.')) {
-    while (false !== ($entry = readdir($handle))) {
-	if ($entry != "." && $entry != ".." && $entry != "index.php") {
-			if ($sub_handle = opendir($entry)) { 
-				while (false !== ($sub_entry = readdir($sub_handle))) { 
-				if ($sub_entry != "." && $sub_entry != "..") { 
-				echo '<p><a href="'.$entry.'/'.$sub_entry.'">'.$sub_entry.'</a></p>';
-				}
-			    }
-			    closedir($sub_handle);
-			}
-	}
-    }
-    closedir($handle);
-}
+// compter le nombre de membres
+$f = 0;
+foreach(glob('*.php') as $f) {$f+=1;}
+$nb_membres = count(glob('./membres/*.php'));
 ?>
 
+<?php
+// if ($handle = opendir('membres'))
+// 	{
+// 		while (false !== ($entry = readdir($handle)))
+// 		{
+// 			if ($entry != "." && $entry != ".." && $entry != "index.php")
+// 			{
+// 				if ($handle = opendir($entry))
+// 				{ 
+// 					while (false !== ($entry = readdir($handle)))
+// 					{ 
+// 						if ($entry != "." && $entry != "..")
+// 						{ 
+// 							echo '<p><a href="'.$entry.'/'.$entry.'">'.$entry.'</a></p>';
+// 						}
+// 					}
+// 				closedir($handle);
+// 				}
+// 			}
+// 		}
+// 	closedir($handle);
+// 	}
+?>
 
-<?php include 'header.php'; ?>
+<?php echo "Il y à ".$nb_membres." membres";?>
+
 
 <div class="container">
 
