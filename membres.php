@@ -17,8 +17,7 @@ $nb_membres = count(glob('./membres/*.php'));
 		{
 			$user = explode(".php", $fichier);
 			echo "<div class='col-lg-6'>";
-			include "membres/heuzef.php";
-			echo $user[0];
+			include ("membres/".$user[0].".php");
 			echo "</div>";
 		}
 	}
