@@ -8,50 +8,22 @@ $nb_membres = count(glob('./membres/*.php'));
 ?>
 
 <?php
-// if ($handle = opendir('membres'))
-// 	{
-// 		while (false !== ($entry = readdir($handle)))
-// 		{
-// 			if ($entry != "." && $entry != ".." && $entry != "index.php")
-// 			{
-// 				if ($handle = opendir($entry))
-// 				{ 
-// 					while (false !== ($entry = readdir($handle)))
-// 					{ 
-// 						if ($entry != "." && $entry != "..")
-// 						{ 
-// 							echo '<p><a href="'.$entry.'/'.$entry.'">'.$entry.'</a></p>';
-// 						}
-// 					}
-// 				closedir($handle);
-// 				}
-// 			}
-// 		}
-// 	closedir($handle);
-// 	}
+	$folder = "membres";
+	$dossier = opendir($folder);
+	echo "<div class='container'>";
+	while ($fichier = readdir($dossier))
+	{
+		if ($fichier != "." && $fichier != ".." )
+		{
+			$user = explode(".php", $fichier);
+			echo "<div class='col-lg-6'>";
+			include "membres/heuzef.php";
+			echo $user[0];
+			echo "</div>";
+		}
+	}
+	closedir($dossier);
+	echo "</div>";
 ?>
-
-<?php echo "Il y à ".$nb_membres." membres";?>
-
-
-<div class="container">
-
-	<div class="col-lg-6">
-		<?php include 'membres/heuzef.php'; ?>
-	</div>
-
-	<div class="col-lg-6">
-		<?php include 'membres/heuzef.php'; ?>
-	</div>
-
-</div>
-
-<div class="container">
-
-	<div class="col-lg-6">
-		<?php include 'membres/heuzef.php'; ?>
-	</div>
-
-</div>
 
 <?php include 'footer.php'; ?>
