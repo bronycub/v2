@@ -8,6 +8,7 @@ $nb_membres = count(glob('./membres/*.php'));
 ?>
 
 <?php
+// lister les membres dans un tableau
 	$folder = "membres";
 	$dossier = opendir($folder);
 	echo "<div class='container'>";
