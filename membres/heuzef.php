@@ -6,17 +6,12 @@ $prenom="Florent";
 $nom="Heuzé";
 $naissance="05/07/1990";
 $url="
-<a href='skype:alexouil4?call' target='_blank' class='zocial icon skype'></a>
-<a href='http://www.youtube.com/channel/UCqX2vIbM82qFLaqyg0studw/videos?view=1&feature=guide' target='_blank' class='zocial icon youtube'></a>
-<a href='https://plus.google.com/100034201101510718430' target='_blank' class='zocial icon googleplus'></a>
-<a href='https://twitter.com/RagatorStilwell' target='_blank' class='zocial icon twitter'></a> 
-<a href='https://www.facebook.com/Ragator' target='_blank' class='zocial icon facebook'></a>
-<a href='http://alexouil4.deviantart.com' target='_blank' class='zocial icon disqus'></a>
-<a href='http://ragator.tumblr.com' target='_blank' class='zocial icon tumblr'></a>
-<a href='http://steamcommunity.com/profiles/76561198025372514?l=french' target='_blank' class='zocial icon steam'></a>
-<a href='http://www.betaseries.com/membre/Ragator' target='_blank' class='zocial icon googleplay'></a>
+<a href='http://heuzef.com' target='_blank' class='zocial icon chrome'></a>
+<a href='http://gplus.to/heuzef' target='_blank' class='zocial icon googleplus'></a>
+<a href='https://twitter.com/heuzef' target='_blank' class='zocial icon twitter'></a>
+<a href='http://www.betaseries.com/membre/heuzef' target='_blank' class='zocial icon googleplay'></a>
 ";
 $bio="Fondateur du collectif BronyCUB, Florent est ce que l'on appelle un Geek. Avec le soutien de l'association <a href='http://www.mandora.fr' target='_blank'>Mandora</a>, il a créé ce collectif suite aux difficultés rencontrées par les Bronies habitants la CUB à se regrouper et organiser des rencontres. Florent vit à Bordeaux depuis plusieurs années, où il à commencer <a href='http://www.heuzef.com' target='_blank'>sa carrière dans l'informatique</a>, il découvrit également une forte passion pour l'<a href='http://www.campus-aikido.fr' target='_blank'>Aïkido</a>.";
-$pony="<img src='img/ponies/12.png' class='img-circle'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/76.png' class='img-circle'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Brushie Brushie Brushie !</span>";
+$pony="<img src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/colgate.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Colgate can brush your teeth ?</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
