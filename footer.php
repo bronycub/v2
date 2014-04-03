@@ -2,14 +2,14 @@
 <br />
 <footer>
 	<div class="container-fluid">
-		<div class="col-md-3"></div>
-		<div class="col-md-2">
+		<div class="col-md-2"></div>
+		<div class="col-md-3">
 			<img src="./img/derpy.gif" width="50px" style="float:right;" />
 			<h4><i class="fa fa-envelope"></i>&nbsp;&nbsp;Contactez-nous :</h4>
 			<a class="btn btn-primary btn-lg" href="mailto:bronycub@googlegroups.com">bronycub@googlegroups.com</a>
 		</div>
-		<div class="col-md-2"></div>
-		<div class="col-md-2">
+		<div class="col-md-3"></div>
+		<div class="col-md-3">
 			<br />
 			<ul class="list-unstyled list-inline list-social-icons">
 				<li class="tooltip-social google-plus-link">
@@ -23,7 +23,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="col-md-3"></div>
+		<div class="col-md-2"></div>
 	</div>
 </footer>
 
