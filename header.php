@@ -21,7 +21,6 @@
    
 	<link rel="stylesheet" type="text/css" media="screen" href="script/calendar/css/smoothness/jquery-ui-1.8.23.custom.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="script/calendar/css/calendar.css" />
-	<link href="css_global/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
