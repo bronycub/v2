@@ -4,7 +4,7 @@ $pseudo="Lezarius";
 $gravatar="73e4bdc45fa3c3c053a3e837d2fef772";
 $prenom="Rémy";
 $nom="Mazabraud";
-$naissance="05/07/1990";
+$naissance="30/01/1996";
 $url="
 <a href='http://www.lezarius.eu' target='_blank' class='zocial icon chrome'></a>
 <a href='https://plus.google.com/111302211522949686026' target='_blank' class='zocial icon googleplus'></a>
