@@ -55,9 +55,6 @@ a:active,
 a:hover {
   outline: 0;
 }
-.linkhome {
-  font-size: 24px;
-}
 abbr[title] {
   border-bottom: 1px dotted;
 }
