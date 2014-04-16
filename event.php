@@ -1,88 +1,17 @@
 <?php
 if(isset($_POST['submit'])) {
 
-	if(trim($_POST['nom_event']) == '') {
+	if(trim($_POST['nom']) == '') {
 		$hasError = true;
 	} else {
-		$name = trim($_POST['nom_event']);
-	}
-
-	if(trim($_POST['prenom']) == '') {
-		$hasError = true;
-	} else {
-		$prenom = trim($_POST['prenom']);
-	}
-
-	if(trim($_POST['pseudo']) == '') {
-		$hasError = true;
-	} else {
-		$pseudo = trim($_POST['pseudo']);
-	}
-
-	if(trim($_POST['email']) == '') {
-		$hasError = true;
-	} else {
-		$email = trim($_POST['email']);
-	}
-
-	if(trim($_POST['phone']) == '') {
-		$hasError = true;
-	} else {
-		$phone = trim($_POST['phone']);
-	}
-
-	if(trim($_POST['naissance']) == '') {
-		$hasError = true;
-	} else {
-		$naissance = trim($_POST['naissance']);
-	}
-
-	if(trim($_POST['adresse']) == '') {
-		$hasError = true;
-	} else {
-		$adresse = trim($_POST['adresse']);
-	}
-
-	if(trim($_POST['postal']) == '') {
-		$hasError = true;
-	} else {
-		$postal = trim($_POST['postal']);
-	}
-
-	if(trim($_POST['ville']) == '') {
-		$hasError = true;
-	} else {
-		$ville = trim($_POST['ville']);
-	}
-
-	if(trim($_POST['bio']) == '') {
-		$hasError = true;
-	} else {
-		$bio = trim($_POST['bio']);
-	}
-	
-	if(trim($_POST['url'])) {
-		$url = trim($_POST['url']);
-	}
-
-	if(trim($_POST['pony']) == '') {
-		$hasError = true;
-	} else {
-		$pony = trim($_POST['pony']);
+		$name = trim($_POST['nom']);
 	}
 
 	//If there is no error, send the email
 	if(!isset($hasError)) {
 		$emailTo = 'jakmaster.heuzef@gmail.com'; // Put your own email address here
 		$body = "
-		Nom : $name $prenom ($pseudo) \n\n
-		Email : $email \n\n
-		Tel : $phone \n\n
-		Date de naissance : $naissance \n\n
-		Adresse : $adresse $postal $ville \n\n
-		Bio : $bio \n\n
-		URL : $url \n\n
-		Pony : $pony \n\n
+		Nom de l'event : $nom \n\n
 		";
 		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
@@ -115,25 +44,47 @@ if(isset($_POST['submit'])) {
 				<?php } ?>
 
 				<div class="form-group">
-					<label for="nom_event" class="col-lg-1 control-label">Nom</label>
-					<div class="col-lg-2"><input type="text" name="nom_event" id="nom_event" class="form-control" id="nom_event" placeholder="Nom de l'&eacute;venement" aria-required="true" ></div>
-					<label for="date_event" class="col-lg-1 control-label">Date</label>
-					<div class="col-lg-2"><input type="text" name="date_event" id="date_event" class="form-control" id="date_event" placeholder="Date de l'&eacute;venement" aria-required="true" ></div>
-					<label for="date_event" class="col-lg-1 control-label">Lieu</label>
-					<div class="col-lg-2"><input type="text" name="lieu_event" id="lieu_event" class="form-control" id="lieu_event" placeholder="Lieu de l'&eacute;venement" aria-required="true" ></div>
+					<label for="nom" class="col-lg-4 control-label">Votre nom</label>
+					<div class="col-lg-4"><input type="text" name="nom" id="nom" class="form-control" id="nom" placeholder="Qui êtes-vous ?" aria-required="true" ></div>
 				</div>
 				<br />
 				<div class="form-group">
-					<label for="bio" class="col-lg-1 control-label">D&eacute;scription</label>
-					<div class="col-lg-9"><textarea maxlength="500" rows="15" name="bio" id="bio" rows="6" class="form-control" role="textbox" aria-required="true">Lorem ipsum dolor sit amet</textarea></div>
+					<label for="tel" class="col-lg-4 control-label">Contact</label>
+					<div class="col-lg-4"><input type="text" name="tel" id="tel" class="form-control" id="tel" placeholder="Votre telephone ?" aria-required="true" ></div>
 				</div>
 				<br />
 				<div class="form-group">
-					<div class="col-lg-4"></div>
-					<div class="col-lg-4">
-					<input type="submit" value="PARTY !!" name="submit" id="submitButton" class="btn btn-info btn-large" title="Envoyer !" />
+					<label for="nom_event" class="col-lg-4 control-label">Nom de l'evenement</label>
+					<div class="col-lg-4"><input type="text" name="nom_event" id="nom_event" class="form-control" id="nom_event" placeholder="Nom de l'evenement ?" aria-required="true" ></div>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="date" class="col-lg-4 control-label">Date de l'evenement</label>
+					<div class="col-lg-4"><input type="text" name="date" id="date" class="form-control" id="date" placeholder="C'est pour quand ?" aria-required="true" ></div>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="lieux" class="col-lg-4 control-label">Lieux de l'evenement</label>
+					<div class="col-lg-4"><input type="text" name="lieux" id="lieux" class="form-control" id="lieux" placeholder="C'est où ?" aria-required="true" ></div>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="description" class="col-lg-2 control-label">D&eacute;scription</label>
+					<div class="col-lg-10">
+						<textarea maxlength="500" rows="15" name="description" id="description" class="form-control" role="textbox" aria-required="true">Décrivez l'évenement ici, soyez précis ;)
+
+Voici quelques outils si besoin :
+
+- Pour créer un sondage : http://framadate.org
+- Pour créer un pad : http://framapad.org</textarea></div>
+				</div>
+				<br />
+				<div class="form-group">
+					<div class="col-lg-5"></div>
+					<div class="col-lg-2">
+					<input type="submit" value="GO !!" name="submit" id="submitButton" class="btn btn-info btn-lg" title="Envoyer !" />
 					</div>
-					<div class="col-lg-4"></div>
+					<div class="col-lg-5"></div>
 				</div>
 			</form>
 		</div>
