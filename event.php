@@ -7,15 +7,46 @@ if(isset($_POST['submit'])) {
 		$name = trim($_POST['nom']);
 	}
 
+	if(trim($_POST['tel']) == '') {
+		$hasError = true;
+	} else {
+		$name = trim($_POST['tel']);
+	}
+
+	if(trim($_POST['nom_event']) == '') {
+		$hasError = true;
+	} else {
+		$name = trim($_POST['nom_event']);
+	}
+
+	if(trim($_POST['date']) == '') {
+		$hasError = true;
+	} else {
+		$name = trim($_POST['date']);
+	}
+
+	if(trim($_POST['lieu']) == '') {
+		$hasError = true;
+	} else {
+		$name = trim($_POST['lieu']);
+	}
+
+	if(trim($_POST['description']) == '') {
+		$hasError = true;
+	} else {
+		$name = trim($_POST['description']);
+	}
+
+
 	//If there is no error, send the email
 	if(!isset($hasError)) {
 		$emailTo = 'jakmaster.heuzef@gmail.com'; // Put your own email address here
 		$body = "
 		Nom de l'event : $nom \n\n
 		";
-		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
+		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $emailTo;
 
-		mail($emailTo, "[BronyCUB] INSCRIPTION", $body, $headers);
+		mail($emailTo, "[BronyCUB] EVENEMENT", $body, $headers);
 		$emailSent = true;
 	}
 }
@@ -64,8 +95,8 @@ if(isset($_POST['submit'])) {
 				</div>
 				<br />
 				<div class="form-group">
-					<label for="lieux" class="col-lg-4 control-label">Lieux de l'evenement</label>
-					<div class="col-lg-4"><input type="text" name="lieux" id="lieux" class="form-control" id="lieux" placeholder="C'est où ?" aria-required="true" ></div>
+					<label for="lieu" class="col-lg-4 control-label">lieu de l'evenement</label>
+					<div class="col-lg-4"><input type="text" name="lieu" id="lieu" class="form-control" id="lieu" placeholder="C'est où ?" aria-required="true" ></div>
 				</div>
 				<br />
 				<div class="form-group">
