@@ -42,7 +42,9 @@ if(isset($_POST['submit'])) {
 	if(!isset($hasError)) {
 		$emailTo = 'jakmaster.heuzef@gmail.com'; // Put your own email address here
 		$body = "
-		Nom de l'event : $nom \n\n
+		Nom de l'event : $nom_event le $date à $lieu \n\n
+		Nom de l'organisateur : $nom ($tel) \n\n
+		$description \n\n
 		";
 		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $emailTo;
 
