@@ -4,43 +4,43 @@ if(isset($_POST['submit'])) {
 	if(trim($_POST['nom']) == '') {
 		$hasError = true;
 	} else {
-		$name = trim($_POST['nom']);
+		$nom = trim($_POST['nom']);
 	}
 
 	if(trim($_POST['tel']) == '') {
 		$hasError = true;
 	} else {
-		$name = trim($_POST['tel']);
+		$tel = trim($_POST['tel']);
 	}
 
 	if(trim($_POST['nom_event']) == '') {
 		$hasError = true;
 	} else {
-		$name = trim($_POST['nom_event']);
+		$nom_event = trim($_POST['nom_event']);
 	}
 
 	if(trim($_POST['date']) == '') {
 		$hasError = true;
 	} else {
-		$name = trim($_POST['date']);
+		$date = trim($_POST['date']);
 	}
 
 	if(trim($_POST['lieu']) == '') {
 		$hasError = true;
 	} else {
-		$name = trim($_POST['lieu']);
+		$lieu = trim($_POST['lieu']);
 	}
 
 	if(trim($_POST['description']) == '') {
 		$hasError = true;
 	} else {
-		$name = trim($_POST['description']);
+		$description = trim($_POST['description']);
 	}
 
 
 	//If there is no error, send the email
 	if(!isset($hasError)) {
-		$emailTo = 'jakmaster.heuzef@gmail.com'; // Put your own email address here
+		$emailTo = 'jakmaster.heuzef@gmail.com';
 		$body = "
 		Nom de l'event : $nom_event le $date à $lieu \n\n
 		Nom de l'organisateur : $nom ($tel) \n\n
