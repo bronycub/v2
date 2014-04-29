@@ -41,11 +41,13 @@ if(isset($_POST['submit'])) {
 	//If there is no error, send the email
 	if(!isset($hasError)) {
 		$emailTo = 'jakmaster.heuzef@gmail.com';
-		$body = "
-		Nom de l'event : $nom_event le $date à $lieu \n\n
-		Nom de l'organisateur : $nom ($tel) \n\n
-		$description \n\n
-		";
+		$body = "~~~~~~ $nom_event ~~~~~~ \n\n
+ \n\n
+Organisé par $nom ($tel) \n\n
+à $lieu le $date \n\n
+ \n\n
+~~~~~~~~~~~~~~~~~~~~~~~~ \n\n
+$description";
 		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $emailTo;
 
 		mail($emailTo, "[BronyCUB] EVENEMENT", $body, $headers);
