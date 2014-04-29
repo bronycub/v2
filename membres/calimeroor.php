@@ -7,12 +7,12 @@ $nom="Rousselot";
 $naissance="08/07/1997";
 $url="
 <a href='https://www.youtube.com/user/Calimeroor' target='_blank' class='zocial icon youtube'></a>
-<a href='https://plus.google.com/+StanScrash/posts' target='_blank' class='zocial icon googleplus'></a>
+<a href='https://plus.google.com/+StanScrash' target='_blank' class='zocial icon googleplus'></a>
 <a href='https://twitter.com/Calimeroor' target='_blank' class='zocial icon twitter'></a>
 ";
-$bio="Je suis un jeune graphiste, j'habite a Toulouse mais je peut venir � Bordeaux quand je veux ...
-J'aime tous les styles de musique, de manga, de dessin anim�, de film, je suis tr�s ouvert ^^
+$bio="Je suis un jeune graphiste, j'habite a Toulouse mais je peut venir à Bordeaux quand je veux ...
+J'aime tous les styles de musique, de manga, de dessin animé, de film, je suis très ouvert ^^
 Voilivoilou !";
-$pony="<img src='img/ponies/48.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Soarin is best pony !</span>;
+$pony="<img src='img/ponies/48.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Soarin is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
