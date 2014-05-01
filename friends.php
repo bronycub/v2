@@ -27,7 +27,7 @@
 			</div>
 
 			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
+				<div class="panel panel-info">
 				  <div class="panel-heading">MLP Fictions</div>
 				  <div class="panel-body">
 				    <a href="http://mlpfictions.com" target="_blank">
@@ -51,7 +51,7 @@
 			</div>
 
 			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
+				<div class="panel panel-info">
 				  <div class="panel-heading">Mandora</div>
 				  <div class="panel-body">
 				    <img class="thumbnail" src="./img/friends/mandora.png">
