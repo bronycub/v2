@@ -149,7 +149,7 @@ if(isset($_POST['submit'])) {
 				<br />
 				<div class="form-group">
 					<label for="bio" class="col-lg-1 control-label">Pr&eacute;sentation</label>
-					<div class="col-lg-9"><textarea maxlength="500" rows="5" name="bio" id="bio" rows="6" class="form-control" role="textbox" aria-required="true" placeholder="Ecrivez quelques lignes &agrave; propos de vous (500 caract&eacute;res max)"></textarea></div>
+					<div class="col-lg-9"><textarea rows="5" name="bio" id="bio" rows="6" class="form-control" role="textbox" aria-required="true" placeholder="Ecrivez quelques lignes &agrave; propos de vous"></textarea></div>
 				</div>
 				<br />
 				<div class="form-group">
