@@ -11,7 +11,7 @@ $url="
 <a href='https://twitter.com/lezarius' target='_blank' class='zocial icon twitter'></a>
 <a href='skype:tryo33270?call' target='_blank' class='zocial icon skype'></a>
 ";
-$bio="Artiste dans divers domaines ! Adorateur du Steampunk ! Développeur amateur et blogueur ! Yaoiste et Otaku assumé :3 Cette bio est trop courte, comme ma planète !";
+$bio="Artiste dans divers domaines ! Adorateur du Steampunk ! Développeur amateur et blogueur ! Yaoiste et Otaku assumé :3 Cette bio est trop courte, comme ma planète ! N'hésitez pas à visiter <a href='http://cv.remy-mazabraud.eu' target='_blank'>mon site</a>.";
 $pony="<img src='img/ponies/octavia.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Octavia is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/vinyl_scratch.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Vinyl Scratch is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
