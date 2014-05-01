@@ -1,12 +1,12 @@
 ﻿<?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Bad&nbsp;Wolf";
-$gravatar="38d3b3d8ba1fb606d459569f46936f6c";
+$gravatar="294699ff8aca6c5826d52328367a9335";
 $prenom="Ileana";
 $nom="Mungiovi";
 $naissance="21/03/1997";
 $url="
-<a href='https://plus.google.com/102936326321123164061/posts' target='_blank' class='zocial icon googleplus'></a>
+<a href='https://plus.google.com/102936326321123164061' target='_blank' class='zocial icon googleplus'></a>
 <a href='https://www.facebook.com/ileana.mungiovi' target='_blank' class='zocial icon facebook'></a>
 <a href='https://twitter.com/IleanaBadWolf' target='_blank' class='zocial icon twitter'></a>
 <a href='skype:live:supermegafoxyawesomehot?call' target='_blank' class='zocial icon skype'></a>
