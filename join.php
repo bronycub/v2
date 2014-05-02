@@ -99,7 +99,7 @@ if(isset($_POST['submit'])) {
 		</div>
 
 		 <div class="col-md-8">
-			<img src="./img/title_join.png" alt="logo_bronycub" class="img-responsive"><br />
+			<img src="./img/title_join_min.png" alt="logo_bronycub" class="img-responsive" /><br />
 			<form role="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contactform" class="form-horizontal well" enctype="multipart/form-data">
 				<?php if(isset($hasError)) { ?>
 				<div class="alert alert-dismissable alert-danger"><button type="button" class="close" data-dismiss="alert">×</button>Certains champs ne sont pas remplis avec des informations valides.</div>
