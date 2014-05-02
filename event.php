@@ -40,7 +40,7 @@ if(isset($_POST['submit'])) {
 
 	//If there is no error, send the email
 	if(!isset($hasError)) {
-		$emailTo = 'jakmaster.heuzef@gmail.com';
+		$emailTo = 'bronycub@googlegroups.com';
 		$body = "~~~~~~~~~~~~ $nom_event ~~~~~~~~~~~~ \n\n
 Organisé par $nom ($tel) à $lieu le $date \n\n
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n

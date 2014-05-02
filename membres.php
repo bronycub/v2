@@ -8,7 +8,7 @@ $nb_membres = count(glob('./membres/*.php'));
 ?>
 
 <?php
-// lister les membres dans un tableau
+// lister les membres
 	$folder = "membres";
 	$dossier = opendir($folder);
 	echo "<div class='container'>";
@@ -17,7 +17,7 @@ $nb_membres = count(glob('./membres/*.php'));
 		if ($fichier != "." && $fichier != ".." )
 		{
 			$user = explode(".php", $fichier);
-			echo "<div class='col-lg-6'>";
+			echo "<div class='col-lg-12'>";
 			include ("membres/".$user[0].".php");
 			echo "</div>";
 		}
