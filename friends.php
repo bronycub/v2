@@ -54,23 +54,22 @@
 				<div class="panel panel-info">
 				  <div class="panel-heading">Mandora</div>
 				  <div class="panel-body">
-				    <img class="thumbnail" src="./img/friends/mandora.png">
 				    <a href="http://www.mandora.fr" target="_blank">
+				    <img class="thumbnail" src="./img/friends/mandora.png">
 				    </a>
 				    <p>Mandora est une association à vocation culturelle, active dans la CUB de Bordeaux, développant de nombreuses manifestations.</p>
 				  </div>
 				</div>
 			</div>
 
-<!--
 			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
-				  <div class="panel-heading">Pulps</div>
+				<div class="panel panel-info">
+				  <div class="panel-heading">Troll Me Tender</div>
 				  <div class="panel-body">
-				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/">
+				    <a href="http://trollmetender.clicforum.fr" target="_blank">
+					<img class="thumbnail" src="./img/friends/troll_me_tender.png">
 				    </a>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum pulvinar orci laoreet hendrerit.<br /><br /></p>
+				    <p>TMT est une association de Jeu de Rôles. Ils participent à de nombreux évènements ainsi que plusieurs conventions de jeux de rôles sur la région.</p>
 				  </div>
 				</div>
 			</div>
@@ -80,21 +79,9 @@
 				  <div class="panel-heading">Edil</div>
 				  <div class="panel-body">
 				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/">
+					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=Edil&font=lobster">
 				    </a>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum pulvinar orci laoreet hendrerit.<br /><br /></p>
-				  </div>
-				</div>
-			</div>
-
-			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
-				  <div class="panel-heading">Troll Me Tender</div>
-				  <div class="panel-body">
-				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/">
-				    </a>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum pulvinar orci laoreet hendrerit.<br /><br /></p>
+				    <p></p>
 				  </div>
 				</div>
 			</div>
@@ -104,37 +91,25 @@
 				  <div class="panel-heading">Dragons trésors et comptes</div>
 				  <div class="panel-body">
 				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/">
+					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=DTC&font=lobster">
 				    </a>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum pulvinar orci laoreet hendrerit.<br /><br /></p>
+				    <p></p>
 				  </div>
 				</div>
 			</div>
 
 			<div class="col-md-4" align="center">
 				<div class="panel panel-default">
-				  <div class="panel-heading">Brony.fr</div>
+				  <div class="panel-heading">Pulps</div>
 				  <div class="panel-body">
 				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/">
+					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=Pulps&font=lobster">
 				    </a>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum pulvinar orci laoreet hendrerit.<br /><br /></p>
+				    <p></p>
 				  </div>
 				</div>
 			</div>
 
-			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
-				  <div class="panel-heading">Ternoc</div>
-				  <div class="panel-body">
-				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/">
-				    </a>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum pulvinar orci laoreet hendrerit.<br /><br /></p>
-				  </div>
-				</div>
-			</div>
--->
 		</div>
 	</div>
 <?php include 'footer.php'; ?>
