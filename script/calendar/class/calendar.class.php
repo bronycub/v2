@@ -321,7 +321,7 @@ class Calendar {
 			}
 		}
 
-		for($i = 0; $i < count($events); $i++) {
+		for($i=count($events)-1; $i>=0; $i--) {
 
 			$event = $events[$i];
 			if($this->type === 'xml') {
