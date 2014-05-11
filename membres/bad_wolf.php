@@ -1,4 +1,4 @@
-﻿<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Bad&nbsp;Wolf";
 $gravatar="294699ff8aca6c5826d52328367a9335";

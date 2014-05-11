@@ -1,4 +1,4 @@
-﻿<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Letarumazva";
 $gravatar="210dea8c158b9312ea28e08ad9a30c65";

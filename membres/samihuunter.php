@@ -1,4 +1,4 @@
-﻿<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="SamiHuunter";
 $gravatar="38d3b3d8ba1fb606d459569f46936f6c";
