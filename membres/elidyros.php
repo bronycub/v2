@@ -7,7 +7,7 @@ $nom="S.";
 $naissance="04/03/1987";
 $url="
 <a href='https://twitter.com/Elidyros' target='_blank' class='zocial icon twitter'></a>
-<a href='https://twitter.com/Elidyros' target='_blank' class='zocial icon facebook'></a>
+<a href='https://www.facebook.com/ELiDYROS' target='_blank' class='zocial icon facebook'></a>
 <a href='skype:live:elidyros?call' target='_blank' class='zocial icon skype'></a>
 <a href='http://raptr.com/ELiDYROS' target='_blank' class='zocial icon chrome'></a>
 ";
