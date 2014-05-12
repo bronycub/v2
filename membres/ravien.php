@@ -1,4 +1,4 @@
-﻿<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Ravien";
 $gravatar="928c6541b37814d99730ca85b4d801a3";

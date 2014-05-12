@@ -1,4 +1,4 @@
-﻿<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Ovnize";
 $gravatar="4151ec26abfd54f09436fd4c20ac9072";

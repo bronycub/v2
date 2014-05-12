@@ -27,6 +27,15 @@
 	</div>
 </footer>
 
+<!-- All JS script -->
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="script/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="script/calendar/js/jquery-ui-1.8.23.custom.min.js"></script>
+<script type="text/javascript" src="script/calendar/js/calendar.min.js"></script>
+<script type="text/javascript" src="script/jquery.expander.js"> </script>
+<script type="text/javascript" src="script/expender.js"></script>
+
 <!-- Start Google Analytics -->
 <script type="text/javascript">
 

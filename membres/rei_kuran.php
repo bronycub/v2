@@ -1,4 +1,4 @@
-﻿<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Rei&nbsp;Kuran";
 $gravatar="d943e923a4018c01e0584310875beff0";
