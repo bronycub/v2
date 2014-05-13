@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 if(isset($_POST['submit'])) {
 
 	if(trim($_POST['contactname']) == '') {
@@ -60,7 +62,7 @@ if(isset($_POST['submit'])) {
 	} else {
 		$bio = trim($_POST['bio']);
 	}
-	
+
 	if(trim($_POST['url'])) {
 		$url = trim($_POST['url']);
 	}
@@ -69,6 +71,15 @@ if(isset($_POST['submit'])) {
 		$hasError = true;
 	} else {
 		$pony = trim($_POST['pony']);
+	}
+
+	if (trim($_POST['captcha-code']) == '') {
+		$hasError = true;
+	} else {
+		if ($_POST['captcha-code']!=$_SESSION['captcha']) {
+			$hasError = true;
+			$wrongCaptcha = true;
+		}
 	}
 
 	//If there is no error, send the email
@@ -155,6 +166,14 @@ if(isset($_POST['submit'])) {
 				<div class="form-group">
 					<label for="url" class="col-lg-1 control-label">WWW <span class="label label-default">facultatif</span></label>
 					<div class="col-lg-9"><textarea rows="5" name="url" id="url" rows="6" class="form-control" role="textbox" placeholder="Listez ici vos liens vers vos r&eacute;seaux sociaux, sites internets, etc ..."></textarea></div>
+				</div>
+				<div class="form-group">
+					<label for="captcha" class="col-lg-1 control-label">Captcha</label>
+					<img id="captcha-img" src="captcha/captcha.php" alt="Captcha image" style="width: 100px;"/>
+					<div class="col-lg-7">
+						<input type="text" name="captcha-code" id="captcha" class="form-control" placeholder="Contenu du test CAPTCHA" aria-required="true" />
+<?php if (isset($wrongCaptcha) && $wrongCaptcha==true) { echo '<p>Mauvaise réponse !</p>'; } ?>
+					</div>
 				</div>
 				<div class="form-group">
 					<label for="ville" class="col-lg-3 control-label">Who is best Pony ?</label>
