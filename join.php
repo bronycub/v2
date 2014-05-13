@@ -186,12 +186,12 @@ if(isset($_POST['submit'])) {
 					<div class="col-lg-9"><textarea rows="5" name="url" id="url" rows="6" class="form-control" role="textbox" placeholder="Listez ici vos liens vers vos r&eacute;seaux sociaux, sites internets, etc ..."><?php echo $url; ?></textarea></div>
 				</div>
 				<div class="form-group">
-					<label for="captcha" class="col-lg-1 control-label">Captcha</label>
-					<img id="captcha-img" src="captcha/captcha.php" alt="Captcha image" style="width: 100px;"/>
-					<div class="col-lg-7">
-						<input type="text" name="captcha-code" id="captcha" class="form-control" placeholder="Contenu du test CAPTCHA" aria-required="true" />
+					<label for="captcha" class="col-lg-3 control-label">Code de sécurité</label>
+					<img id="captcha-img" src="captcha/captcha.php" alt="Captcha image" style="width: 100px; border:2px dotted black; margin-left:15px;"/>
+					<div class="col-lg-4">
+						<input type="text" name="captcha-code" id="captcha" class="form-control" placeholder="Recopiez le code de sécurité" aria-required="true" />
 						<input style="display: none;" type="text" name="secret-key" id="honeypot" class="form-control" placeholder="Ce champ doit être vide" aria-required="false" />
-<?php if (isset($wrongCaptcha) && $wrongCaptcha==true) { echo '<p>Mauvaise réponse !</p>'; } ?>
+<?php if (isset($wrongCaptcha) && $wrongCaptcha==true) { echo '<div class="alert alert-dismissable alert-danger"><button type="button" class="close" data-dismiss="alert">×</button>Code incorrect !</div>'; } ?>
 					</div>
 				</div>
 				<div class="form-group">
