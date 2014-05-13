@@ -1,6 +1,19 @@
 <?php
 session_start();
 
+$name="";
+$prenom="";
+$pseudo="";
+$email="";
+$phone="";
+$naissance="";
+$adresse="";
+$postal="";
+$ville="";
+$bio="";
+$url="";
+$pony="";
+
 if(isset($_POST['submit'])) {
 
 	if(trim($_POST['contactname']) == '') {
@@ -133,44 +146,44 @@ if(isset($_POST['submit'])) {
 
 				<div class="form-group">
 					<label for="contactname" class="col-lg-1 control-label">Nom</label>
-					<div class="col-lg-4"><input type="text" name="contactname" id="contactname" class="form-control" id="contactname" placeholder="Nom" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="contactname" id="contactname" class="form-control" id="contactname" placeholder="Nom" aria-required="true" value="<?php echo $name; ?>" ></div>
 					<label for="prenom" class="col-lg-1 control-label">Pr&eacute;nom</label>
-					<div class="col-lg-4"><input type="text" name="prenom" id="prenom" class="form-control" id="prenom" placeholder="Pr&eacute;nom" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="prenom" id="prenom" class="form-control" id="prenom" placeholder="Pr&eacute;nom" aria-required="true" value="<?php echo $prenom; ?>" ></div>
 				</div>
 				<div class="form-group">
 					<label for="email" class="col-lg-1 control-label">Email</label>
-					<div class="col-lg-4"><input type="text" name="email" id="email" class="form-control" id="email" placeholder="Email" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="email" id="email" class="form-control" id="email" placeholder="Email" aria-required="true" value="<?php echo $email; ?>" ></div>
 					<label for="phone" class="col-lg-1 control-label">T&eacute;l&eacute;phone</label>
-					<div class="col-lg-4"><input type="text" name="phone" id="phone" class="form-control" id="phone" placeholder="T&eacute;l&eacute;phone" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="phone" id="phone" class="form-control" id="phone" placeholder="T&eacute;l&eacute;phone" aria-required="true" value="<?php echo $phone; ?>" ></div>
 				</div>
 				<br />
 				<div class="form-group">
 					<label for="pseudo" class="col-lg-1 control-label">Pseudo</label>
-					<div class="col-lg-4"><input type="text" name="pseudo" id="pseudo" class="form-control" id="pseudo" placeholder="Pseudo Gravatar" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="pseudo" id="pseudo" class="form-control" id="pseudo" placeholder="Pseudo Gravatar" aria-required="true" value="<?php echo $phone; ?>" ></div>
 					<div class="col-lg-5"><div class="alert alert-info"><i class="fa fa-arrow-left fa-1x"></i>&nbsp;&nbsp;&nbsp;<strong>Important : </strong>votre pseudo sera synchronis&eacute; avec votre <a href="http://fr.gravatar.com" target="_blank">Gravatar</a> !</div></div>
 				</div>
 				<br />
 				<div class="form-group">
 					<label for="naissance" class="col-lg-1 control-label">Naissance</label>
-					<div class="col-lg-4"><input type="text" name="naissance" id="naissance" class="form-control" id="naissance" placeholder="Date de naissance" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="naissance" id="naissance" class="form-control" id="naissance" placeholder="Date de naissance" aria-required="true" value="<?php echo $naissance; ?>" ></div>
 					<label for="adresse" class="col-lg-1 control-label">Adresse</label>
-					<div class="col-lg-4"><input type="text" name="adresse" id="adresse" class="form-control" id="adresse" placeholder="Adresse" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="adresse" id="adresse" class="form-control" id="adresse" placeholder="Adresse" aria-required="true" value="<?php echo $adresse; ?>" ></div>
 				</div>
 				<div class="form-group">
 					<label for="ville" class="col-lg-1 control-label">Ville</label>
-					<div class="col-lg-4"><input type="text" name="ville" id="ville" class="form-control" id="ville" placeholder="Ville" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="ville" id="ville" class="form-control" id="ville" placeholder="Ville" aria-required="true" value="<?php echo $ville; ?>" ></div>
 					<label for="postal" class="col-lg-1 control-label">CP</label>
-					<div class="col-lg-4"><input type="text" name="postal" id="postal" class="form-control" id="postal" placeholder="Code postal" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="postal" id="postal" class="form-control" id="postal" placeholder="Code postal" aria-required="true" value="<?php echo $postal; ?>" ></div>
 				</div>
 				<br />
 				<div class="form-group">
 					<label for="bio" class="col-lg-1 control-label">Pr&eacute;sentation</label>
-					<div class="col-lg-9"><textarea rows="5" name="bio" id="bio" rows="6" class="form-control" role="textbox" aria-required="true" placeholder="Ecrivez quelques lignes &agrave; propos de vous"></textarea></div>
+					<div class="col-lg-9"><textarea rows="5" name="bio" id="bio" rows="6" class="form-control" role="textbox" aria-required="true" placeholder="Ecrivez quelques lignes &agrave; propos de vous"><?php echo $bio; ?></textarea></div>
 				</div>
 				<br />
 				<div class="form-group">
 					<label for="url" class="col-lg-1 control-label">WWW <span class="label label-default">facultatif</span></label>
-					<div class="col-lg-9"><textarea rows="5" name="url" id="url" rows="6" class="form-control" role="textbox" placeholder="Listez ici vos liens vers vos r&eacute;seaux sociaux, sites internets, etc ..."></textarea></div>
+					<div class="col-lg-9"><textarea rows="5" name="url" id="url" rows="6" class="form-control" role="textbox" placeholder="Listez ici vos liens vers vos r&eacute;seaux sociaux, sites internets, etc ..."><?php echo $url; ?></textarea></div>
 				</div>
 				<div class="form-group">
 					<label for="captcha" class="col-lg-1 control-label">Captcha</label>
@@ -183,7 +196,7 @@ if(isset($_POST['submit'])) {
 				</div>
 				<div class="form-group">
 					<label for="ville" class="col-lg-3 control-label">Who is best Pony ?</label>
-					<div class="col-lg-4"><input type="text" name="pony" id="pony" class="form-control" id="pony" placeholder="Vos poneys pr&eacute;f&eacute;r&eacute;s ?" aria-required="true" ></div>
+					<div class="col-lg-4"><input type="text" name="pony" id="pony" class="form-control" id="pony" placeholder="Vos poneys pr&eacute;f&eacute;r&eacute;s ?" aria-required="true" value="<?php echo $pony; ?>"  ></div>
 					<div class="col-lg-4">
 					<input type="submit" value="BROHOOF /)" name="submit" id="submitButton" class="btn btn-info btn-large" title="Envoyer !" />
 					</div>
