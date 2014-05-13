@@ -76,10 +76,15 @@ if(isset($_POST['submit'])) {
 	if (trim($_POST['captcha-code']) == '') {
 		$hasError = true;
 	} else {
-		if ($_POST['captcha-code']!=$_SESSION['captcha']) {
+		if (strtoupper($_POST['captcha-code'])!=$_SESSION['captcha']) {
 			$hasError = true;
 			$wrongCaptcha = true;
 		}
+	}
+
+	// HoneyPot
+	if (trim($_POST['secret-key']) != '') {
+		$hasError = true;	// Champ qui doit rester vide
 	}
 
 	//If there is no error, send the email
@@ -172,6 +177,7 @@ if(isset($_POST['submit'])) {
 					<img id="captcha-img" src="captcha/captcha.php" alt="Captcha image" style="width: 100px;"/>
 					<div class="col-lg-7">
 						<input type="text" name="captcha-code" id="captcha" class="form-control" placeholder="Contenu du test CAPTCHA" aria-required="true" />
+						<input style="display: none;" type="text" name="secret-key" id="honeypot" class="form-control" placeholder="Ce champ doit être vide" aria-required="false" />
 <?php if (isset($wrongCaptcha) && $wrongCaptcha==true) { echo '<p>Mauvaise réponse !</p>'; } ?>
 					</div>
 				</div>
