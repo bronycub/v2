@@ -29,11 +29,11 @@
 					<li><a href="agenda.php"><i class="fa fa-calendar fa-1x"></i>&nbsp;Agenda</a></li>
 					<li><a href="https://plus.google.com/photos/+Heuz%C3%A9Florent/albums/5919043632414199089?authkey=CJOh4YWuw6_rVA" target="_blank"><i class="fa fa-picture-o fa-1x"></i>&nbsp;Medias</a></li>
 					<li><a href="carte.php"><i class="fa fa-map-marker fa-1x"></i>&nbsp;Carte</a></li>
-					<li><a href="https://groups.google.com/forum/?fromgroups#!forum/bronycub" target="_blank"><i class="fa fa-comment fa-1x"></i>&nbsp;Forum</a></li>
 					<li><a href="join.php"><i class="fa fa-plus fa-1x"></i>&nbsp;Nous rejoindre ?</a></li>
 					<li><a href="friends.php"><i class="fa fa-heart fa-1x"></i>&nbsp;Nos amis</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
+					<li><a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" target="_blank"><i class="fa fa-comment fa-1x"></i>&nbsp;Tchat</a></li>
 					<li><a href="https://appear.in/bronycub" target="_blank"><i class="fa fa-video-camera fa-1x"></i>&nbsp;Visio</a></li>
 				</ul>
 			</div>
