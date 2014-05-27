@@ -7,7 +7,9 @@ $nom="Caballero";
 $naissance="02/10/1996";
 $url="
 ";
-$bio="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, totam aspernatur doloremque impedit illo velit quo laboriosam ullam error assumenda quod dolorem voluptate officia repellat voluptates sunt quam perspiciatis a.";
-$pony="<img src='img/ponies/twilight_sparkle.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Princess Twilight Sparkle is best alicorn !</span>&nbsp;&nbsp;<img src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>";
+$bio="Valentin, 1m97, en BTS Electrotechnique, et je suis un Brony depuis un peu moins d'un an. J'adore l'aéronautique (je suis presque incollable sur certains trucs :p), les jeux vidéos (Portal <3 , Ace Combat, Minecraft et les sandbox en général) et l'informatique (c'est pour ca que je veut changer d'orientation).
+Niveau personnalité je suis plutôt timide et pas bien méchant (sauf quand quelque chose m'énerve beaucoup).
+J'aime bien chanter tout seul dans mon coin sans personne pour entendre :3";
+$pony="<img src='img/ponies/twilight_sparkle.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Princess Twilight Sparkle is best alicorn !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
