@@ -103,7 +103,7 @@ $description";
 				<div class="form-group">
 					<label for="description" class="col-lg-2 control-label">D&eacute;scription</label>
 					<div class="col-lg-10">
-						<textarea maxlength="500" rows="15" name="description" id="description" class="form-control" role="textbox" aria-required="true">Décrivez l'évenement ici, soyez précis ;)
+						<textarea rows="15" name="description" id="description" class="form-control" role="textbox" aria-required="true">Décrivez l'évenement ici, soyez précis ;)
 
 Voici quelques outils si besoin :
 
