@@ -65,8 +65,22 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<a class="twitter-timeline" href="https://twitter.com/Bronycub" data-widget-id="443418858905296896">Tweets de @Bronycub</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<h2>Chat IRC - <small><a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a">Nous rejoindre</a></small></h2>
+			<div class="jumbotron">
+				<?php
+					$_match=array("/(.*(kick|ban).*)\n/",					// Kicks/bans
+												"/(&lt;[a-zA-Z0-9\-_]*&gt;)/",	// Pseudos
+												"/(.*\*\*\*.*)\n/");						// Annonces d'IRC
+					$_replace=array('<span class="text-warning">${1}</span>'."\n",
+													'<span class="text-primary">${1}</span>',
+													'<span class="text-info">${1}</span>'."\n");
+
+					$buffer = file_get_contents("http://www.art-software.fr/files/lastlog_bronycub.php");	// Récupère le log
+					$buffer = preg_replace($_match, $_replace, $buffer);
+
+					echo "$buffer";
+				?>
+			</div>
 		</div>
 	</div>
 <?php include 'footer.php'; ?>
