@@ -64,7 +64,7 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<h2>Chat IRC - <small><a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a">Nous rejoindre</a></small></h2>
+			<h2>Tchat - <small><a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a">Nous rejoindre</a></small></h2>
 			<div class="jumbotron">
 				<?php
 					$_match=array("/(.*(kick|ban).*)\n/",	// Kicks/bans
