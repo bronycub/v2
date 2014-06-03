@@ -7,26 +7,12 @@
 	<meta name="description" content="BronyCUB" />
 	<meta name="author" content="Heuzé Florent" />
 	<title>BronyCUB</title>
-	<link href="http://bronycub.org/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="http://bronycub.org/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="http://bronycub.org/bootstrap/css/zocial.css" />
+	<link href="http://www.bronycub.org/css_global/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" type="image/png" href="http://bronycub.org/ressources/logo/favicon_bronycub.png" />
-	<script src="http://bronycub.org/bootstrap/js/jquery-2.0.3.min.js"></script> 
-	<script src="http://bronycub.org/bootstrap/js/bootstrap.js "></script>
-	<script>
-	$(function (){
-		$('a').tooltip();
-	});
-	$(function (){
-		$("#pop").popover({placement:'bottom', trigger:'hover'});
-	});
-	</script>
-	<link rel="stylesheet" type="text/css" href="http://bronycub.org/ressources/bootstrap-fileupload.css">
-	<script type="text/javascript" src="http://bronycub.org/ressources/bootstrap-fileupload.js"></script>
+	<script src="http://www.bronycub.org/script/bootstrap.min.js"></script>
 </head>
 
 <body>
-
 	<div class="span6">
 		<a href="http://bronycub.org"><img src="http://bronycub.org/ressources/logo/logo_bronycub_min.png" /></a>
 		<h3>Ressources</h3>
