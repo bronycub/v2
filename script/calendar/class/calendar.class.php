@@ -656,8 +656,8 @@ class Calendar {
 			$start_time = explode(':', $event->start_time);
 			$end_time = explode(':', $event->end_time);
 
-			$start = mktime($start_time[0], $start_time[1], 0, $start_date[1], $start_date[0], $start_date[2]);
-			$end = mktime($end_time[0], $end_time[1], 0, $end_date[1], $end_date[0], $end_date[2]);
+			$start = mktime($start_time[0], $start_time[1], 0, $start_date[1], $start_date[0], $start_date[2]) + date('Z');
+			$end = mktime($end_time[0], $end_time[1], 0, $end_date[1], $end_date[0], $end_date[2]) + date('Z');
 
 			$new_events[] = array(
 				'id' => md5(($start + $end) . (string)$event->title . $this->settings['cache_token']),
@@ -696,14 +696,14 @@ class Calendar {
 
 		for($i = 0; $i < count($events_ical); $i++) {
 
-			$start = $ical->iCalDateToUnixTimestamp($events_ical[$i]['DTSTART']) + $this->settings['extra_time'];
+			$start = $ical->iCalDateToUnixTimestamp($events_ical[$i]['DTSTART']) + $this->settings['extra_time'] + date('Z');
 
 			$events[$i] = array(
 				'id' => (isset($events_ical[$i]['UID'])) ? md5('s34s0_#'.$events_ical[$i]['UID'].$this->settings['cache_token']) : md5($events_ical[$i]['SUMMARY'].$this->settings['cache_token']),
 				'title' => str_replace('\\,', ',', (isset($events_ical[$i]['SUMMARY'])) ? $events_ical[$i]['SUMMARY'] : ''),
 				'description' => str_replace('\\,', ',', $events_ical[$i]['DESCRIPTION']),
 				'start' => $start,
-				'end' => $ical->iCalDateToUnixTimestamp($events_ical[$i]['DTEND']) + $this->settings['extra_time'],
+				'end' => $ical->iCalDateToUnixTimestamp($events_ical[$i]['DTEND']) + $this->settings['extra_time'] + date('Z'),
 				'location' => str_replace('\\,', ',', (isset($events_ical[$i]['LOCATION'])) ? $events_ical[$i]['LOCATION'] : ''),
 				'day' => date('j', $start),
 				'month' => date('n', $start),

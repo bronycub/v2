@@ -16,6 +16,8 @@
 				'url' 			=> "https://www.google.com/calendar/ical/bronycub%40gmail.com/public/basic.ics" ,
 				'scale'       		 => 'year' ,
 				'date_day_addition' 	=> false ,
+				'time_format' 				=> 24,
+				'social_links' 				=> false,
 				));
 
 				 $cal->output(); 
