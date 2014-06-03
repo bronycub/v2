@@ -28,6 +28,18 @@
 
 			<div class="col-md-4" align="center">
 				<div class="panel panel-info">
+				  <div class="panel-heading">Astrée</div>
+				  <div class="panel-body">
+				    <a href="http://astree.asso.fr/" target="_blank">
+					<img class="thumbnail" src="./img/friends/astree.png">
+				    </a>
+				    <p>Association nationale aidant à l'écoute et l'accompagnement pour favoriser le lien social et rompre l'isolement.</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4" align="center">
+				<div class="panel panel-info">
 				  <div class="panel-heading">MLP Fictions</div>
 				  <div class="panel-body">
 				    <a href="http://mlpfictions.com" target="_blank">
@@ -76,22 +88,22 @@
 
 			<div class="col-md-4" align="center">
 				<div class="panel panel-default">
-				  <div class="panel-heading">Edil</div>
+				  <div class="panel-heading">Dragons trésors et contes</div>
 				  <div class="panel-body">
-				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=Edil&font=lobster">
+				    <a href="http://www.dragonstresorsetcontes.org/" target="_blank">
+					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=DTC&font=lobster">
 				    </a>
 				    <p></p>
 				  </div>
 				</div>
 			</div>
 
-			<div class="col-md-4" align="center">
+<!-- 			<div class="col-md-4" align="center">
 				<div class="panel panel-default">
-				  <div class="panel-heading">Dragons trésors et comptes</div>
+				  <div class="panel-heading">Edil</div>
 				  <div class="panel-body">
 				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=DTC&font=lobster">
+					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=Edil&font=lobster">
 				    </a>
 				    <p></p>
 				  </div>
@@ -108,7 +120,7 @@
 				    <p></p>
 				  </div>
 				</div>
-			</div>
+			</div> -->
 
 		</div>
 	</div>
