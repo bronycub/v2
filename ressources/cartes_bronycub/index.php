@@ -28,7 +28,7 @@
 <body>
 
 	<div class="span6">
-		<a href="http://bronycub.org"><img src="http://bronycub.org/ressources/logo/logo_bronycub_sd.png" /></a>
+		<a href="http://bronycub.org"><img src="http://bronycub.org/ressources/logo/logo_bronycub_min.png" /></a>
 		<h3>Ressources</h3>
 		<p><blockquote>
 			<ul class="short arrow">
@@ -37,7 +37,7 @@
 				$dossier = opendir($folder);
 				while ($fichier = readdir($dossier)) {
 				  if ($fichier != "." && $fichier != ".." && $fichier != "index.php" ) {
-					echo "<li><a href='./".$fichier."' target='_blank'>".$fichier."</a></li>";
+					echo "<li><a href='./".$fichier."'>".$fichier."</a></li>";
 				  }
 				}
 				closedir($dossier);
