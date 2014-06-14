@@ -1,6 +1,6 @@
 <?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
-$pseudo="Ludvann";
+$pseudo="ludvann";
 $gravatar="4b46b54ce38364aebcd7fe66644486c7";
 $prenom="Antonin";
 $nom="Dupont";
