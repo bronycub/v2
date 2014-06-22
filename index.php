@@ -36,19 +36,8 @@
 									<h4 class="modal-title" id="plusinfos">Plus d'info ...</h4>
 								</div>
 								<div class="modal-body">
-								<h4>BronyCUB, Qu'est-ce que c'est ?</h4>
-								BronyCUB est un collectif de Bronies de la <strong>C</strong>ommunauté <strong>U</strong>rbaine de <strong>B</strong>ordeaux en Gironde.
-								<br />
-								Ce collectif a pour ambition de réunir les fans pour organiser diverses rencontres.
-								<hr />
 								<h4>Un Brony ? Ça ce mange ? Kécéssé ?</h4>
-								Si vous ne conaissez pas encore le phénomène Brony, voici quelques vidéos pour vous aider à comprendre :
-								<li><a href="http://youtu.be/YHiRycK6UD4" target="_blank">Reportage sur Direct 8</a></li>
-								<li><a href="http://youtu.be/RiIOGaEMx-g" target="_blank">Des poneys et des hommes</a></li>
-								<br />
-								Si vous souhaitez en apprendre d'avantage sur le phénomène, nous vous conseillons de regarder les documentaires tel que :
-								<li><a href="http://youtu.be/kgcWpnvyZeA" target="_blank">A Brony Tale</a></li>
-								<li><a href="http://youtu.be/ohnuyqJyEW0" target="_blank">Bronies: The Extremely Unexpected Adult Fans of My Little Pony</a></li>
+								<iframe width="540" height="320" src="//www.youtube.com/embed/Y67pwC9iOBw" frameborder="0" allowfullscreen></iframe>
 								<hr />
 								<h4>Sérieusement ... Pourquoi ?</h4>
 								<iframe width="540" height="320" src="//www.youtube.com/embed/pXYqLKko6Ss" frameborder="0" allowfullscreen></iframe>
