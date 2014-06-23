@@ -34,7 +34,7 @@
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" target="_blank"><i class="fa fa-comment fa-1x"></i>&nbsp;Tchat</a></li>
-					<li><a href="https://appear.in/bronycub" target="_blank"><i class="fa fa-video-camera fa-1x"></i>&nbsp;Visio</a></li>
+					<li><a href="https://vroom.im/bronycub" target="_blank"><i class="fa fa-video-camera fa-1x"></i>&nbsp;Visio</a></li>
 				</ul>
 			</div>
 		</div>
