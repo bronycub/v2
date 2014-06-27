@@ -12,6 +12,6 @@ $url="
 <a href='http://raptr.com/ELiDYROS' target='_blank' class='zocial icon chrome'></a>
 ";
 $bio="Nicolas à découvert la série très récemment et est rapidement devenu fan. Il a la fâcheuse tendance à se jeter sur les produits dérivés ... Il est aussi passionné de jeux vidéos, en particulier de fight et musicaux. Il dessine, fais un peu de 3D, de musique, bref, il a tendance à toucher à tout.";
-$pony="<img src='img/ponies/pinkie_pie.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Pinkie Pie is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/38.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Chrysalis is best changeling !</span>";
+$pony="<img src='img/ponies/pinkie_pie.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Pinkie Pie is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/crysalis.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Chrysalis is best changeling !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

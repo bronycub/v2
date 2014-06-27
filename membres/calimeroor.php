@@ -13,6 +13,6 @@ $url="
 $bio="Je suis un jeune graphiste, j'habite a Toulouse mais je peut venir à Bordeaux quand je veux ...
 J'aime tous les styles de musique, de manga, de dessin animé, de film, je suis très ouvert ^^
 Voilivoilou !";
-$pony="<img src='img/ponies/48.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Soarin is best pony !</span>";
+$pony="<img src='img/ponies/soarin.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Soarin is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
