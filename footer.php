@@ -28,6 +28,7 @@
 <script type="text/javascript" src="script/calendar/js/calendar.min.js"></script>
 <script type="text/javascript" src="script/jquery.expander.js"> </script>
 <script type="text/javascript" src="script/expender.js"></script>
+<script type="text/javascript" src="script/konami.js"></script>
 
 <!-- Start Google Analytics -->
 <script type="text/javascript">

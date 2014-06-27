@@ -15,6 +15,7 @@
 		</div>
 	</div>
 	<hr />
+	<div id="WhenIm"></div>
 	<div class="container">
 		<div class="col-md-6">
 			<h2>BronyCUB, Qu'est-ce que c'est ?</h2>
