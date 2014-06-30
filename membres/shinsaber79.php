@@ -12,6 +12,6 @@ $url="
 $bio="Arrivée dans la communauté Brony en voulant devenir amis avec un métaleux ... Souvent, des personnes se demandent combien je suis dans ma tête, car je suis très varié dans mes caractères, parfois calme, souvent gamin, rarement méchant et bien d'autre.
 
 J'aime bien jouer, principalement a Portal 1/2 ou des jeux avec des amis. Je suis aussi un fan de séries japonaises, mais plutôt les petites séries méconnues qui n'ont pas 300 épisodes ^^ Pour finir, car il faut bien une fin, je dirais juste : Unix vaincras !";
-$pony="<img src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy hooves is best pony !</span>";
+$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy hooves is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

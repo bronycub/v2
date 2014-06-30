@@ -14,6 +14,6 @@ $url="
 ";
 $bio="J'aime bien le chocolat, je trouve que c'est l'une des meilleures chose que l'homme ait jamais inventé.
 Sinon j'aime bien passer mon temps à dessiner, à lire, à écrire, à faire des choses qui enrichissent ma science x) Sinon je suis également chiant et assez *étrange*, mais je me soigne :D J'ai connu MLP:FIM avant que la première saison ne se termine, mais j'ai attendu pour regarder et adorer xD";
-$pony="<img src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy hooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/fluffle_puff.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Pink Fluffy Unicorn Dancing On Rainbows !</span>";
+$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy hooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/fluffle_puff.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Pink Fluffy Unicorn Dancing On Rainbows !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

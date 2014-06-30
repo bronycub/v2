@@ -13,6 +13,6 @@ $url="
 <a href='https://www.youtube.com/user/Orlenard' target='_blank' class='zocial icon youtube'></a>
 ";
 $bio="Baptiste est un brony mais surtout un gamer (plus pour dragon age et dark souls) et otaku (plus pour evangelion et log horizon). Si vous avez besoin d'aide, vous pouvez compter sur lui !";
-$pony="<img src='img/ponies/octavia_melody.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Octavia is best pony !</span>";
+$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/octavia_melody.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Octavia is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
