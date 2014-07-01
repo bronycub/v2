@@ -9,6 +9,6 @@ $url="
 ";
 $bio="Ce que je suis ? Je suis flou, même pour moi. Commencer par ce que j'aime ? Non, trop classique. Ce que je fais ? Pas assez fiable. Ce que les autres pensent de moi ? Trop réducteur.
 Je suis une identité sociale, tout comme je suis un esprit et un corps. Je joue le rôle d'étudiant et de ce fait je suis un pari (qui coûte cher si l'on en croit mes profs). Le plus sûr pour se faire une idée de ce que je suis, c'est de me côtoyer, ne serait-ce qu'un après-midi. Padibabowi.";
-$pony="<img src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>";
+$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

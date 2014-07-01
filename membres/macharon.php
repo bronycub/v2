@@ -8,6 +8,6 @@ $naissance="12/12/1992";
 $url="
 ";
 $bio="Kévin est Brony depuis peu et découvre encore cette communauté grâce à certaines personnes rencontrées à l'Animasia. Otaku et geek, il aime et cherche à faire de nouvelles rencontres pour égayer ses journées.";
-$pony="<img src='img/ponies/apple_jack.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Apple Jack is best pony !</span>";
+$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/apple_jack.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Apple Jack is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

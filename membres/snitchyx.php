@@ -12,6 +12,6 @@ $url="
 <a href='https://www.facebook.com/cgendreaud' target='_blank' class='zocial icon facebook'></a>
 ";
 $bio="Clémence, taille minipouce, pour me décrire ... je dirais que je suis dans le genre sympa, je ne mords pas et je ne renifle plus sous les jupes des filles depuis cinq ans maintenant ! :3 J'adore les livres, je lis énormément. Niveau musique, série TV et film, j'aime de tout. Sinon, je suis quelqu'un qui est assez ouverte d'esprit et curieuse. J'aime manger des pâquerettes, regarder les nuages, l'été, les chats, voyager, manger, dormir, parler ... x) Je suis sur Twitter, Skype et Facebook :)";
-$pony="<img src='img/ponies/discord.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Discord is best villain !</span>";
+$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/discord.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Discord is best villain !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
