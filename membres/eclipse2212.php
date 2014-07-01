@@ -12,6 +12,6 @@ $url="
 ";
 $bio="Brony depuis environ un an, Lucas passe sa vie sur le PC ... enfin quand ses parents sont absents ! Il aime aussi lire des fanfics.
 Lucas est un roux, il n'a donc pas d'âme, pour ceux qui n'aiment pas les roux, il va falloir le supporter !";
-$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>";
+$pony="<img style='height:auto; width:auto; max-width:32px; max-height:32px;' src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

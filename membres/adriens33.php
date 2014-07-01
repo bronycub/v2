@@ -16,6 +16,6 @@ $url="
 <a href='mailto:adrien.sohier@art-software.fr' target='_blank' class='zocial icon email'></a>
 ";
 $bio="Un drôle de mix entre un geek râleur et qui aime bien faire les choses par lui même et un brony :D Question caractère, c'est une sorte de mélange entre Fluttershy et Twilight Sparkle.";
-$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/doctor_whooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Doctor Whooves is best pony !</span>";
+$pony="<img style='height:auto; width:auto; max-width:32px; max-height:32px;' src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/doctor_whooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Doctor Whooves is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

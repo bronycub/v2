@@ -10,6 +10,6 @@ $url="
 <a href='https://www.facebook.com/klemoyu.sert' target='_blank' class='zocial icon facebook'></a>
 ";
 $bio="J'ai découvert les poneys grâce à la NLR et franchement je suis heureux d'avoir fais cette découverte extraordinaire. Ils ont changé ma vie. Je suis un No-Life, j'adore Radio Brony et Pokemon ^^";
-$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>&nbsp;&nbsp;&nbsp;<img src='img/ponies/apple_jack.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Apple Jack is best pony !</span>";
+$pony="<img style='height:auto; width:auto; max-width:32px; max-height:32px;' src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>&nbsp;&nbsp;&nbsp;<img src='img/ponies/apple_jack.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Apple Jack is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

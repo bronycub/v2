@@ -17,6 +17,6 @@ $url="
 <a href='http://www.betaseries.com/membre/Ragator' target='_blank' class='zocial icon googleplay'></a>
 ";
 $bio="Alexandre est un geek doublé d'un nerd, passionné par les jeux vidéos, il souhaite plus que tout au monde que la réalité virtuelle se développe, il fait actuellement des études en informatique en espérant travailler dans la programmation logiciel. Ermite, émotionnel et perfectionniste, Alexandre aime beaucoup la <a href='http://www.youtube.com/channel/UCqX2vIbM82qFLaqyg0studw/videos?view=1&feature=guide' target='_blank'>musique</a> et il souhaite faire découvrir son monde passionnant.";
-$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/fluttershy.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Fluttershy is YAY !</span>&nbsp;&nbsp;<img src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>";
+$pony="<img style='height:auto; width:auto; max-width:32px; max-height:32px;' src='img/ponies/fluttershy.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Fluttershy is YAY !</span>&nbsp;&nbsp;<img src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

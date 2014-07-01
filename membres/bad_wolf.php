@@ -16,6 +16,6 @@ $url="
 ";
 $bio="Ileana est une cosplayeuse débutante et une geek. Elle adore regarder des séries et des films.
 De nature très timide, Ileana aime dessiner et écrire des fanfictions. Son rêve est de devenir comédienne. Elle se définit comme une SuperAvengeWhoLockian (comprenne qui pourra).";
-$pony="<img style="height:auto; width:auto; max-width:32px; max-height:32px;" src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/doctor_whooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Doctor Whooves is best pony !</span>";
+$pony="<img style='height:auto; width:auto; max-width:32px; max-height:32px;' src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/doctor_whooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Doctor Whooves is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
