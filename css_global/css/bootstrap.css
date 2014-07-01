@@ -324,6 +324,8 @@ img {
   border-radius: 6px;
 }
 .img-thumbnail {
+  width: 42px;
+  height: 42px;
   padding: 4px;
   line-height: 1.42857143;
   background-color: #ffffff;
@@ -332,8 +334,6 @@ img {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  max-width: 100%;
-  height: auto;
 }
 .img-circle {
   border-radius: 50%;
