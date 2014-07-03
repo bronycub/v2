@@ -12,6 +12,7 @@ $url="
 <a href='https://www.facebook.com/monde.cruel.rei' target='_blank' class='zocial icon facebook'></a>
 <a href='https://www.facebook.com/ReiKuranCosplay' target='_blank' class='zocial icon facebook'></a>
 <a href='http://journal-doll.blogspot.fr' target='_blank' class='zocial icon blogger'></a>
+<a href='http://monde-cruel-bjd.blogspot.fr' target='_blank' class='zocial icon blogger'></a>
 <a href='http://www.reikuranmodelphoto.sitew.fr' target='_blank' class='zocial icon blogger'></a>
 <a href='skype:rei.kuran15?call' target='_blank' class='zocial icon skype'></a>
 ";
