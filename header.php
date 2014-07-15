@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BronyCUB</title>
 	<link href="css_global/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css_global/css/bootstrap.css">
