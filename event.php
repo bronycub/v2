@@ -47,7 +47,7 @@ Organisé par $nom ($tel) à $lieu le $date \n\n
 $description";
 		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $emailTo;
 
-		mail($emailTo, "[BronyCUB] ".$nom_event, $body, $headers);
+		mail($emailTo, "".$nom_event, $body, $headers);
 		$emailSent = true;
 	}
 }

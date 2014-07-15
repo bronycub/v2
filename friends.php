@@ -87,13 +87,25 @@
 			</div>
 
 			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
+				<div class="panel panel-info">
+				  <div class="panel-heading">Giroll</div>
+				  <div class="panel-body">
+				    <a href="http://www.giroll.org" target="_blank">
+					<img class="thumbnail" src="./img/friends/giroll.png">
+				    </a>
+				    <p>Le collectif Giroll pour Gironde Logiciels Libres a pour volonté de partager savoir-faire et expériences autour des logiciels libres.</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4" align="center">
+				<div class="panel panel-info">
 				  <div class="panel-heading">Dragons trésors et contes</div>
 				  <div class="panel-body">
 				    <a href="http://www.dragonstresorsetcontes.org/" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=DTC&font=lobster">
+					<img class="thumbnail" src="./img/friends/dragons_tresors_et_contes.png">
 				    </a>
-				    <p></p>
+				    <p>Association ayant pour but de promouvoir et d'animer toute activité en rapport avec les Jeux de Rôles à Bordeaux. </p>
 				  </div>
 				</div>
 			</div>
