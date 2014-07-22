@@ -7,7 +7,11 @@ $nom="Chammah";
 $naissance="06/10/1995";
 $url="
 ";
-$bio="Je suis Raphaël, vous pouvez aussi m'appeler Lenile. Actuellement je suis rédacteur cher Le Poney Blanc un tres grand blog de Brony.";
+$bio="Je suis Lenile sharm, Brony depuis 1 ans et demi, j'ai actuellement 18 ans et je vis à Bruges. 
+
+Je suis rédacteur cher Le Poney Blanc pour la section analyse et je suis aussi un très gros gammer. 
+
+Je possède une peluche pinkie pie et plein de figurines Mlp '-' ";
 $pony="<img src='img/ponies/applejack.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Applejack is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
