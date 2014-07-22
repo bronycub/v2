@@ -9,6 +9,7 @@ $url="
 <a href='https://plus.google.com/u/0/117735217572182705469' target='_blank' class='zocial icon googleplus'></a>
 <a href='https://twitter.com/LucasASSIER' target='_blank' class='zocial icon twitter'></a>
 <a href='https://www.facebook.com/lucas.assier.1' target='_blank' class='zocial icon facebook'></a>
+<a href='live:lucas.assier?call' target='_blank' class='zocial icon skype'></a>
 ";
 $bio="Brony depuis environ un an, Lucas passe sa vie sur le PC ... enfin quand ses parents sont absents ! Il aime aussi lire des fanfics.
 Lucas est un roux, il n'a donc pas d'âme, pour ceux qui n'aiment pas les roux, il va falloir le supporter !";
