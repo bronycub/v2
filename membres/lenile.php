@@ -11,7 +11,7 @@ $bio="Je suis Lenile sharm, Brony depuis 1 ans et demi, j'ai actuellement 18 ans
 
 Je suis rédacteur cher Le Poney Blanc pour la section analyse et je suis aussi un très gros gammer. 
 
-Je possède une peluche pinkie pie et plein de figurines Mlp '-' ";
-$pony="<img src='img/ponies/applejack.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Applejack is best pony !</span>";
+Je possède une peluche Pinkie Pie et plein de figurines MLP. ";
+$pony="<img src='img/ponies/apple_jack.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Apple Jack is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
