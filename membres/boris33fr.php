@@ -1,7 +1,7 @@
 <?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Boris33fr";
-$gravatar="38d3b3d8ba1fb606d459569f46936f6c";
+$gravatar="6b4e9f09578ed7428562332184fcd7bc";
 $prenom="David";
 $nom="Bonnin";
 $naissance="20/11/1993";
