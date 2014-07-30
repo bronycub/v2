@@ -1,6 +1,6 @@
 <?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
-$pseudo="Josué Foucaud";
+$pseudo="Bybeez";
 $gravatar="56c28f57abeb9ab9fd4c43b054872ad0";
 $prenom="Josué";
 $nom="Foucaud";
