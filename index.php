@@ -1,20 +1,30 @@
 <?php include 'header.php'; ?>
-	<div class="contenair">
+	<div>
 		<p align="center">
 			<img src="./img/logo_min.png" alt="logo_bronycub" height="200" width="600" class="img-responsive">
 		</p>
-		<div align="center" class="quotes">
-			 <blockquote>
+		<div class="quotes">
+            <?php
+
+            $fichier = file('quotes.txt');
+            $total = count($fichier);
+
+            for ($i = 1; $i<=$total ; $i++)
+            {
+            ?>
+			<blockquote class="textItem">
 				 <?php
-				 	$fichier = file('quotes.txt');
-				 	$total = count($fichier);
-				 	$i = mt_rand(0, $total-1);
-				 	echo $fichier[$i];
+                    echo $fichier[$i - 1];
 				 ?>
-			 </blockquote>
+			</blockquote>
+            <?php
+            }
+            ?>
 		</div>
 	</div>
-	<hr />
+    <br />
+    <br />
+    <hr />
 	<div id="WhenIm"></div>
 	<div class="container">
 		<div class="col-md-6">

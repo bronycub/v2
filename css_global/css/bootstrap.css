@@ -16,9 +16,21 @@ body {
   margin: 0;
   padding-top: 70px; 
 }
-.quotes {
-            color: #c25098;
-        }
+.quotes
+{
+    color: #c25098;
+    text-align: center;
+    position: relative;
+}
+.textItem
+{
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display:none;
+}
+
 article,
 aside,
 details,
@@ -637,7 +649,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #eeeeee;
+  display: none;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -5784,4 +5796,15 @@ button.close {
 }
 .affix {
   position: fixed;
+}
+#image_actu
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    border: 2px solid #929191;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px #929191;
 }
