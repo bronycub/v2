@@ -13,7 +13,7 @@ $url="
 <a href='http://git.art-software.fr' target='_blank' class='zocial icon github'></a>
 <a href='http://steamcommunity.com/profiles/76561198059705112' target='_blank' class='zocial icon steam'></a>
 <a href='http://adriens33.deviantart.com/' target='_blank' class='zocial icon disqus'></a>
-<a href='http://www.youtube.com/user/MrArtSoftware' target='_blank' class='zocial icon youtube'>/<a>
+<a href='http://www.youtube.com/user/MrArtSoftware' target='_blank' class='zocial icon youtube'></a>
 <a href='mailto:adrien.sohier@art-software.fr' target='_blank' class='zocial icon email'></a>
 ";
 $bio="Un drôle de mix entre un geek râleur et qui aime bien faire les choses par lui même et un brony :D Question caractère, c'est une sorte de mélange entre Fluttershy et Twilight Sparkle.";
