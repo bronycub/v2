@@ -1,10 +1,11 @@
 <?php include 'header.php'; ?>
 	<div>
 		<p align="center">
-			<img src="./img/logo_min.png" alt="logo_bronycub" height="200" width="600" class="img-responsive">
+			<!--<img src="./img/logo_min.png" alt="logo_bronycub" height="200" width="600" class="img-responsive">-->
+			<img src="./img/anniv_17082014.png" alt="anniv 17 aout 2014" class="img-responsive">
 		</p>
-		<div class="quotes">
-            <?php
+<!-- 		<div class="quotes">
+            <?php /*
 
             $fichier = file('quotes.txt');
             $total = count($fichier);
@@ -19,8 +20,8 @@
 			</blockquote>
             <?php
             }
-            ?>
-		</div>
+            */ ?>
+		</div> -->
 	</div>
     <br />
     <br />

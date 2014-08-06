@@ -9,7 +9,6 @@
 	<title>BronyCUB</title>
 	<link href="http://www.bronycub.org/css_global/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" type="image/png" href="http://bronycub.org/ressources/logo/favicon_bronycub.png" />
-	<script src="http://www.bronycub.org/script/bootstrap.min.js"></script>
 </head>
 
 <body>
