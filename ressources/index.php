@@ -18,7 +18,7 @@
 		<h3>Ressources</h3>
 		<p><blockquote>
 			<ul class="short arrow">
-				<?
+				<?php
 				$folder = "./";
 				$dossier = opendir($folder);
 				while ($fichier = readdir($dossier)) {
