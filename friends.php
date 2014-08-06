@@ -105,34 +105,22 @@
 				    <a href="http://www.dragonstresorsetcontes.org/" target="_blank">
 					<img class="thumbnail" src="./img/friends/dragons_tresors_et_contes.png">
 				    </a>
-				    <p>Association ayant pour but de promouvoir et d'animer toute activité en rapport avec les Jeux de Rôles à Bordeaux. </p>
-				  </div>
-				</div>
-			</div>
-
-<!-- 			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
-				  <div class="panel-heading">Edil</div>
-				  <div class="panel-body">
-				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=Edil&font=lobster">
-				    </a>
-				    <p></p>
+				    <p>Association ayant pour but de promouvoir et d'animer toute activité en rapport avec les Jeux de Rôles à Bordeaux.</p>
 				  </div>
 				</div>
 			</div>
 
 			<div class="col-md-4" align="center">
-				<div class="panel panel-default">
-				  <div class="panel-heading">Pulps</div>
+				<div class="panel panel-info">
+				  <div class="panel-heading">BronyCAT</div>
 				  <div class="panel-body">
-				    <a href="#" target="_blank">
-					<img class="thumbnail" src="http://fakeimg.pl/300x200/?text=Pulps&font=lobster">
+				    <a href="http://www.bronycat.org/" target="_blank">
+					<img class="thumbnail" src="./img/friends/bronycat.png">
 				    </a>
-				    <p></p>
+				    <p>BronyCAT est un collectif de Bronies de la Communauté d'Agglomération de Toulon.<br /><br /></p>
 				  </div>
 				</div>
-			</div> -->
+			</div>
 
 		</div>
 	</div>
