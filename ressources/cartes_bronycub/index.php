@@ -7,9 +7,8 @@
 	<meta name="description" content="BronyCUB" />
 	<meta name="author" content="Heuzé Florent" />
 	<title>BronyCUB</title>
-	<link href="http://www.bronycub.org/css_global/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="http://bronycub.org/css_global/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" type="image/png" href="http://bronycub.org/ressources/logo/favicon_bronycub.png" />
-	<script src="http://www.bronycub.org/script/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -20,13 +19,12 @@
 			<ul class="short arrow">
 				<?php
 				$folder = "./";
-				$dossier = opendir($folder);
-				while ($fichier = readdir($dossier)) {
-				  if ($fichier != "." && $fichier != ".." && $fichier != "index.php" ) {
+				$dossier = scandir($folder);
+                foreach ($dossier as $fichier) {
+				  if ($fichier != "." AND $fichier != ".." AND $fichier != "index.php" AND $fichier != ".htaccess" ) {
 					echo "<li><a href='./".$fichier."'>".$fichier."</a></li>";
 				  }
 				}
-				closedir($dossier);
 				?>
 			</ul>
 		</blockquote></p>

@@ -649,7 +649,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  display: none;
+/*  display: none;*/
 }
 blockquote p:last-child,
 blockquote ul:last-child,
