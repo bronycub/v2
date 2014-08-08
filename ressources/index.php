@@ -12,22 +12,46 @@
 </head>
 
 <body>
-	<div class="span6">
-		<a href="http://bronycub.org"><img src="http://bronycub.org/ressources/logo/logo_bronycub_min.png" /></a>
-		<h3>Ressources</h3>
-		<p><blockquote>
-			<ul class="short arrow">
-				<?php
-				$folder = "./";
-				$dossier = scandir($folder);
-                foreach ($dossier as $fichier) {
-				  if ($fichier != "." AND $fichier != ".." AND $fichier != "index.php" AND $fichier != ".htaccess" ) {
-					echo "<li><a href='./".$fichier."'>".$fichier."</a></li>";
-				  }
+	<div class="container">
+		<div class="span3"></div>
+		<div class="span6">
+			<a href="http://bronycub.org"><img src="http://bronycub.org/ressources/logo/logo_bronycub_min.png" /></a>
+			<h3>Ressources Graphiques</h3>
+			<hr />
+			<?php
+			if ($handle = opendir('.')) {
+			    while (false !== ($entry = readdir($handle))) {
+				if ($entry != "." && $entry != ".." && $entry != "index.php") {
+				    echo '
+	<!-- PANEL START -->
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">'.$entry.'</a></h3>
+		</div>
+		<div class="panel-body">
+
+';
+						if ($sub_handle = opendir($entry)) { 
+							while (false !== ($sub_entry = readdir($sub_handle))) { 
+							if ($sub_entry != "." && $sub_entry != ".." && $sub_entry != "index.php") { 
+							echo '<p><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="'.$entry.'/'.$sub_entry.'">'.$sub_entry.'</a></p>';
+							}
+						    }
+						    closedir($sub_handle);
+						}
+echo '	
+		</div>
+	</div>
+	<hr />
+	<!-- PANEL END -->
+';
 				}
-				?>
-			</ul>
-		</blockquote></p>
+			    }
+			    closedir($handle);
+			}
+			?>
+		</div>
+		<div class="span3"></div>
 	</div>
 </body>
 </html>
