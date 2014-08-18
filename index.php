@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 	<div>
 		<p align="center">
-			<<img src="./img/logo_min.png" alt="logo_bronycub" height="200" width="600" class="img-responsive">
+			<img src="./img/logo_min.png" alt="logo_bronycub" height="200" width="600" class="img-responsive">
 		</p>
  		<div class="quotes">
             <?php
