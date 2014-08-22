@@ -15,6 +15,7 @@ $url="
 <a href='http://journal-doll.blogspot.fr' target='_blank' class='zocial icon blogger'></a>
 <a href='http://monde-cruel-bjd.blogspot.fr' target='_blank' class='zocial icon blogger'></a>
 <a href='http://www.reikuranmodelphoto.sitew.fr' target='_blank' class='zocial icon blogger'></a>
+<a href='http://rei-kuran-red-eyes.deviantart.com/' target='_blank' class='zocial icon disqus'></a>
 <a href='skype:rei.kuran15?call' target='_blank' class='zocial icon skype'></a>
 ";
 $bio="Rei est folle et est souvent, même voir trop, enfantine pour son âge. Une fille de première abord timide et renfermée dans son petit monde à elle, mais toujours accompagné par son oreiller ou une peluche ! Fan de My Little Pony et surtout de Rainbow Dash même avant d'avoir regardée la série. Elle se retrouve dans se monde de couleurs, de joie et d'amis ! Adorant lire (beaucoup trop) et écrire, geekette et collectionneuse ! Passionnée du Japon, d'écriture et de lecture, otaku à ses heures perdues. Photographe en herbe ainsi que cosplayeuse débutante. Une Stitch doublée d'une Tanuki dans l'âme. Adore les JDR et les RPG.";
