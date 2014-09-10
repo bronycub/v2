@@ -9,7 +9,7 @@
 				    <a href="http://leponeyblanc.fr" target="_blank">
 					<img class="thumbnail" src="./img/friends/le_poney_blanc.png">
 				    </a>
-				    <p>Site d'échange et d'information sur My Little Pony : Friendship is Magic pour les bronies francophones.<br /><br /></p>
+				    <p>Site d'échange et d'information sur My Little Pony : Friendship is Magic pour les bronies francophones.<br /><br /><br /></p>
 				  </div>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
 				    <a href="http://astree.asso.fr/" target="_blank">
 					<img class="thumbnail" src="./img/friends/astree.png">
 				    </a>
-				    <p>Association nationale aidant à l'écoute et l'accompagnement pour favoriser le lien social et rompre l'isolement.</p>
+				    <p>Association nationale aidant à l'écoute et l'accompagnement pour favoriser le lien social et rompre l'isolement.<br /><br /></p>
 				  </div>
 				</div>
 			</div>
@@ -118,6 +118,42 @@
 					<img class="thumbnail" src="./img/friends/bronycat.png">
 				    </a>
 				    <p>BronyCAT est un collectif de Bronies de la Communauté d'Agglomération de Toulon.<br /><br /></p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4" align="center">
+				<div class="panel panel-info">
+				  <div class="panel-heading">Breizhy-Ponies</div>
+				  <div class="panel-body">
+				    <a href="http://www.breizhy-ponies.fr/" target="_blank">
+					<img class="thumbnail" src="./img/friends/breizhy_ponies.png">
+				    </a>
+				    <p>Breizhy Ponies est un collectif de Bronies vivant en Bretagne et en Loire Atlantique.<br /><br /></p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4" align="center">
+				<div class="panel panel-info">
+				  <div class="panel-heading">Le Chantier des Porte-Plumes</div>
+				  <div class="panel-body">
+				    <a href="http://lesporteplumes.fr/" target="_blank">
+					<img class="thumbnail" src="./img/friends/cdpp.png">
+				    </a>
+				    <p>Association humanitaire pour l'eduction dans les pays en voie de développement.<br /><br /></p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-4" align="center">
+				<div class="panel panel-info">
+				  <div class="panel-heading">BronyOISE</div>
+				  <div class="panel-body">
+				    <a href="http://www.bronyoise.org/" target="_blank">
+					<img class="thumbnail" src="./img/friends/bronyoise.png">
+				    </a>
+				    <p>BronyOISE est un collectif de Bronies de l'Oise.<br /><br /></p>
 				  </div>
 				</div>
 			</div>
