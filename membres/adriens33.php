@@ -8,9 +8,9 @@ $naissance="22/02/1992";
 $url="
 <a href='https://www.art-software.fr' target='_blank' class='zocial icon chrome'></a>
 <a href='http://ask.fm/adriens33' target='_blank' class='zocial icon appnet'></a>
+<a href='https://twitter.com/adriens33' target='_blank' class='zocial icon twitter'></a>
 <a href='skype:adrien.s33?call' target='_blank' class='zocial icon skype'></a>
 <a href='https://github.com/adrien-s' target='_blank' class='zocial icon github'></a>
-<a href='http://git.art-software.fr' target='_blank' class='zocial icon github'></a>
 <a href='http://steamcommunity.com/profiles/76561198059705112' target='_blank' class='zocial icon steam'></a>
 <a href='http://adriens33.deviantart.com/' target='_blank' class='zocial icon disqus'></a>
 <a href='http://www.youtube.com/user/MrArtSoftware' target='_blank' class='zocial icon youtube'></a>
