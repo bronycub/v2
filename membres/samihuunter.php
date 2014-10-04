@@ -1,7 +1,7 @@
 <?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="SamiHuunter";
-$gravatar="38d3b3d8ba1fb606d459569f46936f6c";
+$gravatar="b368112bb49fd470c0a8a7e5a027a904";
 $prenom="Sam";
 $nom="Belkadi";
 $naissance="26/09/1996";
