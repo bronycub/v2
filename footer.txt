@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-<strong>[FORMATION] Agir face à la souffrance</strong> organisé par l'<a href="http://astree.asso.fr" target="_blank">Astrée de Bordeaux</a>.<br />
-Le Samedi 13 Septembre 2014 au 17 rue des Menuts, 33000 Bordeaux.
-=======
->>>>>>> 18902effdb0de1f0b4ecac34df34afe782cfde78
+
