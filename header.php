@@ -36,7 +36,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" target="_blank"><i class="fa fa-comment fa-1x"></i>&nbsp;Tchat</a></li>
 					<li><a href="https://vroom.im/bronycub" target="_blank"><i class="fa fa-video-camera fa-1x"></i>&nbsp;Visio</a></li>
-					<li><a href="http://ticket.bronycub.org/index.php/index/openticket/1" target="_blank"><i class="fa fa-ticket fa-1x"></i>&nbsp;Ticket</a></li>
+					<li><a href="https://bronycub.freshdesk.com/support/tickets/new" target="_blank"><i class="fa fa-ticket fa-1x"></i>&nbsp;Ticket</a></li>
 				</ul>
 			</div>
 		</div>
