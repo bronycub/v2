@@ -34,11 +34,11 @@
 					<li><a href="friends.php"><i class="fa fa-heart fa-1x"></i>&nbsp;Nos amis</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" target="_blank"><i class="fa fa-comment fa-1x"></i>&nbsp;Tchat</a></li>
+					<li><a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" target="_blank"><i class="fa fa-comments fa-1x"></i>&nbsp;Tchat</a></li>
 					<li><a href="https://vroom.im/bronycub" target="_blank"><i class="fa fa-video-camera fa-1x"></i>&nbsp;Visio</a></li>
 					<li><a href="https://bronycub.freshdesk.com/support/tickets/new" target="_blank"><i class="fa fa-ticket fa-1x"></i>&nbsp;Ticket</a></li>
+					<li><a href="projets.php" target="_blank"><i class="fa fa-cogs fa-1x"></i>&nbsp;Projets</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-
