@@ -102,7 +102,7 @@ if(isset($_POST['submit'])) {
 
 	//If there is no error, send the email
 	if(!isset($hasError)) {
-		$emailTo = 'contact@heuzef.com';
+		$emailTo = 'bronycub@gmail.com';
 		$body = "
 		Nom : $name $prenom ($pseudo) \n\n
 		Email : $email \n\n
