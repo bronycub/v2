@@ -9,7 +9,7 @@
 				    <a href="http://leponeyblanc.fr" target="_blank">
 					<img class="thumbnail" src="./img/friends/le_poney_blanc.png">
 				    </a>
-				    <p>Site d'échange et d'information sur My Little Pony : Friendship is Magic pour les bronies francophones.<br /><br /><br /></p>
+				    <p>Site d'échange et d'information sur My Little Pony : Friendship is Magic pour les bronies francophones.<br /><br /></p>
 				  </div>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
 				    <a href="http://astree.asso.fr/" target="_blank">
 					<img class="thumbnail" src="./img/friends/astree.png">
 				    </a>
-				    <p>Association nationale aidant à l'écoute et l'accompagnement pour favoriser le lien social et rompre l'isolement.<br /><br /></p>
+				    <p>Association nationale aidant à l'écoute et l'accompagnement pour favoriser le lien social et rompre l'isolement.<br /></p>
 				  </div>
 				</div>
 			</div>
@@ -148,13 +148,25 @@
 
 			<div class="col-md-4" align="center">
 				<div class="panel panel-info">
-				  <div class="panel-heading">BronyOISE</div>
-				  <div class="panel-body">
-				    <a href="http://www.bronyoise.org/" target="_blank">
+					<div class="panel-heading">BronyOISE</div>
+					<div class="panel-body">
+						<a href="http://www.bronyoise.org/" target="_blank">
 					<img class="thumbnail" src="./img/friends/bronyoise.png">
-				    </a>
-				    <p>BronyOISE est un collectif de Bronies de l'Oise.<br /><br /></p>
-				  </div>
+						</a>
+						<p>BronyOISE est un collectif de Bronies de l'Oise.<br /><br /><br /></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4" align="center">
+				<div class="panel panel-info">
+					<div class="panel-heading">Ponies Holidays</div>
+					<div class="panel-body">
+						<a href="http://poniesholidays.org/" target="_blank">
+					<img class="thumbnail" src="./img/friends/poho.png">
+						</a>
+						<p>Ponies Holidays est une association qui a pour vocation d'organiser des vacances rassemblant des Bronies.</p>
+					</div>
 				</div>
 			</div>
 

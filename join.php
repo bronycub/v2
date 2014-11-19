@@ -151,16 +151,16 @@ if(isset($_POST['submit'])) {
 					<div class="col-lg-4"><input type="text" name="prenom" id="prenom" class="form-control" id="prenom" placeholder="Pr&eacute;nom" aria-required="true" value="<?php echo $prenom; ?>" ></div>
 				</div>
 				<div class="form-group">
-					<label for="email" class="col-lg-1 control-label">Email</label>
-					<div class="col-lg-4"><input type="text" name="email" id="email" class="form-control" id="email" placeholder="Email" aria-required="true" value="<?php echo $email; ?>" ></div>
+					<label for="pseudo" class="col-lg-1 control-label">Pseudo</label>
+					<div class="col-lg-4"><input type="text" name="pseudo" id="pseudo" class="form-control" id="email" placeholder="Pseudo" aria-required="true" value="<?php echo $pseudo; ?>" ></div>
 					<label for="phone" class="col-lg-1 control-label">T&eacute;l&eacute;phone</label>
 					<div class="col-lg-4"><input type="text" name="phone" id="phone" class="form-control" id="phone" placeholder="T&eacute;l&eacute;phone" aria-required="true" value="<?php echo $phone; ?>" ></div>
 				</div>
 				<br />
 				<div class="form-group">
-					<label for="pseudo" class="col-lg-1 control-label">Pseudo</label>
-					<div class="col-lg-4"><input type="text" name="pseudo" id="pseudo" class="form-control" id="pseudo" placeholder="Pseudo Gravatar" aria-required="true" value="<?php echo $phone; ?>" ></div>
-					<div class="col-lg-5"><div class="alert alert-info"><i class="fa fa-arrow-left fa-1x"></i>&nbsp;&nbsp;&nbsp;<strong>Important : </strong>votre pseudo sera synchronis&eacute; avec votre <a href="http://fr.gravatar.com" target="_blank">Gravatar</a> !</div></div>
+					<label for="email" class="col-lg-1 control-label">Email</label>
+					<div class="col-lg-4"><input type="text" name="email" id="email" class="form-control" id="email" placeholder="Email" aria-required="true" value="<?php echo $email; ?>" ></div>
+					<div class="col-lg-5"><div class="alert alert-info"><i class="fa fa-arrow-left fa-1x"></i>&nbsp;&nbsp;&nbsp;<strong>Important : </strong>votre e-mail sera synchronis&eacute; avec votre <a href="http://fr.gravatar.com" target="_blank">Gravatar</a> !</div></div>
 				</div>
 				<br />
 				<div class="form-group">
