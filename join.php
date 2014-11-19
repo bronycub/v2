@@ -152,7 +152,7 @@ if(isset($_POST['submit'])) {
 				</div>
 				<div class="form-group">
 					<label for="pseudo" class="col-lg-1 control-label">Pseudo</label>
-					<div class="col-lg-4"><input type="text" name="pseudo" id="pseudo" class="form-control" id="email" placeholder="Pseudo" aria-required="true" value="<?php echo $pseudo; ?>" ></div>
+					<div class="col-lg-4"><input type="text" name="pseudo" id="pseudo" class="form-control" id="pseudo" placeholder="Pseudo" aria-required="true" value="<?php echo $pseudo; ?>" ></div>
 					<label for="phone" class="col-lg-1 control-label">T&eacute;l&eacute;phone</label>
 					<div class="col-lg-4"><input type="text" name="phone" id="phone" class="form-control" id="phone" placeholder="T&eacute;l&eacute;phone" aria-required="true" value="<?php echo $phone; ?>" ></div>
 				</div>
