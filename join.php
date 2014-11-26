@@ -115,7 +115,7 @@ if(isset($_POST['submit'])) {
 		";
 		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
-		mail($emailTo, "[BronyCUB] INSCRIPTION", $body, $headers);
+		mail($emailTo, "[INSCRIPTION] $pseudo", $body, $headers);
 		$emailSent = true;
 	}
 }
