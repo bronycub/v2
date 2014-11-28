@@ -5,7 +5,11 @@ $gravatar="553e850bb01e811fba5c36a9caa24279";
 $prenom="Piquet";
 $nom="Nathanael";
 $naissance="09/09/1999";
-$url="";
+$url="
+<a href='https://www.facebook.com/Eragon5047' target='_blank' class='zocial icon facebook'></a>
+<a href='http://steamcommunity.com/id/DarkNight5047' target='_blank' class='zocial icon steam'></a>
+<a href='http://darknight5047.deviantart.com/' target='_blank' class='zocial icon disqus'></a>
+";
 $bio="Salut à tous !
 Donc je m'appel Nathanael, né en 1999. Je suis un grand fan de MLP et pour info je suis déjà aller dans une convention Brony :D (La 3PS à Nante).
 Je suis un amis de Polfor t j'ai découvert ce collectif avec lui.
