@@ -100,12 +100,15 @@ if(isset($_POST['submit'])) {
 		$hasError = true;	// Champ qui doit rester vide
 	}
 
+	$gravatar="http://gravatar.com/avatar/".md5($email);
+
 	//If there is no error, send the email
 	if(!isset($hasError)) {
 		$emailTo = 'bronycub@gmail.com';
 		$body = "
 		Nom : $name $prenom ($pseudo) \n\n
 		Email : $email \n\n
+		Gravatar : $gravatar \n\n
 		Tel : $phone \n\n
 		Date de naissance : $naissance \n\n
 		Adresse : $adresse $postal $ville \n\n
