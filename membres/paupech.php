@@ -1,7 +1,7 @@
 <?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Paupech";
-$gravatar="38d3b3d8ba1fb606d459569f46936f6c";
+$gravatar="c8a7b129442fabf5a9c220300915cee1";
 $prenom="Pierre-Aubert";
 $nom="Péchaubès";
 $naissance="27/10/1995";
