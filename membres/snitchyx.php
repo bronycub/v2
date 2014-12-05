@@ -1,7 +1,7 @@
 <?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Snitchyx&nbsp;ou&nbsp;KLM";
-$gravatar="38d3b3d8ba1fb606d459569f46936f6c";
+$gravatar="06909bc9b4f1b36f75aecc09535dc002";
 $prenom="Clémence";
 $nom="Gendreaud";
 $naissance="16/03/1993";
