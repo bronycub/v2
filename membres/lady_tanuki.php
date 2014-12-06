@@ -2,8 +2,8 @@
 //////////////////////////////////////////////
 $pseudo="Lady Tanuki";
 $gravatar="cef0da828bbb5151f98bffe1b53e4763";
-$prenom="Marion";
-$nom="Roth";
+$prenom="Marie";
+$nom="Filippelli";
 $naissance="01/06/1998";
 $url="";
 $bio="Enchantée !
