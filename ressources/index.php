@@ -31,15 +31,15 @@
 		<div class="panel-body">
 
 ';
-						if ($sub_handle = opendir($entry)) { 
-							while (false !== ($sub_entry = readdir($sub_handle))) { 
-							if ($sub_entry != "." && $sub_entry != ".." && $sub_entry != "index.php") { 
-							echo '<p><span class="glyphicon glyphicon-chevron-right"></span>&nbsp;<a href="'.$entry.'/'.$sub_entry.'">'.$sub_entry.'</a></p>';
+						if ($sub_handle = opendir($entry)) {
+							while (false !== ($sub_entry = readdir($sub_handle))) {
+							if ($sub_entry != "." && $sub_entry != ".." && $sub_entry != "index.php") {
+							echo '<p>➵&nbsp;<a href="'.$entry.'/'.$sub_entry.'">'.$sub_entry.'</a></p>';
 							}
 						    }
 						    closedir($sub_handle);
 						}
-echo '	
+echo '
 		</div>
 	</div>
 	<hr />
