@@ -163,9 +163,21 @@
 					<div class="panel-heading">Ponies Holidays</div>
 					<div class="panel-body">
 						<a href="http://poniesholidays.org/" target="_blank">
-					<img class="thumbnail" src="./img/friends/poho.png">
+							<img class="thumbnail" src="./img/friends/poho.png">
 						</a>
 						<p>Ponies Holidays est une association qui a pour vocation d'organiser des vacances rassemblant des Bronies.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4" align="center">
+				<div class="panel panel-info">
+					<div class="panel-heading">Calice du Dragon</div>
+					<div class="panel-body">
+						<a href="http://carpenoctis.wix.com/association/" target="_blank">
+							<img class="thumbnail" src="./img/friends/calice_du_dragon.png">
+						</a>
+						<p>Le MédiaCafé Calice du Dragon est un lieu d'échange culturel, artistique, intellectuel et spirituel.</p>
 					</div>
 				</div>
 			</div>
