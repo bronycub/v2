@@ -170,7 +170,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-4" align="center">
+			<div class="col-md-4" align="center"
 				<div class="panel panel-info">
 					<div class="panel-heading">Calice du Dragon</div>
 					<div class="panel-body">
