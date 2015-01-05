@@ -20,7 +20,7 @@
             <?php
             }
             ?>
-		</div> 
+		</div>
 	</div>
     <br />
     <br />
@@ -36,7 +36,7 @@
 					Ce collectif a pour ambition de réunir les fans pour organiser diverses rencontres.
 					<br /><br />
 				</article>
-				
+
 				<!-- Question -->
 				<a data-toggle="modal" data-target="#modal"><button type="button" class="btn btn-primary btn-lg">Plus d'info ...</button></a>
 					<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="plusinfos" aria-hidden="true">
@@ -50,7 +50,7 @@
 								<h4>Un Brony ? Ça ce mange ? Kécéssé ?</h4>
 								<iframe width="540" height="320" src="//www.youtube.com/embed/Y67pwC9iOBw" frameborder="0" allowfullscreen></iframe>
 								<hr />
-								<h4>Sérieusement ... Pourquoi ?</h4>
+								<h4>Pourquoi ?</h4>
 								<iframe width="540" height="320" src="//www.youtube.com/embed/pXYqLKko6Ss" frameborder="0" allowfullscreen></iframe>
 								<hr />
 								</div>
