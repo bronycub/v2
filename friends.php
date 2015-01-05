@@ -40,18 +40,6 @@
 
 			<div class="col-md-4" align="center">
 				<div class="panel panel-info">
-				  <div class="panel-heading">MLP Fictions</div>
-				  <div class="panel-body">
-				    <a href="http://mlpfictions.com" target="_blank">
-				    <img class="thumbnail" src="./img/friends/mlp_fiction.png">
-				    </a>
-				    <p>Le 1<sup>er</sup> site francophone dédié à la lecture de fictions autours de l'univers de My Little Pony !<br /><br /></p>
-				  </div>
-				</div>
-			</div>
-
-			<div class="col-md-4" align="center">
-				<div class="panel panel-info">
 				  <div class="panel-heading">Radio Brony</div>
 				  <div class="panel-body">
 				    <a href="http://radiobrony.fr" target="_blank">
