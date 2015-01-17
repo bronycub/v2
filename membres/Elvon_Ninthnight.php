@@ -1,11 +1,14 @@
 <?php //INFOS DU MEMBRES
 //////////////////////////////////////////////
 $pseudo="Elvon Ninthnight";
-$gravatar="1ded90863fcf34a5f8236630a10a56ab";
+$gravatar="4a36fef0f5be558901afcea604672d2b";
 $prenom="Thomas";
 $nom="Belguiral";
 $naissance="07/11/1994";
-$url="";
+$url="
+<a href='https://www.facebook.com/ElvonNithnight' target='_blank' class='zocial icon facebook'></a>
+<a href='skype:spartan-halo?call' target='_blank' class='zocial icon skype'></a>
+";
 $bio="Avant tout musicien (Guitare classique/électrique, batterie, chant) , je ne suis brony que depuis environ 3 mois (je remerci donc Heuzef pour cette élan d’amabilité 
 lors d’une rencontre non Bronyesque, ce qui m'a permis par la suite de passer deux ou trois nuit nuit blanche sur les saisons 1/2/3 de MLP)
 Créatif, je me balade souvent avec mon araignée au plafond (cela reste une expression) si vous croisai un type qui sifflote ou entonne un air sans plus de raisons veuillez ne pas paniquer X3 
