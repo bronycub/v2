@@ -6,6 +6,7 @@ $prenom="Florian";
 $nom="B.";
 $naissance="07/03/1996";
 $url="
+<a href='https://www.facebook.com/profile.php?id=100008357979557' target='_blank' class='zocial icon facebook'></a>
 ";
 $bio="Hellow à tous !
 Alors voilà j’me présente, Florian, 18 ans, Lycéen flemmard et fan de culture Japonaise ainsi que de MLP depuis peu.
