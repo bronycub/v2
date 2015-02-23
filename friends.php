@@ -170,6 +170,18 @@
 				</div>
 			</div>
 
+			<div class="col-md-4" align="center">
+				<div class="panel panel-info">
+					<div class="panel-heading">PonySouth</div>
+					<div class="panel-body">
+						<a href="http://ponysouth.fr/" target="_blank">
+							<img class="thumbnail" src="./img/friends/ponysouth.png">
+						</a>
+						<p>Convention pour les Bronies du sud se déroulerant à Toulouse l'été ayant pour objectif de réunir créateurs Français et passionnés.</p>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 <?php include 'footer.php'; ?>

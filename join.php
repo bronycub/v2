@@ -37,7 +37,7 @@ if(isset($_POST['submit'])) {
 	if(trim($_POST['email']) == '') {
 		$hasError = true;
 	} else {
-		$email = trim($_POST['email']);
+		$email = trim(strtolower($_POST['email']));
 	}
 
 	if(trim($_POST['phone']) == '') {
