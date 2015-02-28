@@ -129,7 +129,7 @@
 				    <a href="http://lesporteplumes.fr/" target="_blank">
 					<img class="thumbnail" src="./img/friends/cdpp.png">
 				    </a>
-				    <p>Association humanitaire pour l'eduction dans les pays en voie de développement.<br /><br /></p>
+				    <p>Association humanitaire pour l'education dans les pays en voie de développement.<br /><br /></p>
 				  </div>
 				</div>
 			</div>
