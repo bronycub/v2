@@ -43,36 +43,9 @@
     <h2>Combien ça coûte ?</h2>
     <div class="jumbotron">
       <article>
-        L'entrée simple est à 3€ et comprend un thé. Les forfaits vous permettent de bénéficier d'accès/thés sans limites sur une longue période.
-        Remise exclusive pour les membres de BronyCUB sur le forfait annuel !
+        <strong>L'entrée simple est à 3€. Cliquez sur le menu ci-dessous pour l'afficher en plus grand.</strong>
         <br /><br />
-        <table class="table table-striped table-hover ">
-          <thead>
-            <tr>
-              <th></th>
-              <th>1 journée</th>
-              <th>1 mois</th>
-              <th>1 trimestre</th>
-              <th>1 an</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="active">
-              <td><strong>- 25 ans</strong></td>
-              <td>3€</td>
-              <td>20€</td>
-              <td>45€</td>
-              <td><del>150€</del> 120€</td>
-            </tr>
-            <tr class="active">
-              <td><strong>+ 25 ans</strong></td>
-              <td>3€</td>
-              <td>25€</td>
-              <td>60€</td>
-              <td><del>200€</del> 180€</td>
-            </tr>
-          </tbody>
-        </table>
+        <a href="./img/menu_mediacafe.jpg" target="_blank"><img class="thumbnail img-responsive" src="./img/menu_mediacafe.jpg" /></a>
       </article>
     </div>
     <h2>Plus d'infos</h2>
