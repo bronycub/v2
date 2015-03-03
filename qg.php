@@ -46,6 +46,11 @@
         <strong>L'entrée simple est à 3€. Cliquez sur le menu ci-dessous pour l'afficher en plus grand.</strong>
         <br /><br />
         <a href="./img/menu_mediacafe.jpg" target="_blank"><img class="thumbnail img-responsive" src="./img/menu_mediacafe.jpg" /></a>
+        <div class="alert alert-dismissible alert-success">
+          <button type="button" class="close" data-dismiss="alert">×</button>
+          <strong>Bon à savoir !</strong><br />
+          Il existe des cartes crédits à 15€ vous permettant de consommer sans vous embêter avec la monnaie. Il est recommandé d'en acheter une, c'est très pratique pour profiter des réductions de groupe !
+        </div>
       </article>
     </div>
     <h2>Plus d'infos</h2>
