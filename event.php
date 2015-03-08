@@ -101,7 +101,7 @@ $description";
 				</div>
 				<br />
 				<div class="form-group">
-					<p align="center"><strong>N'oubliez pas notre <a href="./qg.php" target="_blank">QG</a> si besoin d'un lieu et des idées !</strong></p>
+					<p align="center"><strong>N'oubliez pas notre <a href="./qg.php" target="_blank">QG</a> si besoin d'un lieu et d'idées !</strong></p>
 					<label for="description" class="col-lg-2 control-label">D&eacute;scription</label>
 					<div class="col-lg-10">
 						<textarea rows="15" name="description" id="description" class="form-control" role="textbox" aria-required="true">Décrivez l'évenement ici, soyez précis ;)
