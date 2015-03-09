@@ -12,7 +12,7 @@
 			<h2 style="color:#772953">Introduction</h2>
 			<p>
 				Bienvenue !<br />
-				Avant de procéder à votre inscription voici un petit <strong>guide d’accueil</strong> qui va vous permettre de savoir tout ce qu’il faut sur BronyCUB.
+				Avant de procéder à votre inscription, voici un petit <strong>guide d’accueil</strong> qui vous permettra de tout savoir sur BronyCUB.
 			</p>
 
 			<br />
@@ -20,22 +20,22 @@
 			<h3>L'histoire de BronyCUB</h3>
 
 			<p>
-				BronyCUB est un collectif et non une association, ceci pour éviter l’aspect administratif n’ayant aucun rapport avec son objectif, mais également pour simplifier l'intégration des membres.
+				BronyCUB est un collectif et non une association, afin d'éviter l’aspect administratif n’ayant aucun rapport avec son objectif, mais également pour simplifier l'intégration des membres.
 			</p>
 
 			<p>
-				Absolument tout le monde est le bienvenue sous 2 conditions :
+				Absolument tout le monde est le bienvenu sous 2 conditions :
 					<ol>
 						<li>Habiter la Communauté Urbaine de Bordeaux ou au moins y être actif assez souvent.</li>
-						<li>Être un Brony ou au moins en partager les valeurs tel que l’amitié et le respect.</li>
+						<li>Être un Brony ou au moins en partager les valeurs telles que l’amitié et le respect.</li>
 					</ol>
 				Si vous n’habitez pas dans le coin, nous vous invitons à rejoindre le <a href="http://carte.leponeyblanc.fr" target="_blank">collectif brony de votre région</a>.
 			</p>
 
 			<p>
-				BronyCUB a été fondé par <a href="http://heuzef.com" target="_blank">Heuzef</a> en 2013 avec l’espoir de réunir de formidables "geeks" qui souhaitent établir des liens fort entre eux (au delà du simple "pote" très répendu de nos jours) tout en agissant dans l'humanitaire.<br />
+				BronyCUB a été fondé par <a href="http://heuzef.com" target="_blank">Heuzef</a> en 2013 avec l’espoir de réunir de formidables "geeks" qui souhaitent établir des liens fort entre eux (au delà du simple "pote" très répandu de nos jours) tout en agissant dans l'humanitaire.<br />
 				Ce collectif aspire également à travailler directement les complexes présents chez ses membres, comme par exemple la timidité, la solitude ou tous autre facteur générateur de souffrance.
-				L’objectif est donc du "fun" et un maximum de partage de celui-ci pour un accomplissement de soi.
+				L’objectif est donc du fun et un maximum de partage de celui-ci pour un accomplissement de soi.
 			</p>
 
 			<blockquote class="pull-right">
@@ -48,7 +48,7 @@
 			<h3>Localisation</h3>
 
 				<p>
-					BronyCUB étant un collectif, nous ne disposons pas de locaux. Mais nous avons tout de même un "Quartier Général" ou nous nous retrouvons assez souvent : <a href="qg.php" target="_blank">le Calice du Dragon</a>.
+					BronyCUB étant un collectif, nous ne disposons pas de locaux. Mais nous avons tout de même un "Quartier Général" ou nous nous retrouvons régulièrement : <a href="qg.php" target="_blank">le Calice du Dragon</a>.
 					<br />
 					Autrement, il faut se rapprocher des Bronies Bordelais en consultant <a href="carte.php" target="_blank">la carte des membres</a>.
 				</p>
@@ -79,15 +79,15 @@
 
 				<h3>L'histoire</h3>
 					<p>
-						Le site de BronyCUB reste notre coeur de communication et fonctionne actuellement sous sa version 2 (aussi appelé V2). Cette version, réalisée solidairement par l'ensemble des membres, remplace la V1 mise en place "à l’arrache" par Heuzef en 2013 et ayant très vite montré ses limites face à l’évolution fulgurante du collectif.
+						Le site de BronyCUB reste notre coeur de communication et fonctionne actuellement sous sa version 2 (aussi appelée V2). Cette version, réalisée solidairement par l'ensemble des membres, remplace la V1 mise en place "à l’arrache" par Heuzef en 2013 et ayant très vite montré ses limites face à l’évolution fulgurante du collectif.
 					</p>
 
 					<p>
-						Malgrès tout, la V2 a encore besoin de beaucoup d'améliorations et c’est pour cela que l’un des projet actuel de BronyCUB est la création de la nouvelle version du site : <a href="https://github.com/bronycub/sugarcub" target="_blank">SugarCUB</a> !
+						Malgrès tout, la V2 a encore besoin de beaucoup d'améliorations et c’est pour cela que l’un des projets actuels de BronyCUB est la création de la nouvelle version du site : <a href="https://github.com/bronycub/sugarcub" target="_blank">SugarCUB</a> !
 						<br />
-						Cette V3 s'appellera ainsi, car, c’est un outil à part entière qui n’est pas destiné uniquement à BronyCUB. Ce site sera également la base des nombreux autres collectif Brony Français !
+						Cette V3 s'appellera ainsi car il s'agit d'un outil à part entière qui n’est pas uniquement destiné à BronyCUB. Ce site sera également la base des nombreux autres collectifs Brony Français !
 						<br />
-						SugarCUB integrera également le projet BBBFF (BronyCUB Big Browser File Factory), un serveur privé d'échange de médias.
+						SugarCUB intégrera également le projet BBBFF (BronyCUB Big Browser File Factory), un serveur privé d'échange de médias.
 					</p>
 
 					<p>
@@ -211,7 +211,7 @@
 								<p>
 									Plug.DJ est un service qui permet aux membres de BronyCUB de centraliser leurs musiques et ainsi faire une playlist collective que n'importe quel membre peut écouter.
 									<br /><br />
-									C’est très sympatique lors des soirées ! Pour pouvoir accéder et modifier la Playlist des musiques il faut cependant créer et gérer votre compte directement sur <a href=" https://plug.dj/" target="_blank">ce site</a>.
+									C’est très sympathique lors des soirées ! Pour pouvoir accéder et modifier la Playlist des musiques il faut cependant créer et gérer votre compte directement sur <a href=" https://plug.dj/" target="_blank">ce site</a>.
 								</p>
 
 							</div>
@@ -230,7 +230,7 @@
 									Les tickets servent de lien entre l'équipe de gestion et les membres de BronyCUB, ils permettent de lister toutes les demandes, problèmes et souhaits du collectif.
 								</p>
 								<p>
-									Donc pour toute demande concernant le collectif, <a href="https://bronycub.freshdesk.com/support/tickets/new" target="_blank">ouvrez un ticket</a> ! Des responsables vous répondrons le plus rapidement possible pour vous aider !
+									Donc pour toute demande concernant le collectif, <a href="https://bronycub.freshdesk.com/support/tickets/new" target="_blank">ouvrez un ticket</a> ! Des responsables vous répondront le plus rapidement possible pour vous aider !
 								</p>
 							</div>
 
@@ -266,7 +266,7 @@
 
 								<h2 style="color:#772953">Nos Amis</h2>
 
-								<p>Au fil des années, BronyCUB vis de sacrées histoires et rencontre pas mal de monde, nous liant d’amitié avec des gens extraordinaires.<br />
+								<p>Au fil du temps, BronyCUB a vécu de sacrées histoires et rencontré pas mal de monde, nous liant d’amitié avec des gens extraordinaires.<br />
 									Chaque entité présente sur notre <a href="friends.php" target="_blank">page d’amis</a> mérite votre attention car nous sommes directement liés à eux.</p><br />
 
 
@@ -276,7 +276,7 @@
 									C’est donc le grand moment pour vous de rejoindre le troupeau Bordelais !<br /><br />
 									Le <strong>formulaire d’inscription</strong> qui va suivre est là pour nous aider dans la gestion du collectif, il est primordial de le remplir avec soin.<br />
 									Les informations jugées "sensibles" (comme votre n° de tel par exemple) ne sont diffusées qu’en interne et cela facilite énormément les choses pour la suite.<br />
-									N’étant pas une asso, rejoindre le collectif est gratuit et une simple demande de désinscription par ticket suffira si vous déménagez loin par exemple.
+									N’étant pas une asso, rejoindre le collectif est gratuit et une simple demande de désinscription par ticket suffira si vous déménagez loin, par exemple.
 								</p>
 
 								<p>
@@ -287,18 +287,18 @@
 								</p>
 
 								<p>
-									Pour finir, votre <strong>bio de présentation</strong>, il est important d’y mettre au moins paragraphe pour vous présenter aux autres.<br />
-									Soyez bavard ! Inspirez vous des autres présentations par exemple ;)<br />
+									Pour finir, votre <strong>bio de présentation</strong>, il est important d’y mettre au moins un paragraphe pour vous présenter aux autres.<br />
+									Soyez bavard, Inspirez vous des autres présentations ;)<br />
 									Soyez original, parlez de vos passions, de la manière dont vous avez connu BronyCUB et de l'expérience que vous en attendez.
 								</p>
 
 								<p>
-									Enfin, complétez avec <strong>vos liens</strong> (blog, facebook, skype, steam, …) si vous souhaitez partager ça avec les autres.
+									Enfin, complétez avec <strong>vos liens</strong> (blog, facebook, skype, steam, …) si vous souhaitez les partager avec tout le monde.
 								</p>
 
 								<p>
-									Une fois fait, cela va créer un ticket et nous <strong>reviendrons vers vous par e-mail</strong> pour finaliser votre inscription, c’est à ce moment la qu’il faudra poser toutes vos questions !<br />
-									Bien sur, n'hésitez pas à vous ré-inscrire autant de fois que nécessaire pour mettre à jour vos infos <strong>;)</strong> A très vite <strong>/)</strong>
+									Une fois fait, cela va créer un ticket et nous <strong>reviendrons vers vous par e-mail</strong> pour finaliser votre inscription, c’est à ce moment-la qu’il faudra poser toutes vos questions !<br />
+									Bien sûr, n'hésitez pas à vous ré-inscrire autant de fois que nécessaire pour mettre à jour vos infos <strong>;)</strong> A très vite <strong>/)</strong>
 								</p>
 
 								<br />
