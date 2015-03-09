@@ -221,7 +221,7 @@
 									Le petit jeu de Lego dématérialisé n'a pas échappé à la vague de petits poneys tout roses ! Et c'est pour cela que notre collectif possède son propre serveur Minecraft !
 								</p>
 								<p>
-									Pour pouvoir jouer, il faut faire une demande à Adriens33 ( <em>adrien.sohier@art-software.fr</em> ) qui vous expliquera le fonctionnement du serveur.
+									Pour pouvoir jouer, il faut faire une demande à Adriens33 ( <em><a href="mailto:support@art-software.fr">support@art-software.fr</a></em> ) qui vous expliquera le fonctionnement du serveur.
 								<p>
 							</div>
 
