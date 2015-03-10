@@ -133,6 +133,11 @@
 							<p>
 								Berry-Punch, notre mascotte, est la pour modérer le salon et nous y somme présent pour répondre à toutes vos questions !
 							</p>
+							<div class="alert alert-dismissible alert-info">
+								<p>
+									Si vous souhaitez discuter d'informatique, nous avons un second salon de conversation. Il suffit de taper /join #bronycub-g33k pour le rejoindre (ou de cliquer <a href="http://kiwiirc.com/client/chat.freenode.net/bronycub-g33k/">ici</a>).
+								</p>
+							</div>
 						</div>
 
 						<div class="tab-pane fade" id="visio">
