@@ -5,7 +5,9 @@ $gravatar="4d4312bea3e4f402294522c865dc391c";
 $prenom="Corentin";
 $nom="Roy";
 $naissance="14/07/2000";
-$url="";
+$url="
+<a href='https://twitter.com/redmoose722' target='_blank' class='zocial icon twitter'></a>
+";
 $bio="Bonjour je me présente je suis corentin (morning course en nom poney) j'ai découvert mlp grace a un concours
  qu'astaen a organisé sur twitter( il y a environ deux mois au moment ou j'écris ca)
 il y avait des badges a gagner(pinkie pie , derpy , et nightmare moon+luna a la manière d'un yin yang) 
