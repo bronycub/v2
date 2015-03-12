@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Razorbill";
 $gravatar="b1a2f006f790c5935e1814528adefe3a";

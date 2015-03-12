@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="ElvinaZarah";
 $gravatar="a23fd127da46f17c40660bbe47f77953";

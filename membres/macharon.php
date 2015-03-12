@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="MaCharon";
 $gravatar="a61018bbb7e2a1d30408b3d57a3f15a2";

@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="RunRun";
 $gravatar="ae2fbe2b2aa1ed5698de7105eaf699d6";

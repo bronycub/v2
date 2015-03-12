@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Rei&nbsp;Kuran";
 $gravatar="d943e923a4018c01e0584310875beff0";
@@ -18,7 +18,7 @@ $url="
 <a href='http://rei-kuran-red-eyes.deviantart.com/' target='_blank' class='zocial icon disqus'></a>
 <a href='skype:rei.kuran15?call' target='_blank' class='zocial icon skype'></a>
 ";
-$bio="Rei est folle et est souvent, même voir trop, enfantine pour son âge. Une fille de première abord timide et renfermée dans son petit monde à elle, mais toujours accompagné par son oreiller ou une peluche ! Fan de My Little Pony et surtout de Rainbow Dash même avant d'avoir regardée la série. Elle se retrouve dans se monde de couleurs, de joie et d'amis ! Adorant lire (beaucoup trop) et écrire, geekette et collectionneuse ! Passionnée du Japon, d'écriture et de lecture, otaku à ses heures perdues. Photographe en herbe ainsi que cosplayeuse débutante. Une Stitch doublée d'une Tanuki dans l'âme. Adore les JDR et les RPG.";
+$bio="Rei est folle et est souvent, même voir trop, enfantine pour son âge. Une fille de première abord timide et renfermée dans son petit monde à elle, mais toujours accompagné par son oreiller ou une peluche ! Fan de My Little Pony et surtout de Rainbow Dash même avant d'avoir regardé la série. Elle se retrouve dans ce monde de couleurs, de joie et d'amis ! Adorant lire (beaucoup trop) et écrire, geekette et collectionneuse ! Passionnée du Japon, d'écriture et de lecture, otaku à ses heures perdues. Photographe en herbe ainsi que cosplayeuse débutante. Une Stitch doublée d'une Tanuki dans l'âme. Adore les JDR et les RPG.";
 $pony="<img src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/fluffle_puff.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Pink Fluffy Unicorn Dancing On Rainbows !</span>&nbsp;&nbsp;&nbsp;<img src='img/ponies/luna.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Luna is best Princess !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

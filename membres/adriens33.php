@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Adriens33";
 $gravatar="66a614defdfde3f9e15191cf4d76c05c";

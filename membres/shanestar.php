@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="ShaneStar";
 $gravatar="b6503c55f63ab5b9a00412b76fac7d3e";

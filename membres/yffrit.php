@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Yffrit";
 $gravatar="1f0c6de5fc4bc81cd2197cea80998829";

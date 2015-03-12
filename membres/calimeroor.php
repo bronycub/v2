@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Calimeroor";
 $gravatar="f298f961d1ca0d39418c06f50e6e85bb";
@@ -10,8 +10,8 @@ $url="
 <a href='https://plus.google.com/+StanScrash' target='_blank' class='zocial icon googleplus'></a>
 <a href='https://twitter.com/Calimeroor' target='_blank' class='zocial icon twitter'></a>
 ";
-$bio="Je suis un jeune graphiste, j'habite a Toulouse mais je peut venir à Bordeaux quand je veux ...
-J'aime tous les styles de musique, de manga, de dessin animé, de film, je suis très ouvert ^^
+$bio="Je suis un jeune graphiste, j'habite à Toulouse mais je peux venir à Bordeaux quand je veux…
+J'aime tous les styles de musiques, de mangas, de dessins animés, de films, je suis très ouvert ^^
 Voilivoilou !";
 $pony="<img src='img/ponies/soarin.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Soarin is best pony !</span>";
 //////////////////////////////////////////////

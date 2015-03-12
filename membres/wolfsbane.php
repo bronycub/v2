@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Wolfsbane";
 $gravatar="7516d47db347e66858e33915aeb468d0";

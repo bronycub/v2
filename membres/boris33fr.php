@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Boris33fr";
 $gravatar="6b4e9f09578ed7428562332184fcd7bc";
@@ -10,8 +10,8 @@ $url="
 <a href='http://steamcommunity.com/id/Boris33fr/' target='_blank' class='zocial icon steam'></a>
 <a href='skype:Boris33fr?call' target='_blank' class='zocial icon skype'></a>
 ";
-$bio=" Salut ! Brony Mérignacais, je suis étudiant en médecine et grand passionné de séries, films et autres. C'est dû à la fréquentation d'un ami Brony que j'ai finis par essayer par curiosité. 
-Pendant tout le mois d'aout 2013, je n'ai pas pu m'arrêter de regarder la série en boucle et j'étais vraiment piqué. 
+$bio=" Salut ! Brony Mérignacais, je suis étudiant en médecine et grand passionné de séries, films et autres. C'est dû à la fréquentation d'un ami Brony que j'ai fini par essayer par curiosité. 
+Pendant tout le mois d'août 2013, je n'ai pas pu m'arrêter de regarder la série en boucle et j'étais vraiment piqué. 
 Maintenant, j'ai un rythme plus soutenu, mais j'en suis toujours autant inlassable.
 J'aime sinon parler, mon chat, ma voiture, dormir, les films, les gens et j'aimerais un jour goûter les cupcakes !
 Si jamais vous voyez une Mazda avec un sticker MLP à l'arrière, klaxonnez moi ! :)

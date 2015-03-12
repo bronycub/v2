@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Paupech";
 $gravatar="c8a7b129442fabf5a9c220300915cee1";

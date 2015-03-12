@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Nightfire";
 $gravatar="6bffeeee3c394cf55cf9b85155179c88";

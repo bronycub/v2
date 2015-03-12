@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Eclipse2212";
 $gravatar="ed1c2a56236189bc69ac697e5e759508";
@@ -11,8 +11,8 @@ $url="
 <a href='https://www.facebook.com/lucas.assier.1' target='_blank' class='zocial icon facebook'></a>
 <a href='skype:live:lucas.assier?call' target='_blank' class='zocial icon skype'></a>
 ";
-$bio="Brony depuis environ un an, Lucas passe sa vie sur le PC ... enfin quand ses parents sont absents ! Il aime aussi lire des fanfics.
-Lucas est un roux, il n'a donc pas d'âme, pour ceux qui n'aiment pas les roux, il va falloir le supporter !";
+$bio="Brony depuis environ un an, Lucas passe sa vie sur le PC… Enfin quand ses parents sont absents ! Il aime aussi lire des fanfics.
+Lucas est un roux, il n'a donc pas d'âme. Pour ceux qui n'aiment pas les roux, il va falloir le supporter !";
 $pony="<img src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

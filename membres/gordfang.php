@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Gordfang";
 $gravatar="18f6346a75cea58a79c76314d2a9dbd2";
@@ -12,7 +12,7 @@ $url="
 <a href='http://baptisteorlenard.deviantart.com' target='_blank' class='zocial icon disqus'></a>
 <a href='https://www.youtube.com/user/Orlenard' target='_blank' class='zocial icon youtube'></a>
 ";
-$bio="Baptiste est un brony mais surtout un gamer (dragon age et dark souls) et un fan de manga (evangelion et log horizon). Si vous avez besoin d'aide, vous pouvez compter sur lui !";
+$bio="Baptiste est un brony, mais surtout un gamer (dragon age et dark souls) et un fan de mangas (evangelion et log horizon). Si vous avez besoin d'aide, vous pouvez compter sur lui !";
 $pony="<img src='img/ponies/octavia_melody.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Octavia is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

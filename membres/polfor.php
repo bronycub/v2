@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Polfor";
 $gravatar="5e4e7deba4edbd7f68797d86c3f73c85";

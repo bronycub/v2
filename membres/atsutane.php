@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Atsutane";
 $gravatar="56c28f57abeb9ab9fd4c43b054872ad0";
@@ -9,7 +9,7 @@ $url="
 <a href='https://twitter.com/Atsutane13' target='_blank' class='zocial icon twitter'></a>
 <a href='https://www.facebook.com/gael.gautier.98' target='_blank' class='zocial icon facebook'></a>
 ";
-$bio="Étudiant en langue japonaise à bordeaux 3. Gros otaku mais ça n'empêche pas d'apprécier d'autre série hors japon. Joueur de jeux de combat, shoot'em up et jeux musicaux. PS : je sais jouer au mahjong !";
+$bio="Étudiant en langue japonaise à bordeaux 3. Gros otaku mais ça n'empêche pas d'apprécier d'autre séries hors japon. Joueur de jeux de combat, shoot'em up et jeux musicaux. PS : je sais jouer au mahjong !";
 $pony="<img src='img/ponies/luna.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Luna is best Princess !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

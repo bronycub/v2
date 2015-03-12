@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Heuzef";
 $gravatar="c0f08ae603e364cb554fe71c9fc94ffd";
@@ -11,7 +11,7 @@ $url="
 <a href='https://twitter.com/heuzef' target='_blank' class='zocial icon twitter'></a>
 <a href='http://www.betaseries.com/membre/heuzef' target='_blank' class='zocial icon googleplay'></a>
 ";
-$bio="Fondateur du collectif BronyCUB, Florent est ce que l'on appelle un Geek. Avec le soutien de l'association <a href='http://www.mandora.fr' target='_blank'>Mandora</a>, il a créé ce collectif suite aux difficultés rencontrées par les Bronies habitants la CUB à se regrouper et organiser des rencontres. Florent vit à Bordeaux depuis plusieurs années, où il à commencer <a href='http://www.heuzef.com' target='_blank'>sa carrière dans l'informatique</a>, il découvrit également une forte passion pour l'<a href='http://www.campus-aikido.fr' target='_blank'>Aïkido</a>.";
+$bio="Fondateur du collectif BronyCUB, Florent est ce que l'on appelle un Geek. Avec le soutien de l'association <a href='http://www.mandora.fr' target='_blank'>Mandora</a>, il a créé ce collectif suite aux difficultés rencontrées par les Bronies habitants la CUB à se regrouper et organiser des rencontres. Florent vit à Bordeaux depuis plusieurs années, où il à commencé <a href='http://www.heuzef.com' target='_blank'>sa carrière dans l'informatique</a>, il découvrit également une forte passion pour l'<a href='http://www.campus-aikido.fr' target='_blank'>Aïkido</a>.";
 $pony="<img src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/colgate.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Colgate can brush your teeth ?</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

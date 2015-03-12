@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Wildfier";
 $gravatar="3cc1bc48b0ded8921c14a5fc73c8a578";
@@ -11,7 +11,7 @@ $url="
 <a href='https://github.com/mdevlamynck' target='_blank' class='zocial icon github'></a>
 <a href='http://steamcommunity.com/id/wildfier' target='_blank' class='zocial icon steam'></a>
 ";
-$bio="Métaleux, développeur et gamer. Si vous appréciez Dream Theater et Symphony X, le C++ et Linux, Dark Souls et Valve, on va s'entendre sans problèmes ! Et puis si ce n'est pas le cas ... on va s'entendre quand même ;)";
+$bio="Métaleux, développeur et gamer. Si vous appréciez Dream Theater et Symphony X, le C++ et Linux, Dark Souls et Valve, on va s'entendre sans problèmes ! Et puis si ce n'est pas le cas… on va s'entendre quand même ;)";
 $pony="<img src='img/ponies/fluttershy.png' class='img-thumbnail'/>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Fluttershy is best pony, yay !</span>&nbsp;&nbsp;<img src='img/ponies/luna.png' class='img-thumbnail'/>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Princess Luna is best Princess !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>

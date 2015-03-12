@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="StarBook";
 $gravatar="f9a0f4c250c3f7ae4721e1bc98865a61";

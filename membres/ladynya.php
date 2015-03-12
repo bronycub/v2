@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Ladynya";
 $gravatar="fd72e7a45434bb7962e700b15811b1c2";
@@ -9,7 +9,7 @@ $url="
 <a href='https://www.facebook.com/profile.php?id=100000253346216' target='_blank' class='zocial icon facebook'></a>
 ";
 $bio="Fille simple et qui aime jouer ^^
-Petite geek amicale qui a peur des araignées, des chenilles et ... bah de quasiment tous les insectes en faite >_<
+Petite geek amicale qui a peur des araignées, des chenilles et… bah de quasiment tous les insectes en faite >_<
 Par contre ne me proposez jaaaaaaaaaaaamais de fraise ! Ôh non ! J'adore ça ! Aucune femme, même enceinte, ne peut aimer les fraises autant que moi <3 fuuu !
 Sinon je suis une grande timide >_<
 Alors vous moquez pas, me taquinez pas, je rougis trop facilement T-T";

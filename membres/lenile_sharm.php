@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Lenile Sharm";
 $gravatar="344c5cf75607814c880a4746eb46221a";

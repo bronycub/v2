@@ -1,4 +1,4 @@
-<?php //INFOS DU MEMBRES
+<?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Lady Tanuki";
 $gravatar="cef0da828bbb5151f98bffe1b53e4763";
