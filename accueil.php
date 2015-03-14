@@ -12,7 +12,7 @@
 			<h2 style="color:#772953">Introduction</h2>
 			<p>
 				Bienvenue !<br />
-				Avant de procéder à votre inscription, voici un petit <b>guide d’accueil</b> qui vous permettra de tout savoir sur BronyCUB.
+				Avant de procéder à votre inscription, voici un petit <strong>guide d’accueil</strong> qui vous permettra de tout savoir sur BronyCUB.
 			</p>
 
 			<br />
@@ -114,7 +114,7 @@
 					<div id="myTabContent" class="tab-content">
 						<div class="tab-pane fade active in" id="mailinglist">
 							<p>
-								La ML (mailing list ou liste de diffusion en Français) <b>bronycub@googlegroups.com</b> à laquelle vous serez bientôt ajouté permet de communiquer les informations importantes lié à la vie du collectif. C'est notre 1er moyen de communication !
+								La ML (mailing list ou liste de diffusion en Français) <strong>bronycub@googlegroups.com</strong> à laquelle vous serez bientôt ajouté permet de communiquer les informations importantes lié à la vie du collectif. C'est notre 1er moyen de communication !
 							</p>
 							<p>
 								Elle permet de s’organiser et de se tenir au courant de tous les évènements faits par le collectif et surtout de contacter le collectif directement dans son intégralité.<br />
@@ -122,7 +122,7 @@
 							</p>
 							<p>
 								Il est important de mettre en place un filtre dans votre boite e-mail avec le mot clef <em>[BronyCUB]</em> pour gérer efficacement le flux de messages (environ un millier par an).<br />
-								Si vous ne savez pas comment créer un filtre, voici un <a href="https://www.youtube.com/watch?v=bTiDLK9naPQ" target="_blank">exemple avec Gmail</a> mais <b>n'hésitez surtout pas à demander de l'aide !</b>
+								Si vous ne savez pas comment créer un filtre, voici un <a href="https://www.youtube.com/watch?v=bTiDLK9naPQ" target="_blank">exemple avec Gmail</a> mais <strong>n'hésitez surtout pas à demander de l'aide !</strong>
 							</p>
 						</div>
 
@@ -145,7 +145,7 @@
 								Si besoin, vous avez à votre disposition un outil de visio très simple à exploiter pour discuter à plusieurs. Il suffit de se rendre sur <a href="https://vroom.im/bronycub" target="_blank">vroom.in/bronycub</a>
 							</p>
 							<div class="alert alert-dismissible alert-success">
-								<b>Astuce :</b> le lien <a href="https://vroom.im/bronycub?video=false" target="_blank">vroom.im/bronycub<b>?video=false</b></a> désactivera automatiquement votre webcam !
+								<strong>Astuce :</strong> le lien <a href="https://vroom.im/bronycub?video=false" target="_blank">vroom.im/bronycub<strong>?video=false</strong></a> désactivera automatiquement votre webcam !
 							</div>
 						</div>
 
@@ -157,7 +157,7 @@
 								Si vous souhaitez organiser vous-même quelque chose, il vous suffira alors de cliquer sur <a href="event.php" target="_blank">organiser un événement</a> et de vous laisser guider !
 							</p>
 							<div class="alert alert-dismissible alert-warning">
-								<b>Important :</b> Nous vous encourageons vivement à <b>vous lancer</b> pour organiser votre meet-up, atelier, projet, action humanitaire, …<br />
+								<strong>Important :</strong> Nous vous encourageons vivement à <strong>vous lancer</strong> pour organiser votre meet-up, atelier, projet, action humanitaire, …<br />
 								C'est ce qui fait vivre le collectif et le rend aussi magique !<br />
 								Vous ne vous en sentez pas capable ? C'est donc l'occasion parfaite de gagner confiance en vous, vous aurez beaucoup de soutien ici.
 							</div>
@@ -279,31 +279,31 @@
 
 								<p>
 									C’est donc le grand moment pour vous de rejoindre le troupeau Bordelais !<br /><br />
-									Le <b>formulaire d’inscription</b> qui va suivre est là pour nous aider dans la gestion du collectif, il est primordial de le remplir avec soin.<br />
+									Le <strong>formulaire d’inscription</strong> qui va suivre est là pour nous aider dans la gestion du collectif, il est primordial de le remplir avec soin.<br />
 									Les informations jugées "sensibles" (comme votre n° de tel par exemple) ne sont diffusées qu’en interne et cela facilite énormément les choses pour la suite.<br />
 									N’étant pas une asso, rejoindre le collectif est gratuit et une simple demande de désinscription par ticket suffira si vous déménagez loin, par exemple.
 								</p>
 
 								<p>
-									Le formulaire d’inscription vous demandera des <b>informations classiques</b> (nom, prénom, pseudo, …).<br />
-									Des <b>informations de contact</b> comme votre téléphone, très pratique pour l’organisation et votre adresse e-mail, qui sera inscrite à cette fameuse ML de BronyCUB.<br />
-									Votre <b>adresse postale</b>, pour nous permettre de vous situer géographiquement par rapport aux autres et également nous assurer que vous être actif dans la région.<br />
-									Et votre <b>date de naissance</b>, pour connaître votre âge mais surtout votre anniversaire ! :D
+									Le formulaire d’inscription vous demandera des <strong>informations classiques</strong> (nom, prénom, pseudo, …).<br />
+									Des <strong>informations de contact</strong> comme votre téléphone, très pratique pour l’organisation et votre adresse e-mail, qui sera inscrite à cette fameuse ML de BronyCUB.<br />
+									Votre <strong>adresse postale</strong>, pour nous permettre de vous situer géographiquement par rapport aux autres et également nous assurer que vous être actif dans la région.<br />
+									Et votre <strong>date de naissance</strong>, pour connaître votre âge mais surtout votre anniversaire ! :D
 								</p>
 
 								<p>
-									Pour finir, votre <b>bio de présentation</b>. Il est important d’y mettre au moins un paragraphe pour vous présenter aux autres.<br />
+									Pour finir, votre <strong>bio de présentation</strong>. Il est important d’y mettre au moins un paragraphe pour vous présenter aux autres.<br />
 									Soyez bavard, inspirez vous des autres présentations si besoin ;)<br />
 									Soyez original, parlez de vos passions, de la manière dont vous avez connu BronyCUB et de l'expérience que vous en attendez.
 								</p>
 
 								<p>
-									Enfin, complétez avec <b>vos liens</b> (blog, facebook, skype, steam, …) si vous souhaitez les partager avec tout le monde.
+									Enfin, complétez avec <strong>vos liens</strong> (blog, facebook, skype, steam, …) si vous souhaitez les partager avec tout le monde.
 								</p>
 
 								<p>
-									Une fois fait, cela va créer un ticket et nous <b>reviendrons vers vous par e-mail</b> pour finaliser votre inscription, c’est à ce moment-là qu’il faudra poser toutes vos questions !<br />
-									Bien sûr, n'hésitez pas à vous ré-inscrire autant de fois que nécessaire pour mettre à jour vos infos <b>;)</b> A très vite <b>/)</b>
+									Une fois fait, cela va créer un ticket et nous <strong>reviendrons vers vous par e-mail</strong> pour finaliser votre inscription, c’est à ce moment-là qu’il faudra poser toutes vos questions !<br />
+									Bien sûr, n'hésitez pas à vous ré-inscrire autant de fois que nécessaire pour mettre à jour vos infos <strong>;)</strong> A très vite <strong>/)</strong>
 								</p>
 
 								<br />
