@@ -132,6 +132,7 @@
 							</p>
 							<p>
 								Berry-Punch, notre mascotte, est là pour modérer le salon et nous y sommes présents pour répondre à toutes vos questions !
+								<a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" target="_blank">Cliquez ici pour rejoindre #bronycub sur irc.freenode.net.</a>
 							</p>
 							<div class="alert alert-dismissible alert-info">
 								<p>
