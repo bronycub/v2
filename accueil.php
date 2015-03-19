@@ -117,8 +117,8 @@
 								La ML (mailing list ou liste de diffusion en Français) <strong>bronycub@googlegroups.com</strong> à laquelle vous serez bientôt ajouté permet de communiquer les informations importantes lié à la vie du collectif. C'est notre 1er moyen de communication !
 							</p>
 							<p>
-								Elle permet de s’organiser et de se tenir au courant de tout les évènements faits par le collectif et surtout de contacter le collectif directement dans son intégralité.<br />
-								Nous somme présents sur les réseaux sociaux et ils nous aident mais ne répondent pas autant à notre besoin de neutralité, en effet, tout le monde dispose d’une adresse e-mail, mais n'est pas forcément fan de Facebook et autres Twitter.
+								Elle permet de s’organiser et de se tenir au courant de tous les évènements faits par le collectif et surtout de contacter le collectif directement dans son intégralité.<br />
+								Nous somme présents sur les réseaux sociaux et ils nous aident mais ne répondent pas autant à notre besoin de neutralité, en effet, tout le monde dispose d’une adresse e-mail, mais n'est pas forcément fan de Facebook et autre Twitter.
 							</p>
 							<p>
 								Il est important de mettre en place un filtre dans votre boite e-mail avec le mot clef <em>[BronyCUB]</em> pour gérer efficacement le flux de messages (environ un millier par an).<br />
@@ -128,10 +128,11 @@
 
 						<div class="tab-pane fade" id="irc">
 							<p>
-								C’est un salon de conversation. Ce Tchat permet aux membres de BronyCUB ou autres de venir discuter de manière pratique et simple (c’est mieux que les mails pour la discussion rapide).
+								C’est un salon de conversation. Ce Tchat permet aux membres de BronyCUB ou autre de venir discuter de manière pratique et simple (c’est mieux que les mails pour la discussion rapide).
 							</p>
 							<p>
 								Berry-Punch, notre mascotte, est là pour modérer le salon et nous y sommes présents pour répondre à toutes vos questions !
+								<a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" target="_blank">Cliquez ici pour rejoindre #bronycub sur irc.freenode.net.</a>
 							</p>
 							<div class="alert alert-dismissible alert-info">
 								<p>
@@ -287,13 +288,13 @@
 								<p>
 									Le formulaire d’inscription vous demandera des <strong>informations classiques</strong> (nom, prénom, pseudo, …).<br />
 									Des <strong>informations de contact</strong> comme votre téléphone, très pratique pour l’organisation et votre adresse e-mail, qui sera inscrite à cette fameuse ML de BronyCUB.<br />
-									Votre <strong>adresse postale</strong>, pour nous permettre de vous situer géographiquement par rapport aux autres et également nous assurez que vous être actif dans la région.<br />
+									Votre <strong>adresse postale</strong>, pour nous permettre de vous situer géographiquement par rapport aux autres et également nous assurer que vous être actif dans la région.<br />
 									Et votre <strong>date de naissance</strong>, pour connaître votre âge mais surtout votre anniversaire ! :D
 								</p>
 
 								<p>
-									Pour finir, votre <strong>bio de présentation</strong>, il est important d’y mettre au moins un paragraphe pour vous présenter aux autres.<br />
-									Soyez bavard, Inspirez vous des autres présentations ;)<br />
+									Pour finir, votre <strong>bio de présentation</strong>. Il est important d’y mettre au moins un paragraphe pour vous présenter aux autres.<br />
+									Soyez bavard, inspirez vous des autres présentations si besoin ;)<br />
 									Soyez original, parlez de vos passions, de la manière dont vous avez connu BronyCUB et de l'expérience que vous en attendez.
 								</p>
 
@@ -302,7 +303,7 @@
 								</p>
 
 								<p>
-									Une fois fait, cela va créer un ticket et nous <strong>reviendrons vers vous par e-mail</strong> pour finaliser votre inscription, c’est à ce moment-la qu’il faudra poser toutes vos questions !<br />
+									Une fois fait, cela va créer un ticket et nous <strong>reviendrons vers vous par e-mail</strong> pour finaliser votre inscription, c’est à ce moment-là qu’il faudra poser toutes vos questions !<br />
 									Bien sûr, n'hésitez pas à vous ré-inscrire autant de fois que nécessaire pour mettre à jour vos infos <strong>;)</strong> A très vite <strong>/)</strong>
 								</p>
 
