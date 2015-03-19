@@ -5,7 +5,10 @@ $gravatar="5e1e5760547fb0b529f41f5b91895075";
 $prenom="Sébastien";
 $nom="Saint-marc";
 $naissance="05/07/2000";
-$url="";
+$url="
+<a href='skype:sebastien.saintmarc?call' target='_blank' class='zocial icon skype'></a>
+<a href='http://mlp-france.fr' target='_blank' class='zocial icon chrome'></a>
+";
 $bio="Je suis un petit “geek”. J’adore le codage ^^, les musiques du genre 
 nightcore . J'adore MLP et j'aime bien les oranges :) . Je suis à la recherche 
 d’un groupe de pandas , blagueur et toujours à l'écoute des autres.
