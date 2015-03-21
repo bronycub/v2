@@ -6,11 +6,11 @@ $prenom="Sébastien";
 $nom="Saint-marc";
 $naissance="05/07/2000";
 $url="
-<a href='skype:sebastien.saintmarc?call' target='_blank' class='zocial icon skype'></a>
+<a href='skype:facebook:sebastien.saintmarc?call' target='_blank' class='zocial icon skype'></a>
 <a href='http://mlp-france.fr' target='_blank' class='zocial icon chrome'></a>
 ";
-$bio="Je suis un petit “geek”. J’adore le codage ^^, les musiques du genre 
-nightcore . J'adore MLP et j'aime bien les oranges :) . Je suis à la recherche 
+$bio="Je suis un petit “geek”. J’adore le codage ^^, les musiques du genre
+nightcore . J'adore MLP et j'aime bien les oranges :) . Je suis à la recherche
 d’un groupe de pandas , blagueur et toujours à l'écoute des autres.
 J’ai hâte d’ agir dans l’humanitaire avec vous ! =)";
 $pony="<img src='img/ponies/pinkie_pie.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Pinkie Pie is best pony !</span>";
