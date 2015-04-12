@@ -48,6 +48,8 @@ $description";
 		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $emailTo;
 
 		mail($emailTo, "".$nom_event, $body, $headers);
+		$emailTo = 'baptiste.cazaubon@gmail.com';
+		mail($emailTo, "".$nom_event, $body, $headers);
 		$emailSent = true;
 	}
 }
