@@ -50,6 +50,10 @@ $description";
 		mail($emailTo, "".$nom_event, $body, $headers);
 		$emailTo = 'baptiste.cazaubon@gmail.com';
 		mail($emailTo, "".$nom_event, $body, $headers);
+		$emailTo = 'gmailcombronycub@bronycub.freshdesk.com';
+		mail($emailTo, "".$nom_event, $body, $headers);
+		$emailTo = 'julienhoang33@gmail.com';
+		mail($emailTo, "".$nom_event, $body, $headers);
 		$emailSent = true;
 	}
 }
