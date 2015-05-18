@@ -56,13 +56,6 @@
 				<br />
 
 				<h3>Actions Humanitaires</h3>
-				<p>
-					BronyCUB tente de s'investir dans le secteur de l'humanitaire à la manière de <a href="http://broniesforgood.org" target="_blank">Bronies For Good</a>.<br />
-					Quelques actions ont déjà été menées malgré les nombreuses difficultés rencontrées, mais nous ne baisserons pas les bras et il ne tient qu'à vous de participer à l'aventure !
-				</p>
-
-			<!--
-				<h3>Actions Humanitaires</h3>
 				<a href="http://asbf.fr" target="_blank"><img src="http://wiki.asbf.fr/_media/wiki/badge_membre.png" alt="logo_asbf" width="280px" style="float:left; padding-right:30px;" /></a>
 				<p>
 					BronyCUB tente de s'investir dans le secteur de l'humanitaire à la manière de <a href="http://broniesforgood.org" target="_blank">Bronies For Good</a>.<br />
@@ -71,7 +64,6 @@
 				<p>
 					Depuis 2015, BronyCUB est fiérement devenue membre de l'association <a href="http://asbf.fr" target="_blank">ASBF</a> réunissant tous les Bronies de France solidairement pour la cause humanitaire, cette intégration change radicalement les choses et facilite grandement nos actions !
 				</p>
-			-->
 
 				<br />
 
