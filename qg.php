@@ -53,6 +53,91 @@
         </div>
       </article>
     </div>
+    <h2>FAQ</h2>
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h4 class="panel-title">
+                Que puis-je organiser au Calice du Dragon ?
+              </h4>
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              L'association Carpe Noctis a pour chance d'avoir un très large rayon d'action ayant pour objet de «Promouvoir les arts et les cultures, apporter un enrichissement social et spirituel au travers de l'échange culturel international et le respect de la nature, et la mise en place d'un espace voué à la convivialité, l'étude, la détente et la solidarité».</br>
+              L’association aura donc comme moyens d’action :</br></br>
+
+              <ul>
+                <li>La mise en œuvre de projets artistiques et culturels.</li>
+
+                <li>L’organisation et la participation à des animations et à des manifestations artistiques et culturelles (concerts, galas, expositions, spectacles, festivals, sorties cinéma, voyages à thème, projections de films, initiations aux arts de vie …).</li>
+
+                <li>L’animation d’un local associatif et d'activités variées.</li>
+
+                <li>La mise en place et le développement d’un espace ouvert et convivial à un milieu artistique alternatif et à la solidarité internationale.</li>
+
+                <li>La promotion d'œuvres de jeunes artistes (par le biais de publications, d'expositions …).</li>
+
+                <li>La mise en place d'activités vouées au respect de la nature.</li>
+              </ul></br>
+
+              Tout est donc possible tant que ça rentre dans les définitions ci-dessus et dans le cadre des législations françaises.
+              Par exemple, il devient donc possible d'organiser :</br></br>
+
+              <ul>
+                <li>Des jeux de société, jeux vidéos, jeux de rôle, jeux de cartes, jeux de figurines, …</li>
+
+                <li>Des événements culture japonaise, d'animations cosplay, mangas, …</li>
+
+                <li>Débats philosophiques, spirituels, les arts sous toutes leurs formes (ateliers dessin, peinture, photographie, cinéma, musique, écriture, lecture, théâtre, etc).</li>
+
+                <li>Des actions humanitaires.</li>
+
+                <li>Des voyages</li>
+              </ul></br>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h4 class="panel-title">
+                Comment organiser quelque chose au Calice du Dragon ?
+              </h4>
+            </a>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              Contactez directement le gérant, Gabriel, en vous présentant comme un Brony.
+              Pour le joindre :</br></br>
+
+              <i class="fa fa-envelope fa-1x">&nbsp;&nbsp;</i><strong>E-mail :</strong> associationcarpenoctis@gmail.com</br>
+              <i class="fa fa-facebook-square fa-1x">&nbsp;&nbsp;</i><strong>Facebook :</strong> https://www.facebook.com/aucalicedudragon</br>
+              <i class="fa fa-phone fa-1x">&nbsp;&nbsp;</i><strong>Téléphone :</strong> 09 80 46 14 34 / 06 84 04 44 95</br></br>
+
+              Présentez-lui votre événement directement. Vous pourrez voir les détails avec lui en fonction du niveau d'organisation nécessaire.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h4 class="panel-title">
+                Est-il possible d'aider le Calice du Dragon ?
+             </h4>
+            </a>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              Pour aider le Calice du Dragon, il existe plusieurs possibilités. Pour commencer, vous pouvez bien sûr parler du lieu à votre entourage. Un maximum de communication sur le lieu est apprécié.<br/>
+              Il est aussi possible de devenir bénévole (de manière ponctuelle ou régulière) pour aider au service et aux nécessités de l'association.<br/>
+              Vous ne serez jamais lâchés à votre sort, ne vous inquiétez pas, il s'agit simplement de seconder par la prise de commandes de vos camarades ou en amenant les commandes ou encore en débarrassant les déchets et la vaisselle. Il est également envisageable d'aider pour les courses diverses et variées.<br/>
+              Bref, il suffit de demander si vous avez du temps à sacrifier pour vous consacrer à filer un coup de sabot.
+            </div>
+          </div>
+        </div>
+      </div>
     <h2>Plus d'infos</h2>
     <div class="jumbotron">
       <article>
