@@ -1,7 +1,7 @@
 <?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
 $pseudo="Ishikage";
-$gravatar="/98c44b5f00689ea69cb84895b6d4f74c";
+$gravatar="98c44b5f00689ea69cb84895b6d4f74c";
 $prenom="Hugo";
 $nom="Soulier";
 $naissance="17/05/1998";
