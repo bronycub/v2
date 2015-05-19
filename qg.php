@@ -5,9 +5,7 @@
     <h2>Le Quartier Général de BronyCUB !</h2>
     <div class="jumbotron">
       <article>
-        Le MédiaCafé <strong>Calice du Dragon</strong> est un lieu d'échange culturel, artistique, intellectuel et spirituel.
-        <br />
-        Un espace de distraction et de convivialité accueillant les Brony dans un univers très Geek.
+        Autour du monde du jeu et de la culture japonaise réunissant les caractéristiques d'un MangaCafé, d'un Bar à Jeux et d'un NekoCafé, le <strong>Calice du Dragon</strong> est un espace de distraction et de convivialité accueillant les Brony dans un univers très Geek.
         <br /><br />
         Une fois sur place, il vous suffira de vous présenter en tant que membre de BronyCUB pour profiter du lieu :
         <br />
@@ -49,7 +47,7 @@
         <div class="alert alert-dismissible alert-success">
           <button type="button" class="close" data-dismiss="alert">×</button>
           <strong>Bon à savoir !</strong><br />
-          Il existe des cartes crédits à 15€ vous permettant de consommer sans vous embêter avec la monnaie. Il est recommandé d'en acheter une, c'est très pratique pour profiter des réductions de groupe !
+          Il existe des cartes crédits à 20€ vous permettant de consommer sans vous embêter avec la monnaie. Il est recommandé d'en acheter une, c'est très pratique pour profiter des réductions de groupe !
         </div>
       </article>
     </div>
