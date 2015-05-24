@@ -3,7 +3,7 @@
 $pseudo="BeatifulHeart";
 $gravatar="64d5295de2390762098f9030a1f3878b";
 $prenom="Zoé";
-$nom="BeatifulHeart";
+$nom="";
 $naissance="05/11/2000";
 $url="
 ";
