@@ -248,7 +248,7 @@
 							<ul>
 								<li>Heuzef : Fondateur de BronyCUB.</li>
 								<li>Gordfang et Fidzu : Aides précieuses dans la gestion du collectif.</li>
-								<li>Adriens33 : Le sale Nerd qui gère le tchat IRC, serveur Minecraft ...</li>
+								<li>Adriens33 : Gestion du tchat IRC et du serveur Minecraft.</li>
 								<li>Wildfier : Développeur de SugarCUB, rien que ça !</li>
 								<li>TrappyTickles et Shinsaber79 : Référents du projet BBBFF !</li>
 								<li>SebWhooves : Référent des 23h de la BD et pâtissier du collectif.</li>
