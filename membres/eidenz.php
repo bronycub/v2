@@ -1,6 +1,6 @@
 <?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
-$pseudo="DarkNight5047";
+$pseudo="Eidenz";
 $gravatar="553e850bb01e811fba5c36a9caa24279";
 $prenom="Nathanael";
 $nom="Piquet";
