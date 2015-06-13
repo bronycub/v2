@@ -56,13 +56,14 @@
 				<br />
 
 				<h3>Actions Humanitaires</h3>
-				<a href="http://asbf.fr" target="_blank"><img src="http://wiki.asbf.fr/_media/wiki/badge_membre.png" alt="logo_asbf" width="280px" style="float:left; padding-right:30px;" /></a>
+				<a href="http://asbf.fr" target="_blank"><img src="http://wiki.asbf.fr/_media/wiki/badge_acteur_solidaire.png" alt="logo_asbf" width="280px" style="float:left; padding-right:30px;" /></a>
 				<p>
 					BronyCUB tente de s'investir dans le secteur de l'humanitaire à la manière de <a href="http://broniesforgood.org" target="_blank">Bronies For Good</a>.<br />
 					Quelques actions ont déjà été menées malgré les nombreuses difficultés rencontrées, mais nous ne baisserons pas les bras et il ne tient qu'à vous de participer à l'aventure !
 				</p>
 				<p>
-					Depuis 2015, BronyCUB est fiérement devenue membre de l'association <a href="http://asbf.fr" target="_blank">ASBF</a> réunissant tous les Bronies de France solidairement pour la cause humanitaire, cette intégration change radicalement les choses et facilite grandement nos actions !
+					Depuis 2015, BronyCUB est Acteur Solidaire de l'association <a href="http://asbf.fr" target="_blank">ASBF</a> réunissant solidairement tous les Bronies Francophone.
+					Ainsi, notre collectif agit sur Bordeaux au nom de cette association. Cette intégration change radicalement les choses et facilite nos actions humanitaires sur Bordeaux !</p>
 				</p>
 
 				<br />
@@ -239,72 +240,73 @@
 						<h2 style="color:#772953">Membres du collectif</h2>
 
 						<p>
-							Nous sommes nombreux, chaque personne dispose de sa propre petite <a href="membres.php" target="_blank">fiche de présentation</a> que nous t’invitons à découvrir. Chacune de ces personnes souhaite te connaître et partager ses passions avec toi, alors n’hésite pas à les contacter, c’est comme ça que naissent de belles amitiés.
+							Nous sommes nombreux, chaque personne dispose de sa propre petite <a href="membres.php" target="_blank">fiche de présentation</a> que nous vous invitons à découvrir. Chacune de ces personnes souhaite vous connaître et partager ses passions avec vous, alors n’hésitez pas à les contacter, c’est comme ça que naissent de belles amitiés ;)
 						</p>
 
 						<p>
-							Voici quelques membres que tu dois absolument connaître :
+							Voici quelques membres en vrac :
 							<ul>
 								<li>Heuzef : Fondateur de BronyCUB.</li>
-								<li>Gordfang : Bras droit d’Heuzef, aide précieuse dans la gestion du collectif.</li>
+								<li>Gordfang et Fidzu : Aides précieuses dans la gestion du collectif.</li>
 								<li>Adriens33 : Gestion du tchat IRC et du serveur Minecraft.</li>
-								<li>Wildfier : Référent du développement de SugarCUB.</li>
-								<li>TrappyTickles et Shinsaber79 : Référents de BBBFF.</li>
-								<li>SebWhooves : Référent des 23h de la BD.</li>
-								<li>Panda : Community Manager du collectif.</li>
-								<li>Aragox : Maître des Jeux de Sociétés.</li>
-								<li>Ivan Alt : Maître des JDR.</li>
-								<li>Elvon : Référent des conventions.</li>
+								<li>Wildfier : Développeur de SugarCUB, rien que ça !</li>
+								<li>TrappyTickles et Shinsaber79 : Référents du projet BBBFF !</li>
+								<li>SebWhooves : Référent des 23h de la BD et pâtissier du collectif.</li>
+								<li>Panda : Community Manager du collectif en voie d’extinction.</li>
+								<li>Aragox : Dieu des Jeux de Sociétés.</li>
+								<li>Ivan Alt : Maître tout puissant des JDR.</li>
+								<li>Elvon : Organisateur de la mort qui tue des voyages.</li>
 								<li>ValCab33 : Le noob qui a créé ce guide.</li>
-								<li><a href="membres.php" target="_blank">Et bien d'autre ...</a></li>
+								<li>Macharon : Trolleur professionnel.</li>
+								<li><a href="membres.php" target="_blank">Et tellement d'autre ...</a> tous aussi fantastiques qu'ils sont !</li>
 							</ul>
 						</p>
 
 						<br />
 
-								<h2 style="color:#772953">Nos Amis</h2>
+						<h2 style="color:#772953">Nos Amis</h2>
 
-								<p>Au fil du temps, BronyCUB a vécu de sacrées histoires et rencontré pas mal de monde, nous liant d’amitié avec des gens extraordinaires.<br />
-									Chaque entité présente sur notre <a href="friends.php" target="_blank">page d’amis</a> mérite votre attention car nous sommes directement liés à eux.</p><br />
+						<p>Au fil du temps, BronyCUB a vécu de sacrées histoires et rencontré pas mal de monde, nous liant d’amitié avec des gens extraordinaires.<br />
+							Chaque entité présente sur notre <a href="friends.php" target="_blank">page d’amis</a> mérite votre attention car nous sommes directement liés à eux.</p><br />
 
 
-								<h2 style="color:#772953">Votre Inscription</h2>
+						<h2 style="color:#772953">Votre Inscription</h2>
 
-								<p>
-									C’est donc le grand moment pour vous de rejoindre le troupeau Bordelais !<br /><br />
-									Le <strong>formulaire d’inscription</strong> qui va suivre est là pour nous aider dans la gestion du collectif, il est primordial de le remplir avec soin.<br />
-									Les informations jugées "sensibles" (comme votre n° de tel par exemple) ne sont diffusées qu’en interne et cela facilite énormément les choses pour la suite.<br />
-									N’étant pas une asso, rejoindre le collectif est gratuit et une simple demande de désinscription par ticket suffira si vous déménagez loin, par exemple.
-								</p>
+						<p>
+							C’est donc le grand moment pour vous de rejoindre le troupeau Bordelais !<br /><br />
+							Le <strong>formulaire d’inscription</strong> qui va suivre est là pour nous aider dans la gestion du collectif, il est primordial de le remplir avec soin.<br />
+							Les informations jugées "sensibles" (comme votre n° de tel par exemple) ne sont diffusées qu’en interne et cela facilite énormément les choses pour la suite.<br />
+							N’étant pas une asso, rejoindre le collectif est gratuit et une simple demande de désinscription par ticket suffira si vous déménagez loin, par exemple.
+						</p>
 
-								<p>
-									Le formulaire d’inscription vous demandera des <strong>informations classiques</strong> (nom, prénom, pseudo, …).<br />
-									Des <strong>informations de contact</strong> comme votre téléphone, très pratique pour l’organisation et votre adresse e-mail, qui sera inscrite à cette fameuse ML de BronyCUB.<br />
-									Votre <strong>adresse postale</strong>, pour nous permettre de vous situer géographiquement par rapport aux autres et également nous assurer que vous être actif dans la région.<br />
-									Et votre <strong>date de naissance</strong>, pour connaître votre âge mais surtout votre anniversaire ! :D
-								</p>
+						<p>
+							Le formulaire d’inscription vous demandera des <strong>informations classiques</strong> (nom, prénom, pseudo, …).<br />
+							Des <strong>informations de contact</strong> comme votre téléphone, très pratique pour l’organisation et votre adresse e-mail, qui sera inscrite à cette fameuse ML de BronyCUB.<br />
+							Votre <strong>adresse postale</strong>, pour nous permettre de vous situer géographiquement par rapport aux autres et également nous assurer que vous être actif dans la région.<br />
+							Et votre <strong>date de naissance</strong>, pour connaître votre âge mais surtout votre anniversaire ! :D
+						</p>
 
-								<p>
-									Pour finir, votre <strong>bio de présentation</strong>. Il est important d’y mettre au moins un paragraphe pour vous présenter aux autres.<br />
-									Soyez bavard, inspirez vous des autres présentations si besoin ;)<br />
-									Soyez original, parlez de vos passions, de la manière dont vous avez connu BronyCUB et de l'expérience que vous en attendez.
-								</p>
+						<p>
+							Pour finir, votre <strong>bio de présentation</strong>. Il est important d’y mettre au moins un paragraphe pour vous présenter aux autres.<br />
+							Soyez bavard, inspirez vous des autres présentations si besoin ;)<br />
+							Soyez original, parlez de vos passions, de la manière dont vous avez connu BronyCUB et de l'expérience que vous en attendez.
+						</p>
 
-								<p>
-									Enfin, complétez avec <strong>vos liens</strong> (blog, facebook, skype, steam, …) si vous souhaitez les partager avec tout le monde.
-								</p>
+						<p>
+							Enfin, complétez avec <strong>vos liens</strong> (blog, facebook, skype, steam, …) si vous souhaitez les partager avec tout le monde.
+						</p>
 
-								<p>
-									Une fois fait, cela va créer un ticket et nous <strong>reviendrons vers vous par e-mail</strong> pour finaliser votre inscription, c’est à ce moment-là qu’il faudra poser toutes vos questions !<br />
-									Bien sûr, n'hésitez pas à vous ré-inscrire autant de fois que nécessaire pour mettre à jour vos infos <strong>;)</strong> A très vite <strong>/)</strong>
-								</p>
+						<p>
+							Une fois fait, cela va créer un ticket et nous <strong>reviendrons vers vous par e-mail</strong> pour finaliser votre inscription, c’est à ce moment-là qu’il faudra poser toutes vos questions !<br />
+							Bien sûr, n'hésitez pas à vous ré-inscrire autant de fois que nécessaire pour mettre à jour vos infos <strong>;)</strong> A très vite <strong>/)</strong>
+						</p>
 
-								<br />
+						<br />
 
-								<p>
-									<a href="http://www.bronycub.org/join.php" class="btn btn-info btn-lg"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Formulaire d'inscription</a>
-								</p>
-							</div>
+						<p>
+							<a href="http://www.bronycub.org/join.php" class="btn btn-info btn-lg"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Formulaire d'inscription</a>
+						</p>
+					</div>
 
 		 <div class="col-md-2">
 		</div>
