@@ -1,6 +1,6 @@
 <?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
-$pseudo="Adriens33";
+$pseudo="Electron (ou adriens33)";
 $gravatar="66a614defdfde3f9e15191cf4d76c05c";
 $prenom="Adrien";
 $nom="Sohier";
@@ -17,7 +17,8 @@ $url="
 <a href='http://www.youtube.com/user/MrArtSoftware' target='_blank' class='zocial icon youtube'></a>
 <a href='mailto:adrien.sohier@art-software.fr' target='_blank' class='zocial icon email'></a>
 ";
-$bio="Un drôle de mix entre un geek râleur et qui aime bien faire les choses par lui même et un brony :D Question caractère, c'est une sorte de mélange entre Fluttershy et Twilight Sparkle, saupoudré d'un soupçon de Pinkie Pie.";
+$bio="Un drôle de mix entre un geek râleur et qui aime bien faire les choses par lui même et un brony :D Question caractère, c'est une sorte de mélange entre Fluttershy et Twilight Sparkle, saupoudré d'un soupçon de Pinkie Pie.
+Mon new OC arrive bientôt ! :D";
 $pony="<img src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/doctor_whooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Doctor Whooves is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
