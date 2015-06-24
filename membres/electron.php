@@ -1,6 +1,6 @@
 <?php //INFOS DU MEMBRE
 //////////////////////////////////////////////
-$pseudo="Electron (ou adriens33)";
+$pseudo="Electron";
 $gravatar="66a614defdfde3f9e15191cf4d76c05c";
 $prenom="Adrien";
 $nom="Sohier";
