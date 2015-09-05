@@ -17,7 +17,14 @@ $url="
 <a href='http://www.youtube.com/user/MrArtSoftware' target='_blank' class='zocial icon youtube'></a>
 <a href='mailto:adrien.sohier@art-software.fr' target='_blank' class='zocial icon email'></a>
 ";
-$bio="Un drôle de mix entre un geek râleur et qui aime bien faire les choses par lui même et un brony :D Question caractère, c'est une sorte de mélange entre Fluttershy et Twilight Sparkle, saupoudré d'un soupçon de Pinkie Pie.";
+$bio="Geek, extrêmement curieux d'absolument tout, touche-à-tout et à l'esprit plutôt ouvert, plusieurs dans ma tête, 
+parfois je cogite tellement vite que j'arrive pas à me suivre, et d'autres fois je suis plus lent qu'un escargot rhumatisant. 
+J'adore tout ce qui touche de près ou de loin aux sciences, à l'informatique / électronique / techno / récente ou ancienne, 
+les câlins, la bonne humeur et les poneys (derpyyyyyyyyyyyyyyy ♥), j'ai passé assez de temps malheureux et seul, j'ai enfin 
+l'envie de vivre et profiter d'avoir des amis que j'aime tant ♥ Par contre je suis très angoissé et timide de nature, mais je 
+travaille dur dessus, et depuis quelques temps je vois les changements et j'ai peine à y croire, parfois… La vie peut vous 
+surprendre au moment ou vous vous y attendez le moins. Ne jamais perdre espoir.<br />
+À partir de dorénavant et de désormais, mon mot d'ordre c'est «  la patate sinon rien ! » ;)";
 $pony="<img src='img/ponies/derpy_hooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Derpy Hooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/doctor_whooves.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Doctor Whooves is best pony !</span>&nbsp;&nbsp;<img src='img/ponies/pinkie_pie.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Pinkie Pie is best pony !</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
