@@ -16,6 +16,7 @@ $url="
 <a href='http://adriens33.deviantart.com/' target='_blank' class='zocial icon disqus'></a>
 <a href='http://www.youtube.com/user/MrArtSoftware' target='_blank' class='zocial icon youtube'></a>
 <a href='mailto:adrien.sohier@art-software.fr' target='_blank' class='zocial icon email'></a>
+<a href='mailto:electron@art-software.fr' target='_blank' class='zocial icon email'></a>
 ";
 $bio="Geek, extrêmement curieux d'absolument tout, touche-à-tout et à l'esprit plutôt ouvert, plusieurs dans ma tête, 
 parfois je cogite tellement vite que j'arrive pas à me suivre, et d'autres fois je suis plus lent qu'un escargot rhumatisant. 
