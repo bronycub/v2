@@ -31,7 +31,7 @@
         <br />
         Ici, un puissant portail vous bloquera le passage !
         <br />
-        Pas de panique, utilisez simplement la formule magique : <strong>68030</strong>
+        Pas de panique, utilisez simplement la formule magique : <strong>72040</strong>
         <br /><br />
         Poursuivez votre quête jusqu'au fond à droite de la cour, la où il y a du bruit et de la lumière, entrez et refermez bien la porte pour éviter que les félins ne sortent.
         <br /><br />
