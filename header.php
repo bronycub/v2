@@ -29,7 +29,7 @@
 					<li><a href="membres.php"><i class="fa fa-users fa-1x"></i>&nbsp;Membres</a></li>
 					<li><a href="agenda.php"><i class="fa fa-calendar fa-1x"></i>&nbsp;Agenda</a></li>
 					<li><a href="./qg.php"><i class="fa fa-glass fa-1x"></i>&nbsp;QG</a></li>
-					<li><a href="https://plus.google.com/photos/+Heuz%C3%A9Florent/albums/5919043632414199089?authkey=CJOh4YWuw6_rVA" target="_blank"><i class="fa fa-picture-o fa-1x"></i>&nbsp;Medias</a></li>
+					<li><a href="https://goo.gl/photos/VisPhiPgauSD8QXn7" target="_blank"><i class="fa fa-picture-o fa-1x"></i>&nbsp;Medias</a></li>
 					<li><a href="carte.php"><i class="fa fa-map-marker fa-1x"></i>&nbsp;Carte</a></li>
 					<li><a href="accueil.php"><i class="fa fa-plus fa-1x"></i>&nbsp;Nous rejoindre ?</a></li>
 					<li><a href="friends.php"><i class="fa fa-heart fa-1x"></i>&nbsp;Nos amis</a></li>
@@ -37,7 +37,6 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" target="_blank"><i class="fa fa-comments fa-1x"></i>&nbsp;Tchat</a></li>
 					<li><a href="https://vroom.im/bronycub" target="_blank"><i class="fa fa-video-camera fa-1x"></i>&nbsp;Visio</a></li>
-					<li><a href="https://plug.dj/bronycub" target="_blank"><i class="fa fa-headphones fa-1x"></i>&nbsp;DJ</a></li>
 					<li><a href="https://bronycub.freshdesk.com/support/tickets/new" target="_blank"><i class="fa fa-ticket fa-1x"></i>&nbsp;Ticket</a></li>
 				</ul>
 			</div>
