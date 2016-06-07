@@ -24,7 +24,7 @@
 				</div>
 				<div class="panel-body">
 					<p>
-						Fondé le 17 Août 2013, BronyCUB fête chaque été son anniversaire, une solution pour nous retrouver tous ensemble pour profiter un maximum entre amis et tisser des liens avec des membres que nous voyons peut, fêter les anniversaires de tout le monde en même temps, rencontrer des personnes hors collectif, partager des moments mémorables, mettre sur pied des projets importants, ...
+						Fondé le 17 Août 2013, BronyCUB fête chaque été son anniversaire, une solution pour nous retrouver tous ensemble pour profiter un maximum entre amis et ainsi tisser des liens avec des membres que nous voyons peu, fêter les anniversaires de tout le monde en même temps, rencontrer des personnes hors collectif, partager des moments mémorables, mettre sur pied des projets importants, ...
 					</p>
 					<p>
 						Pour les 3 ans, nous pouvons encore une fois compter sur la grande générositée des parents de Makhai, qui nous laissent à disposition leur grande maison pour le Weekend du 10 et 11 Septembre 2016, située à Lacanau. Le Transgironde 702 y passe directement depuis la gare Saint-Jean.<br />
@@ -43,7 +43,7 @@
 				</div>
 				<div class="panel-body">
 					<p>
-						L'organisation de l'événement, géré par Heuzef, sera très similaire à celle de l'année dernière :<br />
+						L'organisation de l'événement, géré par Heuzef, sera très similaire à celle de l'année précédente :<br />
 						RDV le Vendredi 09 Septembre au <a href="https://encrypted.google.com/maps/@44.9813898,-1.0932751,3a,75y,146.08h,88.04t/data=!3m6!1e1!3m4!1sMhALmkXNu_3GTQHacFpN9g!2e0!7i13312!8i6656">22 allée de planquehaute, 33680 Lacanau</a> dès 18h00 pour profiter de la soirée.<br />
 					</p>
 					<p>
