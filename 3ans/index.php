@@ -27,7 +27,7 @@
 						Fondé le 17 Août 2013, BronyCUB fête chaque été son anniversaire, une solution pour nous retrouver tous ensemble pour profiter un maximum entre amis et ainsi tisser des liens avec des membres que nous voyons peu, fêter les anniversaires de tout le monde en même temps, rencontrer des personnes hors collectif, partager des moments mémorables, mettre sur pied des projets importants, ...
 					</p>
 					<p>
-						Pour les 3 ans, nous pouvons encore une fois compter sur la grande générositée des parents de Makhai, qui nous laissent à disposition leur grande maison pour le Weekend du 10 et 11 Septembre 2016, située à Lacanau. Le Transgironde 702 y passe directement depuis la gare Saint-Jean.<br />
+						Pour les 3 ans, nous pouvons encore une fois compter sur la grande générositée des parents de Makhai, qui nous laissent à disposition leur grande maison pour le Weekend du 10 et 11 Septembre 2016, située à Lacanau. <a href="https://frama.link/transgironde702">Le Transgironde 702</a> y passe directement depuis la gare Saint-Jean.<br />
 						L'opération reloaded à pour but de fêter les nouveautées à venir, si importantes, qu'elles vont plonger radicalement le collectif dans une nouvelle ère (SugarCUB, BBBFF, La Cave, BerryCon, ...).
 					</p>
 					<p>
@@ -49,12 +49,12 @@
 					<p>
 						Amenez de quoi tenir durant 2 jours :
 						<ul>
-							<li>Couette pour la nuit</li>
+							<li>Couette pour la nuit, peluche, ...</li>
 							<li>PC, jeux, ...</li>
 							<li>Maillot de bain, serviette, ...</li>
 							<li>Brosse à dent (brushie, brushie, ...)</li>
 							<li>Balais (sweep, sweep, ...)</li>
-							<li>Bref, tout ce qui vous semble vitale et fun !</li>
+							<li>Bref, tout ce qui vous semble vital et fun !</li>
 						</ul>
 					</p>
 					<div class="alert alert-dismissible alert-success">
@@ -71,7 +71,7 @@
 					<p>
 						Comme c'est un événement "à la carte", merci de compléter le formulaire de réservation. Heuzef reprendra contact avec vous directement pour organiser votre séjour.<br />
 						Si l'une de vos connaissances, (hors collectif), souhaite également participer, précisez-le. Vous serez alors garant pour cette personne.<br />
-						Vous avez la possibilité de venir avec plusieurs connaissances, mais leur réservation peuvent-être annulés n'importe quand, en fonction du nombre de places disponibles, (les membres du collectif sont prioritaires).<br />
+						Vous avez la possibilité de venir avec plusieurs connaissances, mais leurs réservations peuvent-être annulés n'importe quand, en fonction du nombre de places disponibles, (les membres du collectif sont prioritaires).<br />
 						<hr />
 						<a href="http://goo.gl/forms/us6cSa8FWscl1SLA2" class="btn btn-success btn-lg"><strong>Formulaire de réservation</strong></a>
 						<span class="label label-default"><strong>20 places disponibles</strong></span>
