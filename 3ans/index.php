@@ -18,6 +18,7 @@
 			<a href="http://bronycub.org"><img src="http://bronycub.org/ressources/logo/logo_bronycub_min.png" /></a>
 			<h2>BronyCUB 3 ans</h2>
 			<hr />
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ElLAOrHyhp4" frameborder="0" allowfullscreen></iframe>
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h3 class="panel-title">Opération reloaded</h3>
