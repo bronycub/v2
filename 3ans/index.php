@@ -75,7 +75,7 @@
 						Vous avez la possibilité de venir avec plusieurs connaissances, mais leurs réservations peuvent-être annulés n'importe quand, en fonction du nombre de places disponibles, (les membres du collectif sont prioritaires).<br />
 						<hr />
 						<a href="http://goo.gl/forms/us6cSa8FWscl1SLA2" class="btn btn-success btn-lg"><strong>Formulaire de réservation</strong></a>
-						<span class="label label-default"><strong>09 places disponibles</strong></span>
+						<span class="label label-default"><strong>06 places disponibles</strong></span>
 					</p>
 				</div>
 			</div>
