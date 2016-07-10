@@ -4,7 +4,7 @@ $pseudo="Buddakhiin";
 $gravatar="3d6f328818fa87e7da8ba9afbb2c9f7e";
 $prenom="Florian";
 $nom="Pellerin-Bidalot";
-$naissance="jj/mm/aaaa";
+$naissance="30/07/1994";
 $url="
 <a href='http://florianpb.devianart.com' target='_blank' class='zocial icon disqus'></a>
 <a href='https://twitter.com/Buddakhiin' target='_blank' class='zocial icon twitter'></a>

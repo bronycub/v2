@@ -4,7 +4,7 @@ $pseudo="Lightning Bass";
 $gravatar="70c94728c271d3cc83dac7c2d81e32f6";
 $prenom="Sébastien";
 $nom="Lefebvre";
-$naissance="jj/mm/aaaa";
+$naissance="25/05/1995";
 $url="
 <a href='skype:Sebshadow387?call' target='_blank' class='zocial icon skype'></a>
 ";
