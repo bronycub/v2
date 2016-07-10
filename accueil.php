@@ -177,8 +177,23 @@
 									Le petit jeu de Lego dématérialisé n'a pas échappé à la vague de petits poneys tout roses ! Et c'est pour cela que notre collectif possède son propre serveur Minecraft !
 								</p>
 								<p>
-									Pour pouvoir jouer, il faut faire une demande à Électron ( <em><a href="mailto:support@art-software.fr">support@art-software.fr</a></em> ) qui vous expliquera le fonctionnement du serveur MC et Mumble.
+									Pour pouvoir jouer, il faut faire une demande à Électron ( <em><a href="mailto:support@art-software.fr">support@art-software.fr</a></em> ) qui vous expliquera le fonctionnement du serveur MC et Mumble.<br />
 								<p>
+								<p>
+									<h4>Le Minecraft</h4>
+									<ul>
+										<li>L'adresse : mc.bronycub.org:25565</li>
+										<li>La version : 1.8.8</li>
+										<li>Type : survie, créatif, et basiquement à peu près ce que vous voulez (système à plusieurs cartes avec des passages entre les cartes)</li>
+									</ul>
+								</p>
+								<p>
+									<h4>Le Mumble</h4>
+									<ul>
+										<li>L'adresse : mumble.art-software.fr <strong>ou</strong> mumble.bronycub.org (même serveur), port 64738</li>
+										<li>Le pseudo est libre.</li>
+									</ul>
+								</p>
 							</div>
 
 						</div>
@@ -188,7 +203,7 @@
 						<h2 style="color:#772953">Membres du collectif</h2>
 
 						<p>
-							Nous sommes nombreux, chaque personne dispose de sa propre petite <a href="membres">fiche de présentation</a> que nous vous invitons à découvrir. Chacune de ces personnes souhaite vous connaître et partager ses passions avec vous, alors n’hésitez pas à les contacter, c’est comme ça que naissent de belles amitiés ;)
+							Nous sommes nombreux, chaque personne dispose de sa propre petite <a href="membres.php">fiche de présentation</a> que nous vous invitons à découvrir. Chacune de ces personnes souhaite vous connaître et partager ses passions avec vous, alors n’hésitez pas à les contacter, c’est comme ça que naissent de belles amitiés ;)
 						</p>
 
 						<p>
@@ -208,7 +223,7 @@
 								<li>Macharon : Trolleur professionnel.</li>
 								<li>ChordsTackler : The king of Pique-Nique !</li>
 								<li>Ludvann : Chevalier digital !</li>
-								<li><a href="membres">Et tellement d'autre ...</a> tous aussi fantastiques qu'ils sont !!</li>
+								<li><a href="membres.php">Et tellement d'autre ...</a> tous aussi fantastiques qu'ils sont !!</li>
 							</ul>
 						</p>
 
