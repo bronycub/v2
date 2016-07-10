@@ -8,7 +8,7 @@ $naissance="30/09/1996";
 $url="
 <a href='http://www.harmonia-pony.fr' target='_blank' class='zocial icon chrome'></a>
 <a href='https://www.youtube.com/user/Skrall7899' target='_blank' class='zocial icon youtube'></a>
-<a href='https://www.facebook.com/kevin.pradines' target='_blank' class=zocial icon facebook'></a>
+<a href='https://www.facebook.com/kevin.pradines' target='_blank' class='zocial icon facebook'></a>
 ";
 $bio="Salutations,
 Je ne suis pas vraiment nouveau, plutôt un revenant de 2014 qui a décidé de refaire surface… Même si c'est drôle à dire étant donné qu'on ne m'a plus ou moins jamais vu, huhu ~

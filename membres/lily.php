@@ -6,7 +6,7 @@ $prenom="Hongli";
 $nom="Zhang";
 $naissance="jj/mm/aaaa";
 $url="";
-$bio="Bonjour tout le monde, je suis Lily, la femme d'Heuzef, je suis très ravie de vous rejoindre.";
+$bio="<p>Bonjour tout le monde, je suis Lily, la femme d'Heuzef, je suis très ravie de vous rejoindre.</p>";
 $pony="<img src='img/ponies/fluttershy.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Fluttershy is yay !</span>&nbsp;&nbsp;";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
