@@ -74,8 +74,8 @@
 						Si l'une de vos connaissances, (hors collectif), souhaite également participer, précisez-le. Vous serez alors garant pour cette personne.<br />
 						Vous avez la possibilité de venir avec plusieurs connaissances, mais leurs réservations peuvent-être annulés n'importe quand, en fonction du nombre de places disponibles, (les membres du collectif sont prioritaires).<br />
 						<hr />
-						<a href="http://goo.gl/forms/us6cSa8FWscl1SLA2" class="btn btn-success btn-lg"><strong>Formulaire de réservation</strong></a>
-						<span class="label label-default"><strong>Places restantes : 01</strong></span>
+						<a href="http://goo.gl/forms/us6cSa8FWscl1SLA2" class="btn btn-success btn-lg disabled"><strong>Formulaire de réservation</strong></a>
+						<span class="label label-default"><strong>Places restantes : 00</strong></span>
 					</p>
 				</div>
 			</div>
