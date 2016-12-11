@@ -4,17 +4,28 @@
 
     <ul class="nav nav-tabs">
       <li class="active"><a href="#mailinglist" data-toggle="tab" aria-expanded="true"><i class="fa fa-envelope fa-1x"></i> Mailing List</a></li>
-      <li class=""><a href="#agenda" data-toggle="tab" aria-expanded="false"><i class="fa fa-calendar fa-1x"></i> Agenda</a></li>
-      <li class=""><a href="#carte" data-toggle="tab" aria-expanded="false"><i class="fa fa-map-marker fa-1x"></i> Carte</a></li>
       <li class=""><a href="#irc" data-toggle="tab" aria-expanded="false"><strong>#</strong> IRC</a></li>
       <li class=""><a href="#discord" data-toggle="tab" aria-expanded="false"><i class="fa fa-commenting fa-1x"></i> Discord</a></li>
+      <li class=""><a href="#steam" data-toggle="tab" aria-expanded="false"><i class="fa fa-steam fa-1x"></i> Steam</a></li>
       <li class=""><a href="#visio" data-toggle="tab" aria-expanded="false"><i class="fa fa-video-camera fa-1x"></i> Visio</a></li>
       <li class=""><a href="#mumble" data-toggle="tab" aria-expanded="false"><i class="fa fa-microphone fa-1x"></i> Mumble</a></li>
       <li class=""><a href="#mc" data-toggle="tab" aria-expanded="false"><i class="fa fa-square fa-1x"></i> Minecraft</a></li>
+      <li class=""><a href="#facebook" data-toggle="tab" aria-expanded="false"><i class="fa fa-facebook fa-1x"></i> Facebook / <i class="fa fa-twitter fa-1x"></i> Twitter</a></li>
+      <li class=""><a href="#git" data-toggle="tab" aria-expanded="false"><i class="fa fa-code-fork fa-1x"></i> Git</a></li>
+      <li class=""><a href="#plus" data-toggle="tab" aria-expanded="false"><i class="fa fa-plus fa-1x"></i> Ajouter</a></li>
     </ul>
 
     <div id="TchatContent" class="tab-content">
+
       <div class="tab-pane fade active in" id="mailinglist">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="mailto:bronycub@googlegroups.com"><strong>bronycub@googlegroups.com</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
         <p>
           La Mailing List (Liste de Diffusion) permet de communiquer les informations importantes lié à la vie du collectif. C'est notre 1er moyen de communication !
         </p>
@@ -32,6 +43,14 @@
       </div>
 
       <div class="tab-pane fade" id="irc">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://irc.bronycub.org"><strong>irc.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
         <p>
           Salon de conversation libre. Ce Tchat permet aux membres de BronyCUB ou autre de venir discuter de manière pratique et simple.
         </p>
@@ -64,16 +83,59 @@
       </div>
 
       <div class="tab-pane fade" id="discord">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-          <a href="https://discordapp.com" class="btn btn-info">https://discordapp.com</a>
-        </p>
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://discord.bronycub.org"><strong>discord.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
+        <div class="col-lg-6">
+          <p>
+            Service de communication vocale et texte tout-en-un pour gamers qui est gratuit, sécurisé et sécuritaire, et fonctionne avec vos ordinateurs et téléphones intelligents.
+          </p>
+          <p>
+            <a href="http://discord.bronycub.org" class="btn btn-info"><i class="fa fa-commenting fa-1x"></i> BronyCUB sur Discord</a>
+            <a href="https://discordapp.com/channels/219768129012629504/219768129012629504" class="btn btn-info btn-xs">#general</a>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <iframe src="https://discordapp.com/widget?id=219768129012629504&theme=dark" width="500" height="300" allowtransparency="true" frameborder="0"></iframe>
+        </div>
+        <br/>
+        <hr/>
+        <br/>
         <span class="label label-info">Gestionnaire : SalmonRagnar</span>
       </div>
 
+      <div class="tab-pane fade" id="steam">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://steam.bronycub.org"><strong>steam.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
+        <p>
+          Pour les Gameurs no-life compulsif, retrouvez les membres du collectif sur Steam ! Qui est partant pour une LAN ?
+        </p>
+        <p>
+          <a href="http://steamcommunity.com/groups/bronycub" class="btn btn-info"><i class="fa fa-steam fa-1x"></i> BronyCUB sur Steam</a>
+        </p>
+        <span class="label label-info">Gestionnaire : Trappy Tickles</span>
+      </div>
+
       <div class="tab-pane fade" id="visio">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://visio.bronycub.org"><strong>visio.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
         <p>
           Si besoin, vous avez à votre disposition un outil de visio très simple à exploiter pour discuter à plusieurs.<br/>
           Il suffit de se rendre sur <a href="https://vroom.im/bronycub">vroom.im/bronycub</a>
@@ -84,32 +146,39 @@
         <span class="label label-info">Gestionnaire : Heuzef</span>
       </div>
 
-      <div class="tab-pane fade" id="agenda">
-        <p>
-          L’Agenda vous renseigne des futurs événements importants du collectif, il peut être synchronisé avec votre agenda Google, smartphone, etc…
-        </p>
-        <p>
-          Si vous souhaitez organiser vous-même quelque chose, il vous suffira alors de cliquer sur <a href="agenda/evenement">organiser un événement</a> et de vous laisser guider !
-        </p>
-        <div class="alert alert-dismissible alert-warning">
-          <strong>Important :</strong> Nous vous encourageons vivement à <strong>vous lancer</strong> pour organiser votre meet-up, atelier, projet, action humanitaire, …<br />
-          C'est ce qui fait vivre le collectif et le rend aussi magique !<br />
-          Vous ne vous en sentez pas capable ? C'est donc l'occasion parfaite de gagner confiance en vous, vous aurez beaucoup de soutien ici.
+      <div class="tab-pane fade" id="mumble">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://wiki.art-software.fr/doku.php?id=services"><strong>mumble.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
         </div>
-        <span class="label label-info">Gestion automatisé par SugarCUB</span>
-      </div>
-
-      <div class="tab-pane fade" id="carte">
         <p>
-          La carte des membres vous permet simplement d’avoir une vision géographique des Bronies de la CUB et ainsi vous appercevoir que votre voisin est un Brony ;)
+          Mumble est un logiciel libre de voix sur IP (VoIP), son principal usage étant la communication pendant les parties de jeux en réseau.
         </p>
         <p>
-          Nos amis du site d’information <a href="http://leponeyblanc.fr">Le Poney Blanc</a>, disposent également d’une carte similaire, à l'échelle de la France entière : <a href="http://carte.leponeyblanc.fr">carte.leponeyblanc.fr</a>
+          Pour pouvoir utiliser le service, il faut faire une demande à Électron ( <em><a href="mailto:support@art-software.fr">support@art-software.fr</a></em> ) qui vous expliquera le fonctionnement du serveur.<br />
+        <p>
+        <p>
+          <ul>
+            <li>L'adresse : mumble.bronycub.org (même serveur), port 64738</li>
+            <li>Le pseudo est libre.</li>
+          </ul>
         </p>
-        <span class="label label-info">Gestion automatisé par SugarCUB</span>
+        <span class="label label-info">Gestionnaire : Electron</span>
       </div>
 
       <div class="tab-pane fade" id="mc">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://wiki.art-software.fr/doku.php?id=services"><strong>mc.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
         <p>
           Le petit jeu de Lego dématérialisé n'a pas échappé à la vague de petits poneys tout roses ! Et c'est pour cela que notre collectif possède son propre serveur Minecraft !
         </p>
@@ -126,21 +195,78 @@
         <span class="label label-info">Gestionnaire : Electron</span>
       </div>
 
-      <div class="tab-pane fade" id="mumble">
+      <div class="tab-pane fade" id="facebook">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://facebook.bronycub.org"><strong>facebook.bronycub.org</strong></a> / <a href="http://twitter.bronycub.org"><strong>twitter.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
+        <div class="col-lg-6">
+          <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8&appId=242238939151561";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+          <div class="fb-page" data-href="https://www.facebook.com/Bronycub" data-tabs="timeline" data-height="500" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/Bronycub" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Bronycub">Bronycub</a></blockquote>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <a class="twitter-timeline" data-lang="fr" data-width="500" data-height="500" data-theme="light" data-link-color="#D054D6" href="https://twitter.com/Bronycub">Tweets by Bronycub</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <br/>
+        <hr/>
+        <br/>
         <p>
-          Mumble est un logiciel libre de voix sur IP (VoIP), son principal usage étant la communication pendant les parties de jeux en réseau.
+          <span class="label label-info">Gestionnaire : Panda</span>
         </p>
-        <p>
-          Pour pouvoir utiliser le service, il faut faire une demande à Électron ( <em><a href="mailto:support@art-software.fr">support@art-software.fr</a></em> ) qui vous expliquera le fonctionnement du serveur.<br />
-        <p>
-        <p>
-          <ul>
-            <li>L'adresse : mumble.bronycub.org (même serveur), port 64738</li>
-            <li>Le pseudo est libre.</li>
-          </ul>
-        </p>
-        <span class="label label-info">Gestionnaire : Electron</span>
       </div>
+
+      <div class="tab-pane fade" id="git">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://github.bronycub.org"><strong>github.bronycub.org</strong></a> / <a href="http://gitlab.bronycub.org"><strong>gitlab.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
+        <p>
+          Pour le developpement de ses projets, BronyCUB utilise des services web d'hébergement et de gestion de développement, utilisant le logiciel de gestion de versions Git.<br/>
+          Les projets développés sont, pour des raisons ethique, sous licences libre et open-source.
+        </p>
+        <p>
+          <a href="https://github.com/bronycub/" class="btn btn-primary"><i class="fa fa-github fa-1x"></i> BronyCUB sur Github</a>
+          <a href="https://gitlab.com/bronycub/" class="btn btn-primary"><i class="fa fa-gitlab fa-1x"></i> BronyCUB sur Gitlab</a>
+        </p>
+        <span class="label label-info">Gestionnaire : Wildfier</span>
+      </div>
+
+      <div class="tab-pane fade" id="plus">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://www.bronycub.org"><strong>www.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
+        <div class="alert alert-dismissible alert-warning">
+          Vous souhaitez <strong>proposer et gérer</strong> un nouveau service pour le collectif ?<br/>
+          Vous aurez beaucoup de soutien ici pour vous aider à concrétiser votre projet.<br/>
+          N'hésitez pas à developper votre idée pour en débatre avec les membres du collectif !
+        </div>
+        <p>
+          <span class="label label-info">Gestionnaire : Vous</span>
+        </p>
+      </div>
+
       </div><!-- End TchatContent -->
   </div>
 </div>

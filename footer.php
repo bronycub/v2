@@ -12,7 +12,7 @@
 		</div>
 		<div class="col-md-6">
 			<div class="well">
-				<a href="http://asbf.fr" target="_blank"><img src="http://wiki.asbf.info/_media/wiki/badge_acteur_solidaire.png" alt="logo_asbf" height="60px" style="float:left; padding-right:20px;" /></a>
+				<a href="http://asbf.info" target="_blank"><img src="http://wiki.asbf.info/_media/wiki/badge_acteur_solidaire.png" alt="logo_asbf" height="60px" style="float:left; padding-right:20px;" /></a>
 				<p>Depuis 2015, BronyCUB est Acteur Solidaire de l'association <a href="http://asbf.fr" target="_blank">ASBF</a> réunissant tous les Bronies Francophone solidairement pour des actions humanitaires. Ainsi, notre collectif agit sur Bordeaux au nom de cette association.</p>
 			</div>
 		</div>
