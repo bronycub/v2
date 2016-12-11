@@ -44,23 +44,21 @@
 	<hr />
 	<div class="container">
 		<div class="col-lg-12">
-			<h2><i class="fa fa-comments-o fa-1x"></i> Blabla !</h2>
-
-
+			<h2><i class="fa fa-comments-o fa-1x"></i> Contact</h2>
 
 			<ul class="nav nav-tabs">
-				<li class="active"><a href="#mailinglist" data-toggle="tab" aria-expanded="true">Mailing List</a></li>
-				<li class=""><a href="#irc" data-toggle="tab" aria-expanded="false">Tchat IRC</a></li>
-				<li class=""><a href="#visio" data-toggle="tab" aria-expanded="false">Visio</a></li>
-				<li class=""><a href="#agenda" data-toggle="tab" aria-expanded="false">Agenda</a></li>
-				<li class=""><a href="#carte" data-toggle="tab" aria-expanded="false">Carte</a></li>
-				<li class=""><a href="#mc" data-toggle="tab" aria-expanded="false">Minecraft</a></li>
+				<li class="active"><a href="#mailinglist" data-toggle="tab" aria-expanded="true"><i class="fa fa-envelope fa-1x"></i> Mailing List</a></li>
+				<li class=""><a href="#irc" data-toggle="tab" aria-expanded="false"><i class="fa fa-slack fa-1x"></i> IRC</a></li>
+				<li class=""><a href="#visio" data-toggle="tab" aria-expanded="false"><i class="fa fa-video-camera fa-1x"></i> Visio</a></li>
+				<li class=""><a href="#agenda" data-toggle="tab" aria-expanded="false"><i class="fa fa-calendar fa-1x"></i> Agenda</a></li>
+				<li class=""><a href="#carte" data-toggle="tab" aria-expanded="false"><i class="fa fa-map-marker fa-1x"></i> Carte</a></li>
+				<li class=""><a href="#mc" data-toggle="tab" aria-expanded="false"><i class="fa fa-square fa-1x"></i> Minecraft</a></li>
 			</ul>
 
 			<div id="TchatContent" class="tab-content">
 				<div class="tab-pane fade active in" id="mailinglist">
 					<p>
-						La ML (mailing list ou liste de diffusion en Français) permet de communiquer les informations importantes lié à la vie du collectif. C'est notre 1er moyen de communication !
+						La Mailing List (Liste de Diffusion) permet de communiquer les informations importantes lié à la vie du collectif. C'est notre 1er moyen de communication !
 					</p>
 					<p>
 						Elle permet de s’organiser et de se tenir au courant de tous les évènements faits par le collectif et surtout de contacter le collectif directement dans son intégralité.<br />
