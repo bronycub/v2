@@ -47,7 +47,8 @@
         <div class="container">
           <div class="col-lg-4"></div>
           <div class="col-lg-4">
-            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://irc.bronycub.org"><strong>irc.bronycub.org</strong></a></li></ul>
+            <!-- <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://irc.bronycub.org"><strong>irc.bronycub.org</strong></a></li></ul> -->
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://kiwiirc.com/client/chat.freenode.net:+6697/#bronycub/"><strong>chat.freenode.net</strong></a></li></ul>
           </div>
           <div class="col-lg-4"></div>
         </div>
