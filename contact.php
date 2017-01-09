@@ -47,7 +47,8 @@
         <div class="container">
           <div class="col-lg-4"></div>
           <div class="col-lg-4">
-            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://irc.bronycub.org"><strong>irc.bronycub.org</strong></a></li></ul>
+            <!-- <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://irc.bronycub.org"><strong>irc.bronycub.org</strong></a></li></ul> -->
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://kiwiirc.com/client/chat.freenode.net:+6697/#bronycub/"><strong>chat.freenode.net</strong></a> (via kiwiirc.com)</li></ul>
           </div>
           <div class="col-lg-4"></div>
         </div>
@@ -58,7 +59,7 @@
           Berry-Punch, notre mascotte, est là pour modérer le salon et nous y sommes présents pour répondre à toutes vos questions !
         <p>
         <p>
-          <a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" class="btn btn-info">Cliquez ici pour rejoindre #bronycub sur irc.freenode.net</a>
+          <a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" class="btn btn-info">Cliquez ici pour rejoindre #bronycub sur chat.freenode.net</a>
         </p>
         </p>
         <div class="alert alert-dismissible alert-info">
@@ -69,7 +70,7 @@
         <div class="jumbotron">
           <?php
             $_match=array("/(.*(kick|ban).*)\n/",	// Kicks/bans
-                          "/(&lt;[a-zA-Z0-9\-_]*&gt;)/",	// Pseudos
+                          "/(&lt;[[]{}a-zA-Z0-9\-_]*&gt;)/",	// Pseudos
                           "/(.*\*\*\*.*)\n/");	// Annonces d'IRC
             $_replace=array('<span class="text-warning">${1}</span>'."\n",
                             '<span class="text-primary">${1}</span>',
@@ -79,7 +80,15 @@
             echo "$buffer";
           ?>
         </div>
-        <span class="label label-info">Gestionnaire : Electron</span>
+        <div class="alert alert-dismissible alert-info">
+					<p>Pour accéder au chat IRC via un vrai client, voici les informations dont vous pourrez avoir besoin&nbsp;:</p>
+					<ul>
+						<li><strong>Adresse du serveur&nbsp;:</strong> <code>chat.freenode.net</code></li>
+						<li><strong>Port de connexion&nbsp;:</strong> <code>6667</code> (en clair) ou <code>6697</code> (en SSL/TLS)</li>
+						<li><strong>Canal de discussion&nbsp;:</strong> <code>#bronycub</code></li>
+					</ul>
+        </div>
+        <span class="label label-info">Gestionnaire : [Electron] (Électron)</span>
       </div>
 
       <div class="tab-pane fade" id="discord">
