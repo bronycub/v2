@@ -48,23 +48,37 @@
           <div class="col-lg-4"></div>
           <div class="col-lg-4">
             <!-- <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://irc.bronycub.org"><strong>irc.bronycub.org</strong></a></li></ul> -->
-            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://kiwiirc.com/client/chat.freenode.net:+6697/#bronycub/"><strong>chat.freenode.net</strong></a> (via kiwiirc.com)</li></ul>
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://kiwiirc.com/client/chat.freenode.net:+6697/#bronycub-main/"><strong>chat.freenode.net</strong></a> (via kiwiirc.com)</li></ul>
           </div>
           <div class="col-lg-4"></div>
         </div>
         <p>
-          Salon de conversation libre. Ce Tchat permet aux membres de BronyCUB ou autre de venir discuter de manière pratique et simple.
-        </p>
+          Salon de conversation libre. Ce Tchat permet aux membres de BronyCUB ou autre de venir discuter de manière pratique et simple.<br />
+					Trois salons vous sont proposés :
+				</p>
+				<ul>
+					<li>#bronycub-main, le canal 'principal'</li>
+					<li>#bronycub-geek, le canal geek/info/etc (tapez <code>/join #bronycub-geek</code> pour y aller)</li>
+					<li>#bronycub-void, un canal non jumelé, fait exprès pour que vous puissiez vous retrouver entre vous si vous le souhaitez (tapez <code>/join #bronycub-void</code> pour y aller).</li>
+				</ul>
         <p>
           Berry-Punch, notre mascotte, est là pour modérer le salon et nous y sommes présents pour répondre à toutes vos questions !
         <p>
         <p>
-          <a href="https://kiwiirc.com/client?settings=3ebf3eb7a40c2b03f47b918eb2f7087a" class="btn btn-info">Cliquez ici pour rejoindre #bronycub sur chat.freenode.net</a>
+          <a href="https://kiwiirc.com/client/chat.freenode.net:+6697/#bronycub-main" class="btn btn-info">Cliquez ici pour rejoindre #bronycub-main sur chat.freenode.net</a>
         </p>
         </p>
         <div class="alert alert-dismissible alert-info">
           <p>
-            Si vous souhaitez discuter d'informatique, nous avons un second salon de conversation. Il suffit de taper /join #bronycub-g33k pour le rejoindre (ou de cliquer <a href="http://kiwiirc.com/client/chat.freenode.net/bronycub-g33k/">ici</a>).
+						Les règles suivantes sont à respecter:
+							<ul>
+								<li>Le canal #bronycub-main est pour TOUS et TOUTES, il est donc proscrit d'y envoyer des liens dits 'NSFW' (porno, etc), pensez aux plus jeunes (et aux parents…)</li>
+								<li>Le canal #bronycub-main n'est pas là pour parler d'informatique et de technologie ; amis technophiles veuillez utiliser #bronycub-geek pour cela.</li>
+								<li>Enfin, pour le moment une passerelle IRC/Discord est en TEST, après de nombreux retours positifs et quelques négatifs voici donc l'apparition d'un troisième canal : #bronycub-void.<br />
+								Les canaux #bronycub-main et #bronycub-geek sont des canaux dits <em>généraux</em>, ils ont pour but d'avoir une audience la plus large possible.<br />
+								CEPENDANT, pour les plus curieux vous aurez certainement remarqué que Discord est un chat PROPRIÉTAIRE, et donc soyez conscients que lorsque vous discutez sur #bronycub-main ou #bronycub-geek, vous parlez à tout le monde,
+								Y COMPRIS aux gens situés sur le Discord, sur le canal #general et #geek. Si cela ne vous convient pas, un troisième canal est à votre disposition.</li>
+							</ul>
           </p>
         </div>
         <div class="jumbotron">
@@ -85,7 +99,7 @@
 					<ul>
 						<li><strong>Adresse du serveur&nbsp;:</strong> <code>chat.freenode.net</code></li>
 						<li><strong>Port de connexion&nbsp;:</strong> <code>6667</code> (en clair) ou <code>6697</code> (en SSL/TLS)</li>
-						<li><strong>Canal de discussion&nbsp;:</strong> <code>#bronycub</code></li>
+						<li><strong>Canal de discussion&nbsp;:</strong> <code>#bronycub-main</code>, <code>#bronycub-geek</code> et <code>#bronycub-void</code></li>
 					</ul>
         </div>
         <span class="label label-info">Gestionnaire : [Electron] (Électron)</span>
