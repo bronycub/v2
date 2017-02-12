@@ -31,9 +31,6 @@
 		</div>
 		<div class="col-lg-8">
 			<p><img src="http://sugarcub.org/img/logo_sugarcub.png" alt="Logo SugarCUB" height="100" /></p>
-			<div class="progress progress-striped active">
-			  <div class="progress-bar progress-bar-success" style="width: <?php $sc_percent=shell_exec('./sugarcub_percent.sh'); echo $sc_percent; ?>"><span class="badge"><?php echo $sc_percent; ?></span></div>
-			</div>
 			<a href="https://gitlab.com/mdevlamynck/sugarcub/milestones/3" class="btn btn-success btn-xs">Plus d'infos sur l'avancement du projet ...</a>
 		</div>
 		<div class="col-lg-2">
