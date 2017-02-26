@@ -122,6 +122,9 @@
             <a href="http://discord.bronycub.org" class="btn btn-info"><i class="fa fa-commenting fa-1x"></i> BronyCUB sur Discord</a>
             <a href="https://discordapp.com/channels/219768129012629504/219768129012629504" class="btn btn-info btn-xs">#general</a>
           </p>
+          <p>
+            URL Discord : <input type="text" name="name" value="https://discord.gg/gbb5tKz" />
+          </p>
         </div>
         <div class="col-lg-6">
           <iframe src="https://discordapp.com/widget?id=219768129012629504&theme=dark" width="500" height="300" allowtransparency="true" frameborder="0"></iframe>
