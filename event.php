@@ -121,7 +121,7 @@ Voici quelques outils si besoin :
 				<div class="form-group">
 					<div class="col-lg-5"></div>
 					<div class="col-lg-2">
-					<input type="submit" value="GO !!" name="submit" id="submitButton" class="btn btn-info btn-lg" title="Envoyer !" />
+					<input type="submit" value="GO !!" name="submit" id="submitButton" class="btn btn-info btn-lg disabled" title="Envoyer !" />
 					</div>
 					<div class="col-lg-5"></div>
 				</div>

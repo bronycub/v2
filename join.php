@@ -201,7 +201,7 @@ if(isset($_POST['submit'])) {
 					<label for="ville" class="col-lg-3 control-label">Who is best Pony ?</label>
 					<div class="col-lg-4"><input type="text" name="pony" id="pony" class="form-control" id="pony" placeholder="Vos poneys pr&eacute;f&eacute;r&eacute;s ?" aria-required="true" value="<?php echo $pony; ?>"  ></div>
 					<div class="col-lg-4">
-					<input type="submit" value="BROHOOF /)" name="submit" id="submitButton" class="btn btn-info btn-large" title="Envoyer !" />
+					<input type="submit" value="BROHOOF /)" name="submit" id="submitButton" class="btn btn-info btn-large disabled" title="Envoyer !" />
 					</div>
 				</div>
 			</form>
