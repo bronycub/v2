@@ -1,4 +1,5 @@
 <?php
+require('vendor/autoload.php');
 session_start();
 
 $name="";
@@ -104,22 +105,36 @@ if(isset($_POST['submit'])) {
 
 	//If there is no error, send the email
 	if(!isset($hasError)) {
-		$emailTo = 'contact@heuzef.com';
-		$body = "
-		Nom : $name $prenom ($pseudo) \n\n
-		Email : $email \n\n
-		Gravatar : $gravatar \n\n
-		Tel : $phone \n\n
-		Date de naissance : $naissance \n\n
-		Adresse : $adresse $postal $ville \n\n
-		Bio : $bio \n\n
-		URL : $url \n\n
-		Pony : $pony \n\n
-		";
-		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
-
-		mail($emailTo, "[INSCRIPTION] $pseudo", $body, $headers);
-		$emailSent = true;
+		$mail = new PHPMailer();
+		$mail->isSMTP();
+		$mail->Host = "FILL_THIS";
+		$mail->SMTPAuth = true;
+		$mail->Username = "FILL_THIS";
+		$mail->Password = "FILL_THIS";
+		$mail->SMTPAutoTLS = false;
+		$mail->Port = 25;
+		$mail->CharSet = "UTF-8";
+		$mail->From = "FILL_THIS";
+		$mail->FromName = "BronyCUB";
+		$mail->Subject = "[INSCRIPTION] $pseudo";
+		$mail->Body = "Bonjour !\n\nLa personne suivante désire être inscrite à BronyCUB:\n\n"
+		            . "Nom: $name $prenom ($pseudo)\n"
+		            . "EMail: $email\n"
+		            . "GRAvatar: $gravatar\n"
+		            . "Tel: $phone\n"
+		            . "Date de naissance: $naissance\n"
+		            . "Adresse: $adresse $postal $ville\n"
+		            . "BIO: $bio\n"
+		            . "URL(s): $url\n"
+		            . "Pony(ies): $pony";
+		$mail->addReplyTo($email);
+		$mail->addAddress("contact@heuzef.com", "Heuzef");
+		$mail->addAddress("support@art-software.fr", "Électron");
+		if ($mail->send()) {
+			$emailSent = true;
+		} else {
+			$emailSent = false;
+		}
 	}
 }
 ?>
@@ -201,7 +216,7 @@ if(isset($_POST['submit'])) {
 					<label for="ville" class="col-lg-3 control-label">Who is best Pony ?</label>
 					<div class="col-lg-4"><input type="text" name="pony" id="pony" class="form-control" id="pony" placeholder="Vos poneys pr&eacute;f&eacute;r&eacute;s ?" aria-required="true" value="<?php echo $pony; ?>"  ></div>
 					<div class="col-lg-4">
-					<input type="submit" value="BROHOOF /)" name="submit" id="submitButton" class="btn btn-info btn-large disabled" title="Envoyer !" />
+					<input type="submit" value="BROHOOF /)" name="submit" id="submitButton" class="btn btn-info btn-large" title="Envoyer !" />
 					</div>
 				</div>
 			</form>

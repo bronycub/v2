@@ -1,4 +1,6 @@
 <?php
+require('vendor/autoload.php');
+
 if(isset($_POST['submit'])) {
 
 	if(trim($_POST['nom']) == '') {
@@ -40,21 +42,31 @@ if(isset($_POST['submit'])) {
 
 	//If there is no error, send the email
 	if(!isset($hasError)) {
-		$emailTo = 'contact@heuzef.com';
-		$body = "~~~~~~~~~~~~ $nom_event ~~~~~~~~~~~~ \n\n
-Organisé par $nom ($tel) à $lieu le $date \n\n
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n
-$description";
-		$headers = 'From: BronyCUB <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $emailTo;
-
-		mail($emailTo, "".$nom_event, $body, $headers);
-		$emailTo = 'baptiste.cazaubon@gmail.com';
-		mail($emailTo, "".$nom_event, $body, $headers);
-		$emailTo = 'gmailcombronycub@bronycub.freshdesk.com';
-		mail($emailTo, "".$nom_event, $body, $headers);
-		$emailTo = 'julienhoang33@gmail.com';
-		mail($emailTo, "".$nom_event, $body, $headers);
-		$emailSent = true;
+		$mail = new PHPMailer();
+		$mail->isSMTP();
+		$mail->Host = "FILL_THIS";
+		$mail->SMTPAuth = true;
+		$mail->Username = "FILL_THIS";
+		$mail->Password = "FILL_THIS";
+		$mail->SMTPAutoTLS = false;
+		$mail->Port = 25;
+		$mail->CharSet = "UTF-8";
+		$mail->From = "FILL_THIS";
+		$mail->FromName = "BronyCUB";
+		$mail->Subject = "[EVENT] $nom_event";
+		$mail->Body = "~~~~~~~~~~~~ $nom_event ~~~~~~~~~~~~ \n"
+		            . "Organisé par $nom ($tel) à $lieu le $date \n"
+		            . "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n"
+		            . "$description";
+		$mail->addAddress("baptiste.cazaubon@gmail.com", "Baptiste");
+		$mail->addAddress("gmailcombronycub@bronycub.freshdesk.com", "BronyCUB FreshDesk");
+		$mail->addAddress("julienhoang33@gmail.com", "Fidzu");
+		$mail->addAddress("support@art-software.fr", "Électron");
+		if ($mail->send()) {
+			$emailSent = true;
+		} else {
+			$emailSent = false;
+		}
 	}
 }
 ?>
@@ -121,7 +133,7 @@ Voici quelques outils si besoin :
 				<div class="form-group">
 					<div class="col-lg-5"></div>
 					<div class="col-lg-2">
-					<input type="submit" value="GO !!" name="submit" id="submitButton" class="btn btn-info btn-lg disabled" title="Envoyer !" />
+					<input type="submit" value="GO !!" name="submit" id="submitButton" class="btn btn-info btn-lg" title="Envoyer !" />
 					</div>
 					<div class="col-lg-5"></div>
 				</div>

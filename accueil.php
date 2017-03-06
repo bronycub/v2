@@ -217,7 +217,7 @@
 						<br/>
 
 						<p>
-							<a href="http://www.bronycub.org/join.php" class="btn btn-info btn-lg"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Formulaire d'inscription</a>
+							<a href="join.php" class="btn btn-info btn-lg"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Formulaire d'inscription</a>
 						</p>
 					</div>
 
