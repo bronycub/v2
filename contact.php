@@ -201,7 +201,7 @@
         <div class="container">
           <div class="col-lg-4"></div>
           <div class="col-lg-4">
-            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://wiki.art-software.fr/doku.php?id=services"><strong>mc.bronycub.org</strong></a></li></ul>
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i><strong>mc.bronycub.org</strong></li></ul>
           </div>
           <div class="col-lg-4"></div>
         </div>
@@ -209,16 +209,16 @@
           Le petit jeu de Lego dématérialisé n'a pas échappé à la vague de petits poneys tout roses ! Et c'est pour cela que notre collectif possède son propre serveur Minecraft !
         </p>
         <p>
-          Pour pouvoir jouer, il faut faire une demande à Électron ( <em><a href="mailto:support@art-software.fr">support@art-software.fr</a></em> ) qui vous expliquera le fonctionnement du serveur.<br />
+          Pour pouvoir jouer, il faut faire une demande à Elvon ( <em><a href="mailto:elvonbird@gmail.com">elvonbird@gmail.com</a></em> ) qui vous expliquera le fonctionnement du serveur.<br />
         <p>
         <p>
           <ul>
             <li>L'adresse : mc.bronycub.org:25565</li>
-            <li>La version : 1.8.8</li>
+            <li>La version : 1.8.8/1.8.9, migration prochaine prévue pour la 1.11</li>
             <li>Type : survie, créatif, et basiquement à peu près ce que vous voulez (système à plusieurs cartes avec des passages entre les cartes)</li>
           </ul>
         </p>
-        <span class="label label-info">Gestionnaire : Electron</span>
+        <span class="label label-info">Gestionnaire : Elvon</span>
       </div>
 
       <div class="tab-pane fade" id="facebook">
