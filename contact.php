@@ -132,7 +132,7 @@
         <br/>
         <hr/>
         <br/>
-        <span class="label label-info">Gestionnaire : SalmonRagnar</span>
+        <span class="label label-info">Gestionnaire : Buddakhiin</span>
       </div>
 
       <div class="tab-pane fade" id="steam">
