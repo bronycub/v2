@@ -201,7 +201,7 @@
         <div class="container">
           <div class="col-lg-4"></div>
           <div class="col-lg-4">
-            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i><strong>mc.bronycub.org</strong></li></ul>
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <strong>mc.bronycub.org</strong></li></ul>
           </div>
           <div class="col-lg-4"></div>
         </div>
