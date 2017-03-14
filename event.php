@@ -59,7 +59,7 @@ if(isset($_POST['submit'])) {
 		            . "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n"
 		            . "$description";
 		$mail->addAddress("contact@heuzef.com", "Heuzef");
-		$mail->addAddresses("florian.pellerin.bidalot@gmail.com", "Buddakhiin");
+		$mail->addAddress("florian.pellerin.bidalot@gmail.com", "Buddakhiin");
 		$mail->addAddress("support@art-software.fr", "Électron");
 		if ($mail->send()) {
 			$emailSent = true;
