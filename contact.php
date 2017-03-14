@@ -6,6 +6,7 @@
       <li class="active"><a href="#mailinglist" data-toggle="tab" aria-expanded="true"><i class="fa fa-envelope fa-1x"></i> Mailing List</a></li>
       <li class=""><a href="#irc" data-toggle="tab" aria-expanded="false"><strong>#</strong> IRC</a></li>
       <li class=""><a href="#discord" data-toggle="tab" aria-expanded="false"><i class="fa fa-commenting fa-1x"></i> Discord</a></li>
+      <li class=""><a href="#da" data-toggle="tab" aria-expanded="false"><i class="fa fa-paint-brush fa-1x"></i> DeviantArt</a></li>
       <li class=""><a href="#steam" data-toggle="tab" aria-expanded="false"><i class="fa fa-steam fa-1x"></i> Steam</a></li>
       <li class=""><a href="#visio" data-toggle="tab" aria-expanded="false"><i class="fa fa-video-camera fa-1x"></i> Visio</a></li>
       <li class=""><a href="#mumble" data-toggle="tab" aria-expanded="false"><i class="fa fa-microphone fa-1x"></i> Mumble</a></li>
@@ -133,6 +134,26 @@
         <hr/>
         <br/>
         <span class="label label-info">Gestionnaire : Buddakhiin</span>
+      </div>
+
+      <div class="tab-pane fade" id="da">
+        <hr/>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://deviantart.bronycub.org"><strong>deviantart.bronycub.org</strong></a></li></ul>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
+        <div class="col-lg-6">
+          <p>
+            Le groupe d'Artiste du collectif ! Venez admirer et créer avec eux !
+          </p>
+        </div>
+        <br/>
+        <hr/>
+        <br/>
+        <span class="label label-info">Gestionnaire : Spin</span>
       </div>
 
       <div class="tab-pane fade" id="steam">
