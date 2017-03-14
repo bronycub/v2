@@ -147,7 +147,7 @@
         </div>
         <div class="col-lg-6">
           <p>
-            Le groupe d'Artiste du collectif ! Venez admirer et créer avec eux !
+            Le groupe des Artistes du collectif ! Venez admirer et créer avec eux !
           </p>
         </div>
         <br/>
