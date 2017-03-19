@@ -147,8 +147,11 @@
         </div>
         <div class="col-lg-6">
           <p>
-            Le groupe des Artistes du collectif ! Venez admirer et créer avec eux !
+            Les Artistes du collectif partage leurs créations !
           </p>
+        </div>
+        <div class="col-lg-12 well">
+          <iframe height="500px" width="100%" src="http://bronycub.deviantart.com/gallery/" allowtransparency="true" frameborder="0"></iframe>
         </div>
         <br/>
         <hr/>
@@ -271,7 +274,7 @@
         <hr/>
         <br/>
         <p>
-          <span class="label label-info">Gestionnaire : Panda</span>
+          <span class="label label-info">Gestionnaire : Crystal</span>
         </p>
       </div>
 
