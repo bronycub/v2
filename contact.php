@@ -83,6 +83,7 @@
           </p>
         </div>
         <div class="jumbotron">
+          <div style="font-family: monospace; font-size: 9pt;">
           <?php
             $_match=array("/(.*(kick|ban).*)\n/",	// Kicks/bans
                           "/(&lt;[[]{}a-zA-Z0-9\-_]*&gt;)/",	// Pseudos
@@ -94,6 +95,10 @@
             $buffer = preg_replace($_match, $_replace, $buffer);
             echo "$buffer";
           ?>
+          </div>
+          <div style="margin-top: 2em;">
+            <a href="http://www.art-software.fr/files/lastday_bronycub.php">Historique de la journée</a>
+          </div>
         </div>
         <div class="alert alert-dismissible alert-info">
 					<p>Pour accéder au chat IRC via un vrai client, voici les informations dont vous pourrez avoir besoin&nbsp;:</p>
