@@ -97,7 +97,7 @@
           ?>
           </div>
           <div style="margin-top: 2em;">
-            <a href="http://www.art-software.fr/files/lastday_bronycub.php">Historique de la journée</a>
+            <a href="http://www.art-software.fr/files/lastday.php">Historique de la journée</a>
           </div>
         </div>
         <div class="alert alert-dismissible alert-info">
