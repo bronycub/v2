@@ -155,9 +155,6 @@
             Les Artistes du collectif partage leurs créations !
           </p>
         </div>
-        <div class="col-lg-12 well">
-          <iframe height="500px" width="100%" src="http://bronycub.deviantart.com/gallery/" allowtransparency="true" frameborder="0"></iframe>
-        </div>
         <br/>
         <hr/>
         <br/>
