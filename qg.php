@@ -11,10 +11,22 @@
       	<div class="clearfix"></div>
         <b>La Cave</b> est le cœur de l’association Asobu, son QG. C’est un endroit où se mêle bon nombre de gens lié par une passion, la culture dite « geek » et tout ce qui y est rattaché. <br/><br/>
         L’association propose et organise dans ses locaux plusieurs activités telles que des ateliers cosplay et de pixel art, des marathons cinématographiques ainsi que des meet-up sans oublier ses tables de jeux de rôle. Elle met aussi à disposition de ses membres une large collection de manga, ses consoles de jeux, ses quelques manuels de jeux de rôle et ses jeux de société. La Cave propose aussi un coin café et met donc à disposition gratuitement des boissons chaudes et froides en plus de divers snacks afin de bien passer la journée.<br/><br/>
-        L’ouverture, la fermeture ainsi que la maintenance des locaux de l’association est assuré par ses membres. Les locaux sont ouverts du Lundi au Jeudi : 12h-14h et du Vendredi au Dimanche : Ouverture à partir de 12h en temps normal mais sont variables en cas d’évènements ou à la demande des membres.<br/><br/>
-        Bien situé dans Bordeaux, l’accès est simple et bien desservi. La Cave se trouve au <b>132 Cours de la Somme</b> à côté de l’arrêt Fonfrède des bus <span class="badge">5S</span> / <span class="badge">58</span>, à quelques minutes de marche de l’arrêt Lajarte du bus <span class="badge">20</span> et à une bonne dizaine de minutes de marche des arrêts Bergonié / St Nicolas du Tram B et de l’arrêt Victoire des bus <span class="badge">1</span> / <span class="badge">11</span> / <span class="badge">15</span> / <span class="badge">47</span> / <span class="badge">58</span>.<br/><br/>
+        L’ouverture, la fermeture ainsi que la maintenance des locaux de l’association est assuré par ses membres.
+        <br/><br/>
+        <div class="alert alert-info">
+          <ul>
+            <li>Lundi et Mardi : 12h à 13h30</li>
+            <li>Mercredi : 12h à 13h30 puis de 16h à 22h environ</li>
+            <li>Jeudi : 12h à 13h30 puis de 19h30 à 23h environ</li>
+          </ul>
+          <br/>
+          <strong>Le reste du temps, la Cave reste fermée afin d'économiser ses ressources sauf lors des activités prévues ou si des personnes en ont fait la demande spécifique. Contactez le gestionnaire, Yffrit, au 07 78 88 86 03 pour toutes demandes.</strong>
+        </div>
+        Bien situé dans Bordeaux, l’accès est simple et bien desservi. La Cave se trouve au <b>132 Cours de la Somme</b> à côté de l’arrêt Fonfrède des bus <span class="badge">5S</span> / <span class="badge">58</span>, à quelques minutes de marche de l’arrêt Lajarte du bus <span class="badge">20</span> et à une bonne dizaine de minutes de marche des arrêts Bergonié / St Nicolas du Tram B et de l’arrêt Victoire des bus <span class="badge">1</span> / <span class="badge">11</span> / <span class="badge">15</span> / <span class="badge">47</span> / <span class="badge">58</span>.
+        <br/><br/>
         <div class="alert alert-warning">
-        ATTENTION !! La Cave ne fournit aucun alcool et même s’il est possible de ramener ses propres consommations, l’abus d’alcool dans nos locaux est interdit !</div>
+          ATTENTION !! La Cave ne fournit aucun alcool et même s’il est possible de ramener ses propres consommations, l’abus d’alcool dans nos locaux est interdit !
+        </div>
         See you soon /)
         <br />
       </article>
