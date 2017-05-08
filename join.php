@@ -129,7 +129,7 @@ if(isset($_POST['submit'])) {
 		            . "Pony(ies): $pony";
 		$mail->addReplyTo($email);
 		$mail->addAddress("contact@heuzef.com", "Heuzef");
-		$mail->addAddress("florian.pellerin.bidalot@gmail.com", "Buddakhiin");
+		$mail->addAddress("baptiste.cazaubon@gmail.com", "Gordfang");
 		$mail->addAddress("support@art-software.fr", "Électron");
 		if ($mail->send()) {
 			$emailSent = true;
