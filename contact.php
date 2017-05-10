@@ -190,10 +190,10 @@
         </div>
         <p>
           Si besoin, vous avez à votre disposition un outil de visio très simple à exploiter pour discuter à plusieurs.<br/>
-          Il suffit de se rendre sur <a href="https://vroom.im/bronycub">vroom.im/bronycub</a>
+          Il suffit de se rendre sur <a href="https://vroom.fws.fr/bronycub">vroom.fws.fr/bronycub</a>
         </p>
         <div class="alert alert-dismissible alert-success">
-          <strong><i class="fa fa-info fa-1x"></i> Astuce :</strong> Le lien <a href="https://vroom.im/bronycub?video=false">vroom.im/bronycub<strong class="text-danger">?video=false</strong></a> désactive votre webcam.
+          <strong><i class="fa fa-info fa-1x"></i> Astuce :</strong> Le lien <a href="https://vroom.fws.fr/bronycub?video=false">vroom.fws.fr/bronycub<strong class="text-danger">?video=false</strong></a> désactive votre webcam.
         </div>
         <span class="label label-info">Gestionnaire : Heuzef</span>
       </div>
