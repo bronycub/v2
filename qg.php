@@ -10,7 +10,7 @@
       	</div>
       	<div class="clearfix"></div>
         <b>La Cave</b> est le cœur de l’association Asobu, son QG. C’est un endroit où se mêle bon nombre de gens lié par une passion, la culture dite « geek » et tout ce qui y est rattaché. <br/><br/>
-        L’association propose et organise dans ses locaux plusieurs activités telles que des ateliers cosplay et de pixel art, des marathons cinématographiques ainsi que des meet-up sans oublier ses tables de jeux de rôle. Elle met aussi à disposition de ses membres une large collection de manga, ses consoles de jeux, ses quelques manuels de jeux de rôle et ses jeux de société. La Cave propose aussi un coin café et met donc à disposition gratuitement des boissons chaudes et froides en plus de divers snacks afin de bien passer la journée.<br/><br/>
+        L’association propose et organise dans ses locaux plusieurs activités telles que des ateliers cosplay et de pixel art, des marathons cinématographiques ainsi que des meet-up sans oublier ses tables de jeux de rôle. Elle met aussi à disposition de ses membres une large collection de manga, ses consoles de jeux, ses quelques manuels de jeux de rôle et ses jeux de société. La Cave propose aussi un coin café et met donc à disposition des boissons chaudes et froides en plus de divers snacks afin de bien passer la journée.<br/><br/>
         L’ouverture, la fermeture ainsi que la maintenance des locaux de l’association est assuré par ses membres.
         <br/><br/>
         <div class="alert alert-info">
