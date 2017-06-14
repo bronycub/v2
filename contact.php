@@ -227,23 +227,22 @@
         <div class="container">
           <div class="col-lg-4"></div>
           <div class="col-lg-4">
-            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <strong>mc.bronycub.org</strong></li></ul>
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <strong>minecraft.bronycub.org</strong></li></ul>
           </div>
           <div class="col-lg-4"></div>
         </div>
-        <p>
-          Le petit jeu de Lego dématérialisé n'a pas échappé à la vague de petits poneys tout roses ! Et c'est pour cela que notre collectif possède son propre serveur Minecraft !
-        </p>
-        <p>
-          Pour pouvoir jouer, il faut faire une demande à Elvon ( <em><a href="mailto:elvonbird@gmail.com">elvonbird@gmail.com</a></em> ) qui vous expliquera le fonctionnement du serveur.<br />
-        <p>
-        <p>
-          <ul>
-            <li>L'adresse : mc.bronycub.org:25565</li>
-            <li>La version : 1.8.8/1.8.9, migration prochaine prévue pour la 1.11</li>
-            <li>Type : survie, créatif, et basiquement à peu près ce que vous voulez (système à plusieurs cartes avec des passages entre les cartes)</li>
-          </ul>
-        </p>
+        <div class="container">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <p>
+              Le petit jeu de Lego dématérialisé n'a pas échappé à la vague de petits poneys tout roses !<br />
+              C'est pour cela que notre collectif possède son propre serveur Minecraft !
+              <br/><br/>
+              <a href="http://minecraft.bronycub.org" class="btn btn-primary btn-lg">JOUER SUR LE SERVEUR MINECRAFT</a>
+            </p>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
         <span class="label label-info">Gestionnaire : Elvon</span>
       </div>
 
