@@ -1,5 +1,6 @@
 <?php
 require('vendor/autoload.php');
+session_start();
 
 if(isset($_POST['submit'])) {
 
@@ -37,6 +38,11 @@ if(isset($_POST['submit'])) {
 		$hasError = true;
 	} else {
 		$description = trim($_POST['description']);
+	}
+
+	if (strtoupper($_POST['captcha-code'])!=$_SESSION['captcha']) {
+		$hasError = true;
+		$wrongCaptcha = true;
 	}
 
 
@@ -132,6 +138,15 @@ Voici quelques outils si besoin :
 - Pour créer un pad : http://framapad.org</textarea></div>
 				</div>
 				<br />
+				<div class="form-group">
+					<label for="captcha" class="col-lg-3 control-label">Code de sécurité</label>
+					<img id="captcha-img" src="captcha/captcha.php" alt="Captcha image" style="width: 100px; border:2px dotted black; margin-left:15px;"/>
+					<div class="col-lg-4">
+						<input type="text" name="captcha-code" id="captcha" class="form-control" placeholder="Recopiez le code de sécurité" aria-required="true" />
+						<input style="display: none;" type="text" name="secret-key" id="honeypot" class="form-control" placeholder="Ce champ doit être vide" aria-required="false" />
+						<?php if (isset($wrongCaptcha) && $wrongCaptcha==true) { echo '<div class="alert alert-dismissable alert-danger"><button type="button" class="close" data-dismiss="alert">×</button>Code incorrect !</div>'; } ?>
+					</div>
+				</div>
 				<div class="form-group">
 					<div class="col-lg-5"></div>
 					<div class="col-lg-2">
