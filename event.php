@@ -58,11 +58,11 @@ if(isset($_POST['submit'])) {
 		            . "Organisé par $nom ($tel) à $lieu le $date \n"
 		            . "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n\n"
 		            . "$description";
-		$mail->addAddress("contact@heuzef.com", "Heuzef");
-		$mail->addAddress("florian.pellerin.bidalot@gmail.com", "Buddakhiin");
-		$mail->addAddress("buttbadger@gmail.com", "TrappyTickles");
-		$mail->addAddress("antoine@coulais.net", "SalmonRagnar");
-		$mail->addAddress("colinepaillet@gmail.com", "Crystal");
+		//$mail->addAddress("contact@heuzef.com", "Heuzef");
+		//$mail->addAddress("florian.pellerin.bidalot@gmail.com", "Buddakhiin");
+		//$mail->addAddress("buttbadger@gmail.com", "TrappyTickles");
+		//$mail->addAddress("antoine@coulais.net", "SalmonRagnar");
+		//$mail->addAddress("colinepaillet@gmail.com", "Crystal");
 		$mail->addAddress("support@art-software.fr", "Électron");
 		if ($mail->send()) {
 			$emailSent = true;
