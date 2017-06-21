@@ -227,7 +227,7 @@
         <div class="container">
           <div class="col-lg-4"></div>
           <div class="col-lg-4">
-            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <strong>minecraft.bronycub.org</strong></li></ul>
+            <ul class="breadcrumb"><li style=""><i class="fa fa-link fa-1x"></i> <a href="http://minecraft.bronycub.org"><strong>minecraft.bronycub.org</strong></a></li></ul>
           </div>
           <div class="col-lg-4"></div>
         </div>
