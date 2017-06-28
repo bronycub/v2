@@ -138,7 +138,7 @@
         <br/>
         <hr/>
         <br/>
-        <span class="label label-info">Gestionnaire : Buddakhiin</span>
+        <span class="label label-info">Gestionnaire : Salmon Ragnar</span>
       </div>
 
       <div class="tab-pane fade" id="da">
