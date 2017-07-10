@@ -73,9 +73,10 @@
           <p>
 						Les règles suivantes sont à respecter:
 							<ul>
+								<li>Ces règles sont à lire impérativement, cf. le topic des canaux, toute personne se plaignant ou y contrevenant sera expulsée</li>
 								<li>Le canal #bronycub est pour <strong>tous</strong> et <strong>toutes</strong>, il est donc proscrit d'y envoyer des liens dits 'NSFW' (porno, etc), pensez aux plus jeunes (et aux parents, …)</li>
 								<li>Le canal #bronycub n'est pas là pour parler d'informatique et de technologie ; amis technophiles veuillez utiliser #bronycub-g33k pour cela.</li>
-								<li>Enfin, pour le moment une passerelle IRC <-> Discord est en <strong>test</strong>, après de nombreux retours positifs et quelques négatifs voici donc l'apparition d'un troisième canal : #bronycub-void.<br />
+								<li>Enfin, Sur les canaux #bronycub et #bronycub-g33K une passerelle IRC <-> Discord est en fonctionnement, pour les personnes ne souhaitant pas y figurer il y a un troisième canal : #bronycub-void.<br />
 								Les canaux #bronycub et #bronycub-g33k sont des canaux dits <em>généraux</em>, ils ont pour but d'avoir une audience la plus large possible.<br />
 								<strong>cependant</strong>, pour les plus curieux vous aurez certainement remarqué que Discord est un chat <strong>propriétaire</strong>, et donc soyez conscients que lorsque vous discutez sur #bronycub ou #bronycub-g33k, vous parlez à tout le monde,
 								<strong>y compris</strong> aux gens situés sur le Discord, sur le canal #general et #geek. Si cela ne vous convient pas, ce troisième canal est à votre disposition.</li>
