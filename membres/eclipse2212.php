@@ -5,14 +5,8 @@ $gravatar="ed1c2a56236189bc69ac697e5e759508";
 $prenom="Lucas";
 $nom="Assier";
 $naissance="22/12/1997";
-$url="
-<a href='https://plus.google.com/u/0/117735217572182705469' target='_blank' class='zocial icon googleplus'></a>
-<a href='https://twitter.com/LucasASSIER' target='_blank' class='zocial icon twitter'></a>
-<a href='https://www.facebook.com/lucas.assier.1' target='_blank' class='zocial icon facebook'></a>
-<a href='skype:live:lucas.assier?call' target='_blank' class='zocial icon skype'></a>
-";
-$bio="Brony depuis environ un an, Lucas passe sa vie sur le PC… Enfin quand ses parents sont absents ! Il aime aussi lire des fanfics.
-Lucas est un roux, il n'a donc pas d'âme. Pour ceux qui n'aiment pas les roux, il va falloir le supporter !";
-$pony="<img src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is best pony !</span>";
+$url="";
+$bio="Brony depuis un petit moment (flemme de compter), mon temps se résume à glander sur pc/console, dormir et sortir les rares foi ou je peux(père tyrannique). Je ne mords pas, mais je mange les âmes des gens qui me soulent, et, il se peut même que je t'observe  pendant ton sommeil ;)";
+$pony="<img src='img/ponies/rainbow_dash.png' class='img-thumbnail'>&nbsp;&nbsp;&nbsp;<span class='label label-info'>Rainbow Dash is OMG!OMG!OMG!</span>";
 //////////////////////////////////////////////
 include "template_membres.php"; ?>
