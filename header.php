@@ -28,7 +28,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="membres.php"><i class="fa fa-users fa-1x"></i>&nbsp;Membres</a></li>
 					<li><a href="agenda.php"><i class="fa fa-calendar fa-1x"></i>&nbsp;Agenda</a></li>
-					<li><a href="./qg.php"><i class="fa fa-glass fa-1x"></i>&nbsp;QG</a></li>
+					<!-- <li><a href="./qg.php"><i class="fa fa-glass fa-1x"></i>&nbsp;QG</a></li> -->
 					<li><a href="https://goo.gl/photos/VisPhiPgauSD8QXn7" target="_blank"><i class="fa fa-picture-o fa-1x"></i>&nbsp;Medias</a></li>
 					<li><a href="carte.php"><i class="fa fa-map-marker fa-1x"></i>&nbsp;Carte</a></li>
 					<li><a href="accueil.php"><i class="fa fa-plus fa-1x"></i>&nbsp;Nous rejoindre ?</a></li>
