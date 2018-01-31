@@ -10,5 +10,5 @@ jQuery(function(){
     jQuery(document).keydown(Konami);
 });
 function kExec(){
-    document.getElementById('WhenIm').innerHTML = '<section><article style="text-align:center;"><object type="text/html" data="http://www.youtube.com/embed/Awmu0-8aXSQ?autoplay=1" style="width:640px;height:385px;"></object></article></section>';
+    document.getElementById('WhenIm').innerHTML = '<section><article style="text-align:center;"><video width="848" height="480" controls autoplay><source src="ressources/konami/konami.mp4" type="video/mp4" />Your browser does not support MP4 HTML5 Video :(</video></article></section>';
 }
