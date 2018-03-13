@@ -66,7 +66,7 @@
           Berry-Punch, notre mascotte, est là pour modérer le salon et nous y sommes présents pour répondre à toutes vos questions !
         <p>
         <p>
-          <a href="https://kiwiirc.com/client/chat.freenode.net:+6697/#bronycub" class="btn btn-info">Cliquez ici pour rejoindre #bronycub sur chat.freenode.net</a>
+          <a href="https://kiwiirc.com/client/chat.freenode.net:+6697/#bronycub" class="btn btn-info">Cliquez ici pour venir discuter avec nous&nbsp;!</a>
         </p>
         </p>
         <div class="alert alert-dismissible alert-info">
